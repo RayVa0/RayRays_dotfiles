@@ -21,8 +21,8 @@ function fish_greeting
         end
     else #50% it is an image
         set z (random 0 1 100)
-        if test $z -gt 99 #1% it is from the repo 
-            set g (random 0 1 10000) #g for gooning
+        if test $z -gt 75 #1% it is from the repo 
+            set g (random 0 1 125000) #g for gooning
             if test $g -eq 1 #1 in a million agpfetch
                 set_color brred; echo -n 'Warning ' 
                 command sleep 1
@@ -34,12 +34,12 @@ function fish_greeting
                 set_color brmagenta; echo There is a one in a million chance of the shell initiating with a pornographic image such as this one!
             else
                 set_color brmagenta; echo --- Todays peculiar Repo delight: --- 
-                sh ~/Templates/imagefetch.sh /mnt/SATA_SSD/Photos/The_Repo/ 1  
+                sh ~/Templates/imagefetch.sh /mnt/SATA_SSD/Photos/The_Repo/ 3 
             end
-        else if test $z -gt 66 #50/50 from video games or media
-            set_color 20dfdf; echo --- A nice image: ---
+        else if test $z -gt 50 #50/50 from video games or media
+            set_color 20dfdf; echo --- A nice media image: ---
             sh ~/Templates/imagefetch.sh /mnt/SATA_SSD/Screen\ Captures/Media\ Captures 1 
-        else if test $z -gt 33
+        else if test $z -gt 25
             set_color green; echo --- A nice Video Game image: ---
             sh ~/Templates/imagefetch.sh /mnt/SATA_SSD/Screen\ Captures/Game\ Captures 1
         else
