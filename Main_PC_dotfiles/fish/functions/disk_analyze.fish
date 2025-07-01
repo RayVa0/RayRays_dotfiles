@@ -1,4 +1,4 @@
-function disk_analyze --wraps='sudo baobab' --description 'alias disk_analyze sudo baobab'
-  sudo baobab $argv
+function disk_analyze --wraps='sudo qdirstat' --description 'alias disk_analyze sudo qdirstat'
+  sudo qdirstat $argv
         
 end
