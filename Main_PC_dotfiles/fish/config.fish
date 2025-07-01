@@ -24,8 +24,14 @@ function fish_greeting
         if test $z -gt 99 #1% it is from the repo 
             set g (random 0 1 10000) #g for gooning
             if test $g -eq 1 #1 in a million agpfetch
-                sh ~/Templates/goonfetch.sh
-                set_color brmagenta; echo -n \nThere is a one in a million chance of the terminal initiating with a pornographic image such as this one!
+                set_color brred; echo -n 'Warning ' 
+                command sleep 1
+                set_color brred; echo -n 'Warning ' 
+                command sleep 1
+                set_color brred; echo Warning 
+                command sleep 1
+                sh ~/Templates/imagefetch.sh /mnt/SATA_SSD/Photos/Homework/Vanilla 3
+                set_color brmagenta; echo There is a one in a million chance of the shell initiating with a pornographic image such as this one!
             else
                 set_color brmagenta; echo --- Todays peculiar Repo delight: --- 
                 sh ~/Templates/imagefetch.sh /mnt/SATA_SSD/Photos/The_Repo/ 1  
