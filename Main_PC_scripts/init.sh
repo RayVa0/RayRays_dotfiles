@@ -2,7 +2,9 @@
 
 echo -e "\n\e[1;32mWelcome $USER\e[0m"
 
-if [ $(date +"%A") = "Saturday" ]; then 
+out_of_date=$(pacman -Qqu | wc -l)
+
+if [ $out_of_date -gt 32 ]; then 
   yay
   yay -Scc
 fi
