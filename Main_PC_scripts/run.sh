@@ -6,11 +6,11 @@ if [ $# -eq 0 ]; then
 fi
 
 if [ "$1" = "handbrake" ]; then 
-    nohup "ghb" &
+    nohup "ghb" >&/dev/null &
 elif [ "$1" = "plex" ]; then
     sh ~/Downloads/run_plex.sh
 else 
-    nohup "$1" &
+    nohup "$1" >&/dev/null &
 fi
 
 if [ $? -gt 0 ]; then 
