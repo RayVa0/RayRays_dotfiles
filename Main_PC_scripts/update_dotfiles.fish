@@ -6,6 +6,9 @@ konsave --save ray --force
 
 cd ~/Downloads/RayRays_dotfiles/
 
+rm *.knsv
+konsave -e ray
+
 git add * 
 git commit -m "scripted push"
 git push
