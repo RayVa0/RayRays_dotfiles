@@ -18,7 +18,7 @@ fi
 
 if [ -n "$pic" ]; then
     if [ -n "$2" ]; then
-        if [ $2 -eq 1 ]; then #put 2 if you want half terminal formating and a "from" section
+        if [ $2 -eq 1 ]; then #put 1 if you want half terminal formating and a "from" section
             chafa -O 0 -c $color --view-size=x$lines4 "$pic"
             echo -n "From: "
             ~/Documents/code/experiments/find_dir "$pic" && echo
@@ -28,7 +28,7 @@ if [ -n "$pic" ]; then
             ~/Documents/code/experiments/find_file "$pic"
             echo -n ", from "
              ~/Documents/code/experiments/find_dir "$pic" && echo
-        elif [ $2 -eq 3 ]; then #terminal formating and no bells and whistles 
+        elif [ $2 -eq 3 ]; then #put 3 for terminal formating and no bells and whistles 
              chafa -O 0 -c $color --view-size=x$lines4 "$pic"
         fi
     else
