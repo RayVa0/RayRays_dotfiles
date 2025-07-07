@@ -78,7 +78,7 @@ function fish_user_key_bindings
     bind '$' bind_dollar
 end
 
-function find-edit --wraps nvim --description 'Searches for a file and opens it in nvim'
+function find_edit --wraps nvim --description 'Searches for a file and opens it in nvim'
     sudo nvim $(whereis $argv | gawk '{ print $2 };' )
 end
 
