@@ -13,6 +13,7 @@ else
     nohup "$1" >&/dev/null &
 fi
 
+
 if [ $? -gt 0 ]; then 
     echo Opening application failed
 fi

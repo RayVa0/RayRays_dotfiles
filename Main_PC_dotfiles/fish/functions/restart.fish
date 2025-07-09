@@ -1,6 +1,4 @@
-function restart 
-  silence $argv
-  #hyprctl dispatch exec $argv > /dev/null
-  kitty -e $argv&
-  exit
+function restart --wraps='sh ~/Templates/restart.sh' --description 'alias restart sh ~/Templates/restart.sh'
+  sh ~/Templates/restart.sh $argv
+        
 end

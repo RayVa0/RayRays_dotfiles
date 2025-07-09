@@ -1,8 +1,6 @@
 # Set up Aliases
-alias unifetch 'unifetch --chafa ~/.config/hypr/zero_square.png'
 alias hyprconf 'nvim ~/.config/hypr/hyprland.conf'
 alias yay-clean 'yay --answerdiff None --answerclean All'
-alias silence 'killall -9'
 
 
 function fish_greeting
