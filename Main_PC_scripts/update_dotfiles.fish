@@ -18,3 +18,7 @@ if test $status -ne 0
     git commit -m "scripted push"
     git push
 end
+
+if test $status -ne 0
+  exit 1
+end
