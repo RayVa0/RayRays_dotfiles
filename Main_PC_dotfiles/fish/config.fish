@@ -86,3 +86,11 @@ end
 function find_edit --wraps nvim --description 'Searches for a file and opens it in nvim'
     sudo nvim $(whereis $argv | gawk '{ print $2 };' )
 end
+
+function update_dotfiles 
+    if test "$argv" -eq "-v"
+        sh ~/Templates/update_dotfiles.fish
+    else 
+        sh ~/Templates/update_dotfiles.fish > /dev/null
+    end
+end 
