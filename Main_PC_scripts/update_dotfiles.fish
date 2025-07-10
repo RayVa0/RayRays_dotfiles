@@ -12,10 +12,9 @@ konsave -e ray
 
 cd ~/Downloads/RayRays_dotfiles/
 
-git add * 
-git commit -m "scripted push"
-git push
-
+git add *
+git diff --cached --quiet
 if test $status -ne 0
-  exit 1
+    git commit -m "scripted push"
+    git push
 end
