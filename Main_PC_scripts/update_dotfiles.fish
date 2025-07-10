@@ -2,13 +2,13 @@ cp -r ~/.config/Thunar/ ~/.config/kitty/ ~/.config/unifetch/ ~/.config/fish ~/.c
 cp ~/Templates/* -t ~/Downloads/RayRays_dotfiles/Main_PC_scripts/
 
 cd ~/Downloads/RayRays_dotfiles/Main_PC_dotfiles/
-konsave --save ray --force > /dev/null 2>&1 
+konsave --save ray --force 
 
 cd ~/Downloads/RayRays_dotfiles/
 
 cd ~/Downloads/RayRays_dotfiles/Main_PC_dotfiles/
 rm *.knsv
-konsave -e ray > /dev/null 2>&1 
+konsave -e ray 
 
 cd ~/Downloads/RayRays_dotfiles/
 

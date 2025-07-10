@@ -92,6 +92,6 @@ function update_dotfiles
         set_color ffff00; echo Verbose:
         sh ~/Templates/update_dotfiles.fish
     else 
-        sh ~/Templates/update_dotfiles.fish >/dev/null
+        sh ~/Templates/update_dotfiles.fish >/dev/null 2>&1
     end
 end 
