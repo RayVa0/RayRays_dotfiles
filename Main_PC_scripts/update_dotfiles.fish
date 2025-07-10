@@ -8,7 +8,7 @@ cd ~/Downloads/RayRays_dotfiles/
 
 cd ~/Downloads/RayRays_dotfiles/Main_PC_dotfiles/
 rm *.knsv
-konsave -e ray
+konsave -e ray > /dev/null
 
 cd ~/Downloads/RayRays_dotfiles/
 
