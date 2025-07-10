@@ -89,6 +89,7 @@ end
 
 function update_dotfiles 
     if test "$argv" = "-v"
+        set_color ffff00; echo Verbose:
         sh ~/Templates/update_dotfiles.fish
     else 
         sh ~/Templates/update_dotfiles.fish > /dev/null
