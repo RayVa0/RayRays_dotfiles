@@ -88,7 +88,7 @@ function find_edit --wraps nvim --description 'Searches for a file and opens it 
 end
 
 function update_dotfiles 
-    if test "$argv" -eq "-v"
+    if test "$argv" = "-v"
         sh ~/Templates/update_dotfiles.fish
     else 
         sh ~/Templates/update_dotfiles.fish > /dev/null
