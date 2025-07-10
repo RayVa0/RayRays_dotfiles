@@ -16,4 +16,6 @@ git add *
 git commit -m "scripted push"
 git push
 
-
+if test $status -ne 0
+  exit 1
+end
