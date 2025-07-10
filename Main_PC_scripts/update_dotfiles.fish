@@ -2,7 +2,7 @@ cp -r ~/.config/Thunar/ ~/.config/kitty/ ~/.config/unifetch/ ~/.config/fish ~/.c
 cp ~/Templates/* -t ~/Downloads/RayRays_dotfiles/Main_PC_scripts/
 
 cd ~/Downloads/RayRays_dotfiles/Main_PC_dotfiles/
-konsave --save ray --force   
+konsave --save ray --force > /dev/null 
 
 cd ~/Downloads/RayRays_dotfiles/
 
