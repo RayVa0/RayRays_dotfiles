@@ -15,3 +15,5 @@ cd ~/Downloads/RayRays_dotfiles/
 git add * 
 git commit -m "scripted push"
 git push
+
+
