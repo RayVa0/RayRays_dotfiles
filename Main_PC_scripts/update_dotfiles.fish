@@ -4,11 +4,21 @@ cp ~/Templates/* -t ~/Downloads/RayRays_dotfiles/Main_PC_scripts/
 cd ~/Downloads/RayRays_dotfiles/Main_PC_dotfiles/
 konsave --save ray --force 
 
+if test $status -ne 0
+  set_color red; echo konsave save fail 
+  exit 1
+end
+
 cd ~/Downloads/RayRays_dotfiles/
 
 cd ~/Downloads/RayRays_dotfiles/Main_PC_dotfiles/
 rm *.knsv
-konsave -e ray 
+konsave -e ray
+
+if test $status -ne 0
+  set_color red; echo konsave export fail
+  exit 1
+end
 
 cd ~/Downloads/RayRays_dotfiles/
 
@@ -20,5 +30,6 @@ if test $status -ne 0
 end
 
 if test $status -ne 0
+  set_color red; echo git fail 
   exit 1
 end
