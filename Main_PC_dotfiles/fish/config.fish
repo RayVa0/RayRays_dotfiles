@@ -90,8 +90,13 @@ end
 function update_dotfiles 
     if test "$argv" = "-v"
         set_color ffff00; echo Verbose:
-        sh ~/Templates/update_dotfiles.fish
+        fish ~/Templates/update_dotfiles.fish
     else 
-        sh ~/Templates/update_dotfiles.fish >/dev/null 2>&1
+        fish ~/Templates/update_dotfiles.fish >/dev/null 2>&1
+        if test $status -eq 0
+            set_color 00ff00; echo All ok, I think 
+        else 
+            set_color ff0000; echo script went exited with an error
+        end
     end
 end 
