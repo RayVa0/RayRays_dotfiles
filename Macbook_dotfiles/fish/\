@@ -1,0 +1,22 @@
+if status is-interactive
+    # Commands to run in interactive sessions can go here
+
+end
+
+function fish_greeting
+    date 
+  random choice {'こんにちは', '死', 'ようこそ', 'Welcome to the Arch Linux command line interface', 'Hello, Dave', '"I am not a huge fan of incest I just think it is cool." -Mr Longingly', 'Fishing in just to fish out', 'Betcha you cant stick it' \
+                  ,'Kill yourelf?', 'Ladies, Gentletheys and Others', 'Warning the driver for your liver will crash in 8.93 seconds', 'Welcome back to Bottom Gear', 'Welcome back to the Grand Trip', 'Metal Gear?', '本当に素晴らしい', 'Is life not beatiful?', 'Look! freznel.' \
+                  ,'おはよう', 'Welcome!', 'Good girl!', 'Good boy!', 'Good they!', 'Hey girl, I mean they..', 'Done gooning?', 'What is man but a miserable pile of Secrets', 'Welcome to the GNU/Linux shell or as I like to call it GNU plus Linux', 'Save Linux desktop Valve-san', 'ようこそ', 'いらっしゃいませ' \
+                  ,'Valve 助けてください!'}
+  
+    if status is-login
+      echo Initiating boot procedures
+      fastfetch
+      mntosx
+      kblight2
+      #backlight 30
+      gui > /dev/nulll   
+
+    end
+  end 
