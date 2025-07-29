@@ -103,7 +103,7 @@ function update_dotfiles
     else 
         fish ~/Templates/update_dotfiles.fish >/dev/null 2>&1
         if test $status -eq 0
-            set_color 00ff00; echo All ok\(most likely\)
+            set_color 00ff00; echo All ok
         else 
             set_color ff0000; echo script went exited with an error
         end
