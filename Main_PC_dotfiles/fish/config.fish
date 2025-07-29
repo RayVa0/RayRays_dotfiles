@@ -23,7 +23,7 @@ if status is-login
 end 
 
 function mediafetch
-    set allow_xxx 0
+    set allow_xxx 1
     set z (random 0 1 100)
     if test $allow_xxx -eq 0
         set z (random 0 1 66)
