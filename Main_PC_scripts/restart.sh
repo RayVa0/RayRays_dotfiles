@@ -12,11 +12,11 @@ echo ちょっと待ってください
 
 sleep 0.25
 echo -n .
-sleep 1
+sleep 0.5
 echo -n .
-sleep 1 
+sleep 0.5
 echo -n .
-sleep 1
+sleep 0.5
 echo .
 
 
