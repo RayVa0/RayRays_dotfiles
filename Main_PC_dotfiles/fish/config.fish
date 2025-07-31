@@ -4,6 +4,7 @@ alias yay-clean 'yay --answerdiff None --answerclean All'
 
 
 function fish_greeting
+    sleep 0.1
     set y (random 0 1 100) 
     set allow_media 1
     
