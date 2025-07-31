@@ -5,9 +5,9 @@ snipe_window () {
    i=1
 
    while [ -z $window_id ]; do
-    echo in loop
+    #echo in loop
     window_id=$(kdotool search $1)
-    echo $window_id
+    #echo $window_id
     kdotool windowminimize $window_id
     sleep 0.1
     i=$((i+1))
