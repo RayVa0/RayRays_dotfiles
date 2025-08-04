@@ -22,6 +22,9 @@ end
 
 cd ~/Downloads/RayRays_dotfiles/
 
+rm ~/Downloads/RayRays_dotfiles/Main_PC_dotfiles/explicitly_installed_packages.txt
+yay -Qe > ~/Downloads/RayRays_dotfiles/Main_PC_dotfiles/explicitly_installed_packages.txt
+
 git add *
 git diff --cached --quiet
 if test $status -ne 0
