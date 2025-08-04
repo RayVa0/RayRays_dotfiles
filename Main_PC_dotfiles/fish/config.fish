@@ -43,17 +43,18 @@ function mediafetch
             sh ~/Templates/imagefetch.sh /mnt/SATA_SSD/Photos/Homework/Vanilla 3
             set_color brmagenta; echo There is a one in a million chance of the shell initiating with a pornographic image such as this one!
         else if test $a -eq 1 
-            set_color brmagenta; echo --- Todays peculiar Repo delight: --- 
             sh ~/Templates/imagefetch.sh /mnt/SATA_SSD/Photos/The_Repo/ 3
+            set_color brmagenta; echo --- Todays peculiar Repo delight: --- 
         else
-            set_color 7057ff; echo --- A nice piece of art: ---
+            set_color 7057ff; 
             sh ~/Templates/imagefetch.sh /mnt/SATA_SSD/Photos/Art 3
+            echo --- A nice piece of art: ---
         end
     else if test $z -gt 33 #33% media
-        set_color 20dfdf; echo --- A nice media image: ---
+        set_color 00ffff;
         sh ~/Templates/imagefetch.sh /mnt/SATA_SSD/Screen\ Captures/Media\ Captures 1 
     else #33% games 
-        set_color green; echo --- A nice Video Game image: ---
+        set_color green;
         sh ~/Templates/imagefetch.sh /mnt/SATA_SSD/Screen\ Captures/Game\ Captures 1
     end
 end
