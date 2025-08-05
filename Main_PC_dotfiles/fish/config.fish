@@ -61,10 +61,11 @@ end
 
 function textfetch
  set x (random choice (cat ~/.config/fish/greet_text.txt))
+ set color (pastel random | pastel saturate 1 | pastel format hex | head -n 1)
 
     set z (random 0 1 100)
     if test $z -le 90
-        set_color f5f5dc; echo -n Quote of the instance: \n\"$x\" \n
+        set_color $color; echo -n Quote of the terminal: \n\"$x\" \n
     else 
         echo -n Quote of the instance:\n\"$x\" \n | lolcat
     end
