@@ -78,4 +78,5 @@ wl-clipboard 1:2.2.1-3
 yacreader-bin 9.15.0-2
 yay-bin 12.5.0-1
 yay-bin-debug 12.5.0-1
+ytdl 1.0.0-1
 zram-generator 1.2.1-1
