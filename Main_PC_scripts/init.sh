@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
-ping archlinux.org -c 1 >/dev/null 2>&1
+#ping archlinux.org -c 1 >/dev/null 2>&1
 
-if [ $? -gt 0 ]; then
-  echo -e "\e[31mNo internet dumbass!!!\e[0m"
-  sleep 3
-fi
+#if [ $? -gt 0 ]; then
+#  echo -e "\e[31mNo internet dumbass!!!\e[0m"
+#  sleep 3
+#fi
 
 #echo -e "\e[1;32mWelcome $USER\e[0m"
 
