@@ -31,7 +31,7 @@ set date (date "+%s")
 git add *
 git diff --cached --quiet
 if test $status -ne 0
-    git commit -m "scripted push at UNIX epoch time: $date"
+    git commit -m "scripted push at UNIX epoch time: $date from Ada"
     git push
 end
 
