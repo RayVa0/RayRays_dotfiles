@@ -67,6 +67,7 @@ sddm 0.21.0-6
 sl 5.05-5
 spectacle 1:6.4.3-1
 spotify 1:1.2.63.394-1
+sshfs 3.7.3-3
 steam-native-runtime 1.0.0.75-4
 swayosd-git 0.2.1.r1.g73aed75-1
 tgpt 2.10.1-1
