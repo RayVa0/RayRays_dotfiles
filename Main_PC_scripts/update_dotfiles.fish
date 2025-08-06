@@ -1,4 +1,7 @@
-cp -r ~/.config/nvim/ ~/.config/Thunar/ ~/.config/kitty/ ~/.config/unifetch/ ~/.config/fish ~/.config/hypr ~/.config/mpv -t ~/Downloads/RayRays_dotfiles/Main_PC_dotfiles/
+rm -rf ~/Downloads/RayRays_dotfiles/Main_PC_dotfiles/*
+cp -r ~/.config/nvim/ ~/.config/qBittorrent/ ~/.config/ghb/ ~/.config/dolphinrc ~/.config/kitty/ ~/.config/unifetch/ ~/.config/fish ~/.config/hypr ~/.config/mpv -t ~/Downloads/RayRays_dotfiles/Main_PC_dotfiles/
+
+rm -rf ~/Downloads/RayRays_dotfiles/Main_PC_scripts/*
 cp ~/Templates/* -t ~/Downloads/RayRays_dotfiles/Main_PC_scripts/
 
 cd ~/Downloads/RayRays_dotfiles/Main_PC_dotfiles/
@@ -8,8 +11,6 @@ if test $status -ne 0
   set_color red; echo konsave save fail 
   exit 1
 end
-
-cd ~/Downloads/RayRays_dotfiles/
 
 cd ~/Downloads/RayRays_dotfiles/Main_PC_dotfiles/
 rm *.knsv

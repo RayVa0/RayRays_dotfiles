@@ -1,0 +1,22 @@
+[General]
+RememberOpenedTabs=false
+ShowStatusBar=FullWidth
+Version=202
+ViewPropsTimestamp=2025,4,28,18,23,43.011
+
+[IconsMode]
+PreviewSize=192
+UseSystemFont=false
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[MainWindow]
+MenuBar=Disabled
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,svgthumbnail,gdk-pixbuf-thumbnailer
+
+[ViewPropertiesDialog]
+2560x1440 screen: Window-Maximized=true

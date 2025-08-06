@@ -1,0 +1,40 @@
+HandBrake 20250220183715-e117cfe7f-makepkg (2025042301)
+OS: Arch Linux
+Kernel: Linux 6.12.41-1-lts (x86_64)
+CPU: AMD Ryzen 7 5800X3D 8-Core Processor x 16
+Install Dir: /usr/bin
+Config Dir:  /home/ray/.config/ghb
+_______________________________
+
+[17:49:52] Compile-time hardening features are enabled
+[17:49:52] nvenc: version 13.0 is available
+[17:49:52] nvdec: is not compiled into this build
+[17:49:53] CUDA Version: 8.9
+[17:49:53] qsv: not available on this system
+[17:49:53] hb_init: starting libhb thread
+[17:49:53] hb_init: starting libhb thread
+[17:49:53] hb_init: starting libhb thread
+[17:49:53] gtkgui: Excluded extension jpg
+[17:49:53] gtkgui: Excluded extension png
+[17:49:53] gtkgui: Excluded extension srt
+[17:49:53] gtkgui: Excluded extension ssa
+[17:49:53] gtkgui: Excluded extension ass
+[17:49:53] gtkgui: Excluded extension txt
+[17:49:53] CPU: AMD Ryzen 7 5800X3D 8-Core Processor
+[17:49:53]  - logical processor count: 16
+[17:49:53] Intel Quick Sync Video support: no
+[17:49:53] hb_scan: path=/home/ray/Pictures/recording1754405331034443.ogg, title_index=0
+udfread ERROR: ECMA 167 Volume Recognition failed
+disc.c:333: failed opening UDF image /home/ray/Pictures/recording1754405331034443.ogg
+disc.c:437: error opening file BDMV/index.bdmv
+disc.c:437: error opening file BDMV/BACKUP/index.bdmv
+[17:49:53] bd: not a bd - trying as a stream/file instead
+libdvdread: DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.IFO failed
+libdvdnav: vm: vm: failed to read VIDEO_TS.IFO
+[17:49:53] dvd: not a dvd - trying as a stream/file instead
+Input #0, ogg, from '/home/ray/Pictures/recording1754405331034443.ogg':
+  Duration: 00:00:31.62, start: 0.000000, bitrate: 75 kb/s
+  Stream #0:0: Audio: opus, 48000 Hz, mono, fltp
+[17:49:53] hb_stream_open: open /home/ray/Pictures/recording1754405331034443.ogg failed
+[17:49:53] scan: unrecognized file type
+[17:49:53] libhb: scan thread found 0 valid title(s)
