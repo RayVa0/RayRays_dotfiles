@@ -26,10 +26,12 @@ cd ~/Downloads/RayRays_dotfiles/
 rm ~/Downloads/RayRays_dotfiles/Main_PC_dotfiles/explicitly_installed_packages.txt
 yay -Qe > ~/Downloads/RayRays_dotfiles/Main_PC_dotfiles/explicitly_installed_packages.txt
 
+set date (date "+%s")
+
 git add *
 git diff --cached --quiet
 if test $status -ne 0
-    git commit -m "scripted push"
+    git commit -m "scripted push at $date"
     git push
 end
 
