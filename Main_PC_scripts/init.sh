@@ -7,6 +7,6 @@ if [ $? -gt 0 ]; then
   sleep 3
 fi
 
-echo -e "\e[1;32mWelcome $USER\e[0m"
+#echo -e "\e[1;32mWelcome $USER\e[0m"
 
 /usr/lib/plasma-dbus-run-session-if-needed /usr/bin/startplasma-wayland
