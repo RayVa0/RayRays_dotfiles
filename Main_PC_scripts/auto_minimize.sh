@@ -115,6 +115,10 @@ elif [ "$1" = "steam-native" ]; then
   exit 0
 elif [ "$1" = "element-desktop" ]; then 
   snipe_window_state "element"
+
+  exit 0
 else 
   snipe_window $1
 fi
+
+exit 0

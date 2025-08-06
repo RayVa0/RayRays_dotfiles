@@ -16,6 +16,7 @@ fi
 
 if [ $? -gt 0 ]; then 
     echo Opening application failed
+    exit 1
 fi
 
 exit 0
