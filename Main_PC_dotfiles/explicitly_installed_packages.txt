@@ -76,6 +76,7 @@ ttf-dejavu-nerd 3.4.0-1
 unifetch 1.3.3-1
 uwufetch-git 2.1.r40.g28b471b-1
 vesktop 1.5.8-2
+vi 1:070224-6
 viber 24.9.0.3-1
 vim 9.1.1552-1
 vulkan-headers 1:1.4.321.0-1
