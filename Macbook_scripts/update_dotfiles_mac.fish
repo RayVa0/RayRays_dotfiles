@@ -1,4 +1,6 @@
+rm ~/Downloads/RayRays_dotfiles/Macbook_dotfiles/* -rf
 cp -r ~/.config/nvim/ ~/.config/Thunar/ ~/.config/kitty/ ~/.config/unifetch/ ~/.config/fish ~/.config/hypr ~/.config/mpv -t ~/Downloads/RayRays_dotfiles/Macbook_dotfiles/
+rm ~/Downloads/RayRays_dotfiles/Macbook_scripts/* -rf
 cp ~/Templates/* -t ~/Downloads/RayRays_dotfiles/Macbook_scripts/
 
 cd ~/Downloads/RayRays_dotfiles/Macbook_dotfiles/
@@ -8,8 +10,6 @@ if test $status -ne 0
   set_color red; echo konsave save fail 
   exit 1
 end
-
-cd ~/Downloads/RayRays_dotfiles/
 
 cd ~/Downloads/RayRays_dotfiles/Macbook_dotfiles/
 rm *.knsv
@@ -22,10 +22,12 @@ end
 
 cd ~/Downloads/RayRays_dotfiles/
 
+set date (date "+%s")
+
 git add *
 git diff --cached --quiet
 if test $status -ne 0
-    git commit -m "scripted push from MacBook Pro"
+    git commit -m "scripted push at UNIX epoch time $date from MacBook Pro"
     git push
 end
 
