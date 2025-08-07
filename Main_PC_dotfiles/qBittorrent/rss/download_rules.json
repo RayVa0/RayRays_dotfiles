@@ -41,5 +41,52 @@
             "use_download_path": true
         },
         "useRegex": false
+    },
+    "Hikaru": {
+        "addPaused": false,
+        "affectedFeeds": [
+            "https://nyaa.si/?page=rss&q=%5BToonsHub%5D+The+Summer+Hikaru+Died&c=0_0&f=0"
+        ],
+        "assignedCategory": "",
+        "enabled": true,
+        "episodeFilter": "",
+        "ignoreDays": 0,
+        "lastMatch": "02 Aug 2025 16:57:40 +0000",
+        "mustContain": "",
+        "mustNotContain": "",
+        "previouslyMatchedEpisodes": [
+            "1x5",
+            "1x4",
+            "1x3",
+            "1x2",
+            "1x1"
+        ],
+        "priority": 0,
+        "savePath": "/mnt/HDD/Media(2)/The Summer Hikaru Died",
+        "smartFilter": false,
+        "torrentContentLayout": "NoSubfolder",
+        "torrentParams": {
+            "category": "",
+            "content_layout": "NoSubfolder",
+            "download_limit": -1,
+            "download_path": "",
+            "inactive_seeding_time_limit": -2,
+            "operating_mode": "AutoManaged",
+            "ratio_limit": -2,
+            "save_path": "/mnt/HDD/Media(2)/The Summer Hikaru Died",
+            "seeding_time_limit": -2,
+            "share_limit_action": "Default",
+            "skip_checking": false,
+            "ssl_certificate": "",
+            "ssl_dh_params": "",
+            "ssl_private_key": "",
+            "stopped": false,
+            "tags": [
+            ],
+            "upload_limit": -1,
+            "use_auto_tmm": false,
+            "use_download_path": true
+        },
+        "useRegex": false
     }
 }
