@@ -28,7 +28,6 @@ if test $status -ne 0
 end
 
 cd ~/Downloads/RayRays_dotfiles/Main_PC_dotfiles/
-rm *.knsv
 konsave -e ray
 
 if test $status -ne 0
