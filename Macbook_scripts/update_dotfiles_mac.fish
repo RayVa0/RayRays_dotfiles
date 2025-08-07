@@ -12,7 +12,7 @@ if test $status -ne 0
 end
 
 cd ~/Downloads/RayRays_dotfiles/Macbook_dotfiles/
-rm *.knsv
+rm ~/Downloads/RayRays_dotfiles/Macbook_dotfiles/*.knsv
 konsave -e raymac
 
 if test $status -ne 0
