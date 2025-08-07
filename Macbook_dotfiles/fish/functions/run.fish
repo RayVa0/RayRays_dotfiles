@@ -1,4 +1,4 @@
-function run --wraps='sh ~/Templates/run.sh' --description 'alias run sh ~/Templates/run.sh'
-  sh ~/Templates/run.sh $argv
+function run --wraps='sh run.sh' --description 'alias run sh run.sh'
+  sh run.sh $argv
         
 end
