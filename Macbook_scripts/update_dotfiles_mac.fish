@@ -1,3 +1,11 @@
+cd ~/Downloads/RayRays_dotfiles/
+git pull
+
+if test $status -ne 0
+  set_color red; echo Git Pull error, not doing anything
+  exit 1
+end
+
 rm ~/Downloads/RayRays_dotfiles/Macbook_dotfiles/* -rf
 cp -r ~/.config/nvim/ ~/.config/Thunar/ ~/.config/kitty/ ~/.config/unifetch/ ~/.config/fish ~/.config/hypr ~/.config/mpv -t ~/Downloads/RayRays_dotfiles/Macbook_dotfiles/
 rm ~/Downloads/RayRays_dotfiles/Macbook_scripts/* -rf
