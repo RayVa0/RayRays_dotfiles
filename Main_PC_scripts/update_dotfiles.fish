@@ -1,3 +1,18 @@
+ping archlinux.org -c 3
+
+if test $status -ne 0
+  set_color red; echo No network not doing anything 
+  exit 1
+end 
+  
+cd ~/Downloads/RayRays_dotfiles/
+git pull
+
+if test $status -ne 0
+  set_color red; echo git pull failed not doing anything
+  exit 1
+end
+
 rm -rf ~/Downloads/RayRays_dotfiles/Main_PC_dotfiles/*
 cp -r ~/.config/nvim/ ~/.config/qBittorrent/ ~/.config/ghb/ ~/.config/dolphinrc ~/.config/kitty/ ~/.config/unifetch/ ~/.config/fish ~/.config/hypr ~/.config/mpv -t ~/Downloads/RayRays_dotfiles/Main_PC_dotfiles/
 
