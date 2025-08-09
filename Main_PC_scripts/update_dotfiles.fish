@@ -56,6 +56,7 @@ set_color yellow; echo -package list text file-
 set_color normal  
 yay -Qe > ~/Downloads/RayRays_dotfiles/Main_PC_dotfiles/explicitly_installed_packages.txt
 
+
 set date (date "+%s")
 
 set_color yellow; echo -finally pushing to git-
