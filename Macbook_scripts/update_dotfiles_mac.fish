@@ -11,6 +11,8 @@ cp -r ~/.config/nvim/ ~/.config/Thunar/ ~/.config/kitty/ ~/.config/unifetch/ ~/.
 rm ~/Downloads/RayRays_dotfiles/Macbook_scripts/* -rf
 cp ~/Templates/* -t ~/Downloads/RayRays_dotfiles/Macbook_scripts/
 
+yay -Qe > ~/Downloads/RayRays_dotfiles/Macbook_dotfiles/MacBook_explicit_packages
+
 cd ~/Downloads/RayRays_dotfiles/Macbook_dotfiles/
 konsave --save raymac --force 
 
