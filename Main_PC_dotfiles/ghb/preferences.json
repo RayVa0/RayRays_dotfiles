@@ -43,7 +43,7 @@
         "allow_tweaks": false,
         "auto_name": true,
         "auto_name_template": "{source}",
-        "default_source": "/dev/dvd",
+        "default_source": "/mnt/HDD/Media(2)/Extras/TVアニメ「フードコートで、また明日。」ノンクレジットオープニング映像｜7月7日（月）よりTOKYO MX他各局にて放送中！ [Mes1XCDZYTo].mkv",
         "destination_dir": "/home/ray",
         "hbfd": false,
         "hbfd_feature": false,
@@ -58,7 +58,7 @@
         "show_queue_sidebar": true,
         "use_dvdnav": true,
         "version": "0.1",
-        "window_height": 699,
-        "window_width": 970
+        "window_height": 1341,
+        "window_width": 2538
     }
 }
