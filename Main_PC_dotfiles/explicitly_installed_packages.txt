@@ -8,9 +8,10 @@ bluez-utils 5.83-1
 btop-git 1.4.4.r1277.65c7d0b-1
 chafa 1.16.2-1
 cmake 4.0.3-1
+cmatrix-git 1.2.r119.g5c082c6-1
 cpio 2.15-3
 cpufetch-git 1.06.r39.ga0c08cc-1
-dolphin 25.04.3-1
+dolphin-git 25.07.90.r46.ge018eca-1
 easyeffects 7.2.5-1
 efibootmgr 18-3
 element-desktop 1.11.103-1
@@ -31,7 +32,7 @@ kmix 25.04.3-1
 koko 25.04.3-1
 konsave 2.2.0-5
 konsole 25.04.3-1
-kscreen 6.4.3-1
+kscreen 6.4.4-1
 libpulse 17.0+r43+g3e2bb8a1e-1
 linux 6.15.9.arch1-1
 linux-firmware 20250708-1
@@ -56,8 +57,8 @@ pipewire 1:1.4.7-1
 pipewire-alsa 1:1.4.7-1
 pipewire-jack 1:1.4.7-1
 pipewire-pulse 1:1.4.7-1
-plasma-desktop 6.4.3-1
-plasma-pa 6.4.3-1
+plasma-desktop 6.4.4-1
+plasma-pa 6.4.4-1
 plocate 1.1.23-1
 proton-ge-custom-bin 1:GE_Proton10_10-1
 pulseview 0.4.2-16
@@ -65,7 +66,7 @@ qbittorrent 5.1.2-1
 qdirstat 1.9-2
 sddm 0.21.0-6
 sl 5.05-5
-spectacle 1:6.4.3-1
+spectacle 1:6.4.4-1
 spotify 1:1.2.63.394-1
 sshfs 3.7.3-3
 steam-native-runtime 1.0.0.75-4
