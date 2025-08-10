@@ -85,6 +85,7 @@ vi 1:070224-6
 viber 24.9.0.3-1
 vim 9.1.1552-1
 vulkan-headers 1:1.4.321.0-1
+waifu2x-ncnn-vulkan 20220728-3
 waterfox-bin 6.5.11-1
 wireplumber 0.5.10-1
 wl-clipboard 1:2.2.1-3
