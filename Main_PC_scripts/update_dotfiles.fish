@@ -1,14 +1,6 @@
 #!/usr/bin/env fish
 
 
-set_color yellow; echo -Network test-
-set_color normal  
-ping archlinux.org -c 1
-
-if test $status -ne 0
-  set_color red; echo No network not doing anything 
-  exit 1
-end 
 
 set_color yellow; echo -Git pull-
 set_color normal  
