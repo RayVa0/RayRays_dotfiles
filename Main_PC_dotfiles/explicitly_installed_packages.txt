@@ -50,7 +50,6 @@ nomacs 1:3.21.0-2
 noto-fonts-cjk 20240730-1
 ntfs-3g 2022.10.3-2
 nvidia-open 575.64.05-4
-nvidia-open-lts 575.64.05-4
 nvidia-utils 575.64.05-2
 parsec-bin 150_97c-1
 pastel 0.10.0-1
