@@ -42,6 +42,86 @@
         },
         "useRegex": false
     },
+    "Dress-up S2": {
+        "addPaused": null,
+        "affectedFeeds": [
+            "https://nyaa.si/?page=rss&q=%5BJudas%5D+Sono+Bisque+Doll+wa+Koi+o+Suru+%28My+Dress-Up+Darling%29&c=1_2&f=0"
+        ],
+        "assignedCategory": "",
+        "enabled": true,
+        "episodeFilter": "",
+        "ignoreDays": 0,
+        "lastMatch": "05 Jul 2025 17:44:15 +0000",
+        "mustContain": "",
+        "mustNotContain": "",
+        "previouslyMatchedEpisodes": [
+        ],
+        "priority": 0,
+        "savePath": "/mnt/HDD/Media(2)/My Dress-up Darling Season 2",
+        "smartFilter": false,
+        "torrentContentLayout": null,
+        "torrentParams": {
+            "category": "",
+            "download_limit": -1,
+            "download_path": "",
+            "inactive_seeding_time_limit": -2,
+            "operating_mode": "AutoManaged",
+            "ratio_limit": -2,
+            "save_path": "/mnt/HDD/Media(2)/My Dress-up Darling Season 2",
+            "seeding_time_limit": -2,
+            "share_limit_action": "Default",
+            "skip_checking": false,
+            "ssl_certificate": "",
+            "ssl_dh_params": "",
+            "ssl_private_key": "",
+            "tags": [
+            ],
+            "upload_limit": -1,
+            "use_auto_tmm": false,
+            "use_download_path": true
+        },
+        "useRegex": false
+    },
+    "Food Court": {
+        "addPaused": null,
+        "affectedFeeds": [
+            "https://nyaa.si/?page=rss&q=%5BSubsPlease%5D+Food+Court+de%2C+Mata+Ashita+1080&c=0_0&f=0"
+        ],
+        "assignedCategory": "",
+        "enabled": true,
+        "episodeFilter": "",
+        "ignoreDays": 0,
+        "lastMatch": "04 Aug 2025 13:02:21 +0000",
+        "mustContain": "",
+        "mustNotContain": "",
+        "previouslyMatchedEpisodes": [
+        ],
+        "priority": 0,
+        "savePath": "/mnt/HDD/Media(2)/Food Court de, Mata Ashita",
+        "smartFilter": false,
+        "torrentContentLayout": null,
+        "torrentParams": {
+            "category": "",
+            "download_limit": -1,
+            "download_path": "",
+            "inactive_seeding_time_limit": -2,
+            "operating_mode": "AutoManaged",
+            "ratio_limit": -2,
+            "save_path": "/mnt/HDD/Media(2)/Food Court de, Mata Ashita",
+            "seeding_time_limit": -2,
+            "share_limit_action": "Default",
+            "skip_checking": false,
+            "ssl_certificate": "",
+            "ssl_dh_params": "",
+            "ssl_private_key": "",
+            "tags": [
+            ],
+            "upload_limit": -1,
+            "use_auto_tmm": false,
+            "use_download_path": true
+        },
+        "useRegex": false
+    },
     "Hikaru": {
         "addPaused": false,
         "affectedFeeds": [
@@ -81,6 +161,132 @@
             "ssl_dh_params": "",
             "ssl_private_key": "",
             "stopped": false,
+            "tags": [
+            ],
+            "upload_limit": -1,
+            "use_auto_tmm": false,
+            "use_download_path": true
+        },
+        "useRegex": false
+    },
+    "flower": {
+        "addPaused": null,
+        "affectedFeeds": [
+            "https://nyaa.si/?page=rss&q=KawaSubs+the+fragrant+flower+blooms+with+dignity&c=1_2&f=0"
+        ],
+        "assignedCategory": "",
+        "enabled": true,
+        "episodeFilter": "",
+        "ignoreDays": 0,
+        "lastMatch": "09 Aug 2025 23:11:43 +0000",
+        "mustContain": "",
+        "mustNotContain": "",
+        "previouslyMatchedEpisodes": [
+            "1x5",
+            "1x4",
+            "1x3",
+            "1x2",
+            "1x1",
+            "1x6"
+        ],
+        "priority": 0,
+        "savePath": "/mnt/HDD/Media(2)/The Fragrant Flower Blooms with dignity",
+        "smartFilter": true,
+        "torrentContentLayout": null,
+        "torrentParams": {
+            "category": "",
+            "download_limit": -1,
+            "download_path": "",
+            "inactive_seeding_time_limit": -2,
+            "operating_mode": "AutoManaged",
+            "ratio_limit": -2,
+            "save_path": "/mnt/HDD/Media(2)/The Fragrant Flower Blooms with dignity",
+            "seeding_time_limit": -2,
+            "share_limit_action": "Default",
+            "skip_checking": false,
+            "ssl_certificate": "",
+            "ssl_dh_params": "",
+            "ssl_private_key": "",
+            "tags": [
+            ],
+            "upload_limit": -1,
+            "use_auto_tmm": false,
+            "use_download_path": true
+        },
+        "useRegex": false
+    },
+    "goon": {
+        "addPaused": null,
+        "affectedFeeds": [
+            "https://nyaa.si/?page=rss&q=nukitashi+AV1+1080&c=1_2&f=0"
+        ],
+        "assignedCategory": "",
+        "enabled": true,
+        "episodeFilter": "",
+        "ignoreDays": 0,
+        "lastMatch": "01 Aug 2025 13:19:34 +0000",
+        "mustContain": "",
+        "mustNotContain": "",
+        "previouslyMatchedEpisodes": [
+        ],
+        "priority": 0,
+        "savePath": "/mnt/HDD/Media(2)/Nukitashi the Animation",
+        "smartFilter": false,
+        "torrentContentLayout": null,
+        "torrentParams": {
+            "category": "",
+            "download_limit": -1,
+            "download_path": "",
+            "inactive_seeding_time_limit": -2,
+            "operating_mode": "AutoManaged",
+            "ratio_limit": -2,
+            "save_path": "/mnt/HDD/Media(2)/Nukitashi the Animation",
+            "seeding_time_limit": -2,
+            "share_limit_action": "Default",
+            "skip_checking": false,
+            "ssl_certificate": "",
+            "ssl_dh_params": "",
+            "ssl_private_key": "",
+            "tags": [
+            ],
+            "upload_limit": -1,
+            "use_auto_tmm": false,
+            "use_download_path": true
+        },
+        "useRegex": false
+    },
+    "ρουλα πετρες": {
+        "addPaused": null,
+        "affectedFeeds": [
+            "https://nyaa.si/?page=rss&q=ruri+rocks+AV1&c=1_2&f=0"
+        ],
+        "assignedCategory": "",
+        "enabled": true,
+        "episodeFilter": "",
+        "ignoreDays": 0,
+        "lastMatch": "06 Jul 2025 16:27:51 +0000",
+        "mustContain": "",
+        "mustNotContain": "",
+        "previouslyMatchedEpisodes": [
+        ],
+        "priority": 0,
+        "savePath": "/mnt/HDD/Media(2)/Ruri Rocks",
+        "smartFilter": false,
+        "torrentContentLayout": null,
+        "torrentParams": {
+            "category": "",
+            "download_limit": -1,
+            "download_path": "",
+            "inactive_seeding_time_limit": -2,
+            "operating_mode": "AutoManaged",
+            "ratio_limit": -2,
+            "save_path": "/mnt/HDD/Media(2)/Ruri Rocks",
+            "seeding_time_limit": -2,
+            "share_limit_action": "Default",
+            "skip_checking": false,
+            "ssl_certificate": "",
+            "ssl_dh_params": "",
+            "ssl_private_key": "",
             "tags": [
             ],
             "upload_limit": -1,
