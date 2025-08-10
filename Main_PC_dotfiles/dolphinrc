@@ -1,3 +1,8 @@
+MenuBar=Disabled
+
+[DetailsMode]
+PreviewSize=144
+
 [General]
 RememberOpenedTabs=false
 ShowStatusBar=FullWidth
@@ -5,7 +10,7 @@ Version=202
 ViewPropsTimestamp=2025,4,28,18,23,43.011
 
 [IconsMode]
-PreviewSize=192
+PreviewSize=240
 UseSystemFont=false
 
 [KFileDialog Settings]
