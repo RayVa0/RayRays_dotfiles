@@ -10,7 +10,6 @@ sh ~/Templates/run.sh qbittorrent&
 
 
 loginctl lock-session
-fish ~/Templates/update_dotfiles.fish -q
 
 exit 0
 
