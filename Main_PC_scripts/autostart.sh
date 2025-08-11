@@ -1,5 +1,6 @@
 #!/usr/bin/env bash 
 
+loginctl lock-session
 
 sh ~/Templates/auto_minimize.sh element-desktop&
 sh ~/Templates/auto_minimize.sh steam-native&
@@ -9,7 +10,5 @@ sh ~/Templates/run.sh qbittorrent&
 sh ~/Templates/auto_minimize.sh viber&
 sleep 2
 sh ~/Templates/auto_minimize.sh vesktop&
-
-loginctl lock-session
 
 exit 0
