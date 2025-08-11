@@ -22,7 +22,7 @@ github-cli 2.76.2-1
 grimblast-git r137.6839b23-1
 grub 2:2.12.r292.g73d1c959-1
 gst-plugin-pipewire 1:1.4.7-1
-handbrake 1.9.2-3
+handbrake 1.10.0-1
 htop-solarized 3.3.0-1
 kclock 25.04.3-1
 kdeconnect 25.04.3-1
@@ -84,7 +84,7 @@ uwufetch-git 2.1.r40.g28b471b-1
 vesktop 1.5.8-2
 vi 1:070224-6
 viber 24.9.0.3-1
-vim 9.1.1552-1
+vim 9.1.1623-1
 vulkan-headers 1:1.4.321.0-1
 waifu2x-ncnn-vulkan 20220728-3
 waterfox-bin 6.5.11-1
