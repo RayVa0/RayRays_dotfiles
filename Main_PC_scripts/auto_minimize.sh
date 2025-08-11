@@ -102,8 +102,8 @@ sleep 0.1
 
 if [ "$1" = "vesktop" ]; then 
   snipe_window $1
-  sleep 0.75
-  snipe_window $1
+  sleep 0.8
+  snipe_window_state $1
 
   exit 0
 elif [ "$1" = "steam-native" ]; then 
