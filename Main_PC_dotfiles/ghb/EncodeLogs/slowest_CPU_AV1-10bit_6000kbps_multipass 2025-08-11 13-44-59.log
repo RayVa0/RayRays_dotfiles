@@ -1,0 +1,328 @@
+Handbrake Version: 20250808164124-dba479e9f-makepkg (2025080901)
+[13:44:59] gtkgui: Modified Custom Preset: /My Prestets/AV1-10bit NVENC
+[13:44:59] Starting work at: Mon Aug 11 13:44:59 2025
+
+[13:44:59] 1 job(s) to process
+[13:44:59] json job:
+{
+    "Audio": {
+        "AudioList": [
+            {
+                "Bitrate": 320,
+                "CompressionLevel": -1.0,
+                "DRC": 0.0,
+                "DitherMethod": "auto",
+                "Encoder": "av_aac",
+                "Gain": 0.0,
+                "Mixdown": "stereo",
+                "Name": "Stereo",
+                "NormalizeMixLevel": false,
+                "PresetEncoder": "av_aac",
+                "Quality": -3.0,
+                "Samplerate": 0,
+                "Track": 0
+            }
+        ],
+        "CopyMask": [
+            "copy:aac",
+            "copy:flac",
+            "copy:opus"
+        ],
+        "FallbackEncoder": "av_aac"
+    },
+    "CoverArts": [
+        {
+            "ID": 0,
+            "Name": "cover.jpg",
+            "Type": 4
+        }
+    ],
+    "Destination": {
+        "AlignAVStart": false,
+        "ChapterList": [
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 1,
+                    "Seconds": 32,
+                    "Ticks": 8288280
+                },
+                "Name": ""
+            }
+        ],
+        "ChapterMarkers": false,
+        "File": "/home/ray/Pictures/slowest_CPU_AV1-10bit_6000kbps_multipass.mkv",
+        "InlineParameterSets": false,
+        "Mux": "mkv",
+        "Options": {
+            "IpodAtom": false,
+            "Optimize": false
+        }
+    },
+    "Filters": {
+        "FilterList": [
+            {
+                "ID": 4,
+                "Settings": {
+                    "block-height": "16",
+                    "block-thresh": "40",
+                    "block-width": "16",
+                    "filter-mode": "2",
+                    "mode": "3",
+                    "motion-thresh": "1",
+                    "spatial-metric": "2",
+                    "spatial-thresh": "1"
+                }
+            },
+            {
+                "ID": 6,
+                "Settings": {
+                    "mode": "7"
+                }
+            },
+            {
+                "ID": 11,
+                "Settings": {
+                    "mode": 0
+                }
+            },
+            {
+                "ID": 20,
+                "Settings": {
+                    "crop-bottom": 0,
+                    "crop-left": 0,
+                    "crop-right": 0,
+                    "crop-top": 0,
+                    "height": 1080,
+                    "width": 1920
+                }
+            }
+        ]
+    },
+    "Metadata": {
+        "CreationTime": "2023-02-27T10:39:57.000000Z",
+        "Name": "S01ED05-TTGA"
+    },
+    "PAR": {
+        "Den": 1,
+        "Num": 1
+    },
+    "SequenceID": 0,
+    "Source": {
+        "Angle": 0,
+        "HWDecode": 0,
+        "KeepDuplicateTitles": false,
+        "Path": "/mnt/HDD/Media(2)/Chainsaw Man Season 1/Songs/S01ED05-In The Backroom [syudou].mkv",
+        "Range": {
+            "End": 1,
+            "Start": 1,
+            "Type": "chapter"
+        },
+        "Title": 1
+    },
+    "Subtitle": {
+        "Search": {
+            "Burn": true,
+            "Default": false,
+            "Enable": false,
+            "Forced": false
+        },
+        "SubtitleList": []
+    },
+    "Video": {
+        "AdapterIndex": -1,
+        "AsyncDepth": 0,
+        "Bitrate": 6000,
+        "ChromaLocation": 1,
+        "ColorInputFormat": 0,
+        "ColorMatrix": 1,
+        "ColorOutputFormat": 0,
+        "ColorPrimaries": 1,
+        "ColorRange": 0,
+        "ColorTransfer": 1,
+        "Encoder": "svt_av1_10bit",
+        "HardwareDecode": 0,
+        "Level": "auto",
+        "MultiPass": true,
+        "Options": "",
+        "PasshtruHDRDynamicMetadata": 6,
+        "Preset": "-1",
+        "Profile": "auto",
+        "Tune": "vq",
+        "Turbo": true
+    }
+}
+[13:44:59] CPU: AMD Ryzen 7 5800X3D 8-Core Processor
+[13:44:59]  - logical processor count: 16
+[13:44:59] Intel Quick Sync Video support: no
+[13:44:59] hb_scan: path=/mnt/HDD/Media(2)/Chainsaw Man Season 1/Songs/S01ED05-In The Backroom [syudou].mkv, title_index=1
+Input #0, matroska,webm, from '/mnt/HDD/Media(2)/Chainsaw Man Season 1/Songs/S01ED05-In The Backroom [syudou].mkv':
+  Metadata:
+    title           : S01ED05-TTGA
+    encoder         : libebml v1.4.2 + libmatroska v1.6.4
+    creation_time   : 2023-02-27T10:39:57.000000Z
+  Duration: 00:01:32.09, start: 0.000000, bitrate: 36590 kb/s
+  Stream #0:0: Video: h264 (High), yuv420p(progressive), 1920x1080 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+      Metadata:
+        title           : Presented By TTGA@EMBER
+        BPS             : 34988317
+        DURATION        : 00:01:32.092000000
+        NUMBER_OF_FRAMES: 2208
+        NUMBER_OF_BYTES : 402768017
+        _STATISTICS_WRITING_APP: mkvmerge v69.0.0 ('Day And Age') 64-bit
+        _STATISTICS_WRITING_DATE_UTC: 2023-02-27 10:39:57
+        _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:1(jpn): Audio: flac, 48000 Hz, stereo, s32 (24 bit) (default)
+      Metadata:
+        BPS             : 1593834
+        DURATION        : 00:01:32.090000000
+        NUMBER_OF_FRAMES: 1080
+        NUMBER_OF_BYTES : 18347023
+        _STATISTICS_WRITING_APP: mkvmerge v69.0.0 ('Day And Age') 64-bit
+        _STATISTICS_WRITING_DATE_UTC: 2023-02-27 10:39:57
+        _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:2: Video: mjpeg (Baseline), yuvj444p(pc, bt470bg/unknown/unknown), 640x360 [SAR 72:72 DAR 16:9], 90k tbr, 90k tbn (attached pic)
+      Metadata:
+        filename        : cover.jpg
+        mimetype        : image/jpeg
+[13:44:59] scan: decoding previews for title 1
+[13:44:59] scan: audio 0x1: flac, rate=48000Hz, bitrate=1 日本語 (FLAC, 2.0 ch)
+[13:45:00] using container PAR 1:1
+[13:45:00] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1, color profile: 1-1-1, chroma location: left
+[13:45:00] libhb: scan thread found 1 valid title(s)
+[13:45:00] Starting Task: Analysis Pass
+[13:45:00] work: skipping crop/scale filter
+[13:45:00] job configuration:
+[13:45:00]  * source
+[13:45:00]    + /mnt/HDD/Media(2)/Chainsaw Man Season 1/Songs/S01ED05-In The Backroom [syudou].mkv
+[13:45:00]    + title 1, chapter(s) 1 to 1
+[13:45:00]    + container: matroska,webm
+[13:45:00]    + data rate: 36590 kbps
+[13:45:00]  * destination
+[13:45:00]    + /home/ray/Pictures/slowest_CPU_AV1-10bit_6000kbps_multipass.mkv
+[13:45:00]    + container: Matroska (libavformat)
+[13:45:00]  * video track
+[13:45:00]    + decoder: h264 8-bit (yuv420p)
+[13:45:00]    + filters
+[13:45:00]      + Comb Detect (mode=3:spatial-metric=2:motion-thresh=1:spatial-thresh=1:filter-mode=2:block-thresh=40:block-width=16:block-height=16)
+[13:45:00]      + Decomb (mode=39)
+[13:45:00]      + Framerate Shaper (mode=0)
+[13:45:00]        + frame rate: same as source (around 23.976 fps)
+[13:45:00]      + Format (format=yuv420p10le)
+[13:45:00]    + Output geometry
+[13:45:00]      + storage dimensions: 1920 x 1080
+[13:45:00]      + pixel aspect ratio: 1 : 1
+[13:45:00]      + display dimensions: 1920 x 1080
+[13:45:00]    + encoder: AV1 10-bit (SVT)
+[13:45:00]      + preset:  -1
+[13:45:00]      + tune:    vq
+[13:45:00]      + profile: auto
+[13:45:00]      + level:   auto
+[13:45:00]      + bitrate: 6000 kbps, pass: 1
+[13:45:00]      + color profile: 1-1-1
+[13:45:00]      + color range: tv
+[13:45:00]      + chroma location: left
+[13:45:00]  * audio track 1
+[13:45:00]    + name: Stereo
+[13:45:00]    + decoder: 日本語 (FLAC, 2.0 ch) (track 1, id 0x1)
+[13:45:00]      + samplerate: 48000 Hz
+[13:45:00]    + mixdown: Stereo
+[13:45:00]    + encoder: AAC (libavcodec)
+[13:45:00]      + bitrate: 320 kbps, samplerate: 48000 Hz
+[13:45:00] sync: expecting 2208 video frames
+Svt[info]: -------------------------------------------
+Svt[info]: SVT [version]:	SVT-AV1 Encoder Lib v3.1.0
+Svt[info]: SVT [build]  :	GCC 15.1.1 20250729	 64 bit
+Svt[info]: -------------------------------------------
+Svt[warn]: The input q value is ignored in vbr mode 43
+Svt[info]: -------------------------------------------
+Svt[info]: SVT [config]: preset 							: Pass 1
+Svt[info]: -------------------------------------------
+[13:45:00] sync: first pts video is 0
+[13:45:00] sync: Chapter 1 at frame 1 time 0
+[13:45:00] sync: first pts audio 0x1 is 0
+[13:45:21] reader: done. 1 scr changes
+[13:45:22] work: average encoding speed for job is 101.305763 fps
+[13:45:22] comb detect: heavy 1688 | light 333 | uncombed 187 | total 2208
+[13:45:22] decomb: deinterlaced 1688 | blended 333 | unfiltered 187 | total 2208
+[13:45:22] vfr: 2208 frames output, 0 dropped
+[13:45:22] vfr: lost time: 0 (0 frames)
+[13:45:22] vfr: gained time: 0 (0 frames) (0 not accounted for)
+[13:45:22] flac-decoder done: 1080 frames, 0 decoder errors
+[13:45:22] h264-decoder done: 2208 frames, 0 decoder errors
+[13:45:22] sync: got 2208 frames, 2208 expected
+[13:45:22] sync: framerate min 23.976 fps, max 23.976 fps, avg 23.976 fps
+[13:45:22] Starting Task: Encoding Pass
+[13:45:22] work: skipping crop/scale filter
+[13:45:22] job configuration:
+[13:45:22]  * source
+[13:45:22]    + /mnt/HDD/Media(2)/Chainsaw Man Season 1/Songs/S01ED05-In The Backroom [syudou].mkv
+[13:45:22]    + title 1, chapter(s) 1 to 1
+[13:45:22]    + container: matroska,webm
+[13:45:22]    + data rate: 36590 kbps
+[13:45:22]  * destination
+[13:45:22]    + /home/ray/Pictures/slowest_CPU_AV1-10bit_6000kbps_multipass.mkv
+[13:45:22]    + container: Matroska (libavformat)
+[13:45:22]  * video track
+[13:45:22]    + decoder: h264 8-bit (yuv420p)
+[13:45:22]    + filters
+[13:45:22]      + Comb Detect (mode=3:spatial-metric=2:motion-thresh=1:spatial-thresh=1:filter-mode=2:block-thresh=40:block-width=16:block-height=16)
+[13:45:22]      + Decomb (mode=39)
+[13:45:22]      + Framerate Shaper (mode=0)
+[13:45:22]        + frame rate: same as source (around 23.976 fps)
+[13:45:22]      + Format (format=yuv420p10le)
+[13:45:22]    + Output geometry
+[13:45:22]      + storage dimensions: 1920 x 1080
+[13:45:22]      + pixel aspect ratio: 1 : 1
+[13:45:22]      + display dimensions: 1920 x 1080
+[13:45:22]    + encoder: AV1 10-bit (SVT)
+[13:45:22]      + preset:  -1
+[13:45:22]      + tune:    vq
+[13:45:22]      + profile: auto
+[13:45:22]      + level:   auto
+[13:45:22]      + bitrate: 6000 kbps, pass: 2
+[13:45:22]      + color profile: 1-1-1
+[13:45:22]      + color range: tv
+[13:45:22]      + chroma location: left
+[13:45:22]  * audio track 1
+[13:45:22]    + name: Stereo
+[13:45:22]    + decoder: 日本語 (FLAC, 2.0 ch) (track 1, id 0x1)
+[13:45:22]      + samplerate: 48000 Hz
+[13:45:22]    + mixdown: Stereo
+[13:45:22]    + encoder: AAC (libavcodec)
+[13:45:22]      + bitrate: 320 kbps, samplerate: 48000 Hz
+[13:45:22] sync: expecting 2208 video frames
+Svt[info]: -------------------------------------------
+Svt[info]: SVT [version]:	SVT-AV1 Encoder Lib v3.1.0
+Svt[info]: SVT [build]  :	GCC 15.1.1 20250729	 64 bit
+Svt[info]: -------------------------------------------
+Svt[warn]: For CRF or 2PASS RC mode, the maximum needed Lookahead distance is 42. Force the look_ahead_distance to be 42
+Svt[info]: Level of Parallelism: 5
+Svt[info]: Number of PPCS 76
+Svt[info]: [asm level on system : up to avx2]
+Svt[info]: [asm level selected : up to avx2]
+Svt[info]: -------------------------------------------
+Svt[info]: SVT [config]: main profile	tier (auto)	level (auto)
+Svt[info]: SVT [config]: width / height / fps numerator / fps denominator 		: 1920 / 1080 / 24000 / 1001
+Svt[info]: SVT [config]: bit-depth / color format 					: 10 / YUV420
+Svt[info]: SVT [config]: preset / tune / pred struct 					: -1 / VQ / random access
+Svt[info]: SVT [config]: gop size / mini-gop size / key-frame type 			: 245 / 16 / key frame
+Svt[info]: SVT [config]: BRC mode / target bitrate (kbps)				: VBR / 6000 
+Svt[info]: SVT [config]: AQ mode / Variance Boost 					: 2 / 0
+Svt[info]: SVT [config]: sharpness / luminance-based QP bias 				: 0 / 0
+Svt[info]: -------------------------------------------
+[13:45:22] sync: first pts video is 0
+[13:45:22] sync: Chapter 1 at frame 1 time 0
+[13:45:22] sync: first pts audio 0x1 is 0
+[13:47:18] reader: done. 1 scr changes
+[13:47:18] work: average encoding speed for job is 1.291889 fps
+[13:47:18] comb detect: heavy 108 | light 0 | uncombed 24 | total 132
+[13:47:18] decomb: deinterlaced 99 | blended 0 | unfiltered 24 | total 123
+[13:47:18] vfr: 115 frames output, 0 dropped
+[13:47:18] vfr: lost time: 0 (0 frames)
+[13:47:18] vfr: gained time: 0 (0 frames) (0 not accounted for)
+[13:47:38] flac-decoder done: 112 frames, 0 decoder errors
+[13:47:38] h264-decoder done: 213 frames, 0 decoder errors
+[13:47:38] sync: got 174 frames, 2208 expected
+[13:47:38] sync: framerate min 23.976 fps, max 23.976 fps, avg 23.976 fps
+Svt[error]: deinit called without sending EOS!

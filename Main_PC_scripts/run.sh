@@ -6,7 +6,7 @@ if [ $# -eq 0 ]; then
 fi
 
 if [ "$1" = "handbrake" ]; then 
-    nohup "ghb" >&/dev/null &
+    gamemoderun nohup "ghb" >&/dev/null &
 elif [ "$1" = "plex" ]; then
     sh ~/Downloads/run_plex.sh
 else 

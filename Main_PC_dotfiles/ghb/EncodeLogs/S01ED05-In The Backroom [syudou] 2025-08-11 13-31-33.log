@@ -1,0 +1,253 @@
+Handbrake Version: 20250808164124-dba479e9f-makepkg (2025080901)
+[13:31:33] gtkgui: Custom Preset: /My Prestets/AV1-10bit NVENC
+[13:31:33] Starting work at: Mon Aug 11 13:31:33 2025
+
+[13:31:33] 1 job(s) to process
+[13:31:33] json job:
+{
+    "Audio": {
+        "AudioList": [
+            {
+                "Bitrate": 320,
+                "CompressionLevel": -1.0,
+                "DRC": 0.0,
+                "DitherMethod": "auto",
+                "Encoder": "av_aac",
+                "Gain": 0.0,
+                "Mixdown": "stereo",
+                "Name": "Stereo",
+                "NormalizeMixLevel": false,
+                "PresetEncoder": "av_aac",
+                "Quality": -3.0,
+                "Samplerate": 0,
+                "Track": 0
+            }
+        ],
+        "CopyMask": [
+            "copy:aac",
+            "copy:flac",
+            "copy:opus"
+        ],
+        "FallbackEncoder": "av_aac"
+    },
+    "CoverArts": [
+        {
+            "ID": 0,
+            "Name": "cover.jpg",
+            "Type": 4
+        }
+    ],
+    "Destination": {
+        "AlignAVStart": false,
+        "ChapterList": [
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 1,
+                    "Seconds": 32,
+                    "Ticks": 8288280
+                },
+                "Name": ""
+            }
+        ],
+        "ChapterMarkers": false,
+        "File": "/home/ray/Pictures/S01ED05-In The Backroom [syudou].mkv",
+        "InlineParameterSets": false,
+        "Mux": "mkv",
+        "Options": {
+            "IpodAtom": false,
+            "Optimize": false
+        }
+    },
+    "Filters": {
+        "FilterList": [
+            {
+                "ID": 4,
+                "Settings": {
+                    "block-height": "16",
+                    "block-thresh": "40",
+                    "block-width": "16",
+                    "filter-mode": "2",
+                    "mode": "3",
+                    "motion-thresh": "1",
+                    "spatial-metric": "2",
+                    "spatial-thresh": "1"
+                }
+            },
+            {
+                "ID": 6,
+                "Settings": {
+                    "mode": "7"
+                }
+            },
+            {
+                "ID": 11,
+                "Settings": {
+                    "mode": 0
+                }
+            },
+            {
+                "ID": 20,
+                "Settings": {
+                    "crop-bottom": 0,
+                    "crop-left": 0,
+                    "crop-right": 0,
+                    "crop-top": 0,
+                    "height": 1080,
+                    "width": 1920
+                }
+            }
+        ]
+    },
+    "Metadata": {
+        "CreationTime": "2023-02-27T10:39:57.000000Z",
+        "Name": "S01ED05-TTGA"
+    },
+    "PAR": {
+        "Den": 1,
+        "Num": 1
+    },
+    "SequenceID": 0,
+    "Source": {
+        "Angle": 0,
+        "HWDecode": 0,
+        "KeepDuplicateTitles": false,
+        "Path": "/mnt/HDD/Media(2)/Chainsaw Man Season 1/Songs/S01ED05-In The Backroom [syudou].mkv",
+        "Range": {
+            "End": 1,
+            "Start": 1,
+            "Type": "chapter"
+        },
+        "Title": 1
+    },
+    "Subtitle": {
+        "Search": {
+            "Burn": true,
+            "Default": false,
+            "Enable": false,
+            "Forced": false
+        },
+        "SubtitleList": []
+    },
+    "Video": {
+        "AdapterIndex": -1,
+        "AsyncDepth": 0,
+        "ChromaLocation": 1,
+        "ColorInputFormat": 0,
+        "ColorMatrix": 1,
+        "ColorOutputFormat": 0,
+        "ColorPrimaries": 1,
+        "ColorRange": 0,
+        "ColorTransfer": 1,
+        "Encoder": "nvenc_av1_10bit",
+        "HardwareDecode": 0,
+        "Level": "auto",
+        "MultiPass": false,
+        "Options": "",
+        "PasshtruHDRDynamicMetadata": 6,
+        "Preset": "slowest",
+        "Profile": "auto",
+        "Quality": 20.0,
+        "Tune": "",
+        "Turbo": false
+    }
+}
+[13:31:33] CPU: AMD Ryzen 7 5800X3D 8-Core Processor
+[13:31:33]  - logical processor count: 16
+[13:31:33] Intel Quick Sync Video support: no
+[13:31:33] hb_scan: path=/mnt/HDD/Media(2)/Chainsaw Man Season 1/Songs/S01ED05-In The Backroom [syudou].mkv, title_index=1
+Input #0, matroska,webm, from '/mnt/HDD/Media(2)/Chainsaw Man Season 1/Songs/S01ED05-In The Backroom [syudou].mkv':
+  Metadata:
+    title           : S01ED05-TTGA
+    encoder         : libebml v1.4.2 + libmatroska v1.6.4
+    creation_time   : 2023-02-27T10:39:57.000000Z
+  Duration: 00:01:32.09, start: 0.000000, bitrate: 36590 kb/s
+  Stream #0:0: Video: h264 (High), yuv420p(progressive), 1920x1080 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+      Metadata:
+        title           : Presented By TTGA@EMBER
+        BPS             : 34988317
+        DURATION        : 00:01:32.092000000
+        NUMBER_OF_FRAMES: 2208
+        NUMBER_OF_BYTES : 402768017
+        _STATISTICS_WRITING_APP: mkvmerge v69.0.0 ('Day And Age') 64-bit
+        _STATISTICS_WRITING_DATE_UTC: 2023-02-27 10:39:57
+        _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:1(jpn): Audio: flac, 48000 Hz, stereo, s32 (24 bit) (default)
+      Metadata:
+        BPS             : 1593834
+        DURATION        : 00:01:32.090000000
+        NUMBER_OF_FRAMES: 1080
+        NUMBER_OF_BYTES : 18347023
+        _STATISTICS_WRITING_APP: mkvmerge v69.0.0 ('Day And Age') 64-bit
+        _STATISTICS_WRITING_DATE_UTC: 2023-02-27 10:39:57
+        _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:2: Video: mjpeg (Baseline), yuvj444p(pc, bt470bg/unknown/unknown), 640x360 [SAR 72:72 DAR 16:9], 90k tbr, 90k tbn (attached pic)
+      Metadata:
+        filename        : cover.jpg
+        mimetype        : image/jpeg
+[13:31:33] scan: decoding previews for title 1
+[13:31:33] scan: audio 0x1: flac, rate=48000Hz, bitrate=1 日本語 (FLAC, 2.0 ch)
+[13:31:34] using container PAR 1:1
+[13:31:34] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1, color profile: 1-1-1, chroma location: left
+[13:31:34] libhb: scan thread found 1 valid title(s)
+[13:31:34] Starting Task: Encoding Pass
+[13:31:34] work: skipping crop/scale filter
+[13:31:34] job configuration:
+[13:31:34]  * source
+[13:31:34]    + /mnt/HDD/Media(2)/Chainsaw Man Season 1/Songs/S01ED05-In The Backroom [syudou].mkv
+[13:31:34]    + title 1, chapter(s) 1 to 1
+[13:31:34]    + container: matroska,webm
+[13:31:34]    + data rate: 36590 kbps
+[13:31:34]  * destination
+[13:31:34]    + /home/ray/Pictures/S01ED05-In The Backroom [syudou].mkv
+[13:31:34]    + container: Matroska (libavformat)
+[13:31:34]  * video track
+[13:31:34]    + decoder: h264 8-bit (yuv420p)
+[13:31:34]    + filters
+[13:31:34]      + Comb Detect (mode=3:spatial-metric=2:motion-thresh=1:spatial-thresh=1:filter-mode=2:block-thresh=40:block-width=16:block-height=16)
+[13:31:34]      + Decomb (mode=39)
+[13:31:34]      + Framerate Shaper (mode=0)
+[13:31:34]        + frame rate: same as source (around 23.976 fps)
+[13:31:34]      + Format (format=p010le)
+[13:31:34]    + Output geometry
+[13:31:34]      + storage dimensions: 1920 x 1080
+[13:31:34]      + pixel aspect ratio: 1 : 1
+[13:31:34]      + display dimensions: 1920 x 1080
+[13:31:34]    + encoder: AV1 10-bit (NVEnc)
+[13:31:34]      + preset:  slowest
+[13:31:34]      + profile: auto
+[13:31:34]      + level:   auto
+[13:31:34]      + quality: 20.00 (CQ)
+[13:31:34]      + color profile: 1-1-1
+[13:31:34]      + color range: tv
+[13:31:34]      + chroma location: left
+[13:31:34]  * audio track 1
+[13:31:34]    + name: Stereo
+[13:31:34]    + decoder: 日本語 (FLAC, 2.0 ch) (track 1, id 0x1)
+[13:31:34]      + samplerate: 48000 Hz
+[13:31:34]    + mixdown: Stereo
+[13:31:34]    + encoder: AAC (libavcodec)
+[13:31:34]      + bitrate: 320 kbps, samplerate: 48000 Hz
+[13:31:34] sync: expecting 2208 video frames
+[13:31:34] encavcodecInit: AV1 (Nvidia NVENC)
+[13:31:34] encavcodec: encoding at rc=vbr, 20.00
+[13:31:34] encavcodec: encoding with stored aspect 1/1
+[13:31:36] sync: first pts video is 0
+[13:31:36] sync: Chapter 1 at frame 1 time 0
+[13:31:36] sync: first pts audio 0x1 is 0
+[13:31:51] reader: done. 1 scr changes
+[13:31:51] work: average encoding speed for job is 142.229843 fps
+[13:31:51] comb detect: heavy 1688 | light 333 | uncombed 187 | total 2208
+[13:31:51] decomb: deinterlaced 1688 | blended 333 | unfiltered 187 | total 2208
+[13:31:51] vfr: 2208 frames output, 0 dropped
+[13:31:51] vfr: lost time: 0 (0 frames)
+[13:31:51] vfr: gained time: 0 (0 frames) (0 not accounted for)
+[13:31:51] flac-decoder done: 1080 frames, 0 decoder errors
+[13:31:51] h264-decoder done: 2208 frames, 0 decoder errors
+[13:31:51] sync: got 2208 frames, 2208 expected
+[13:31:51] sync: framerate min 23.976 fps, max 23.976 fps, avg 23.976 fps
+[13:31:52] mux: track 0, 2208 frames, 295507847 bytes, 25659.04 kbps, fifo 128
+[13:31:52] mux: track 1, 4317 frames, 3675957 bytes, 319.18 kbps, fifo 512
+[13:31:52] Finished work at: Mon Aug 11 13:31:52 2025
+
+[13:31:52] libhb: work result = 0

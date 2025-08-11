@@ -10,6 +10,9 @@ if [ $# -eq 2 ] && [ "$1" = "$explicit" ]; then
 elif [ $# -ge 2 ]; then 
   echo Please pass only one package for deletion.
   exit 1
+elif [ $# -lt 2 ] && [ "$1" = "$explicit" ]; then 
+  echo Please pass a package for deletion
+  exit 1
 fi
 
 if [ $# -lt 1 ]; then
