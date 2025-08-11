@@ -1,6 +1,12 @@
-#!/usr/bin/env bash
+#!/usr/bin/env fish
 
 
 kdotool set_desktop 1
 
-fish ~/Templates/update_dotfiles.fish -q
+ping archlinux.org -c 1
+
+if test $status -eq 0
+  update_dotfiles -q
+end
+
+exit 0
