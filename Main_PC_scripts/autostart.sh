@@ -8,7 +8,6 @@ sh ~/Templates/auto_minimize.sh waterfox&
 sh ~/Templates/auto_minimize.sh spotify&
 sh ~/Templates/run.sh qbittorrent&
 sh ~/Templates/auto_minimize.sh viber&
-sleep 2
 sh ~/Templates/auto_minimize.sh vesktop&
 
 exit 0
