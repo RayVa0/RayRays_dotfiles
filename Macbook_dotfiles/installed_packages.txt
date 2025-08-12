@@ -94,6 +94,7 @@ waifu2x-ncnn-vulkan 20220728-3
 waterfox-bin 6.5.11-1
 wireplumber 0.5.10-1
 wl-clipboard 1:2.2.1-3
+woeusb 5.2.4-1
 yacreader-bin 9.15.0-2
 yay-bin 12.5.0-1
 yay-bin-debug 12.5.0-1
