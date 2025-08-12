@@ -11,8 +11,5 @@ sh ~/Templates/auto_minimize.sh element-desktop&
 sh ~/Templates/auto_minimize.sh vesktop&
 sh ~/Templates/auto_minimize.sh waterfox&
 
-sleep 5
-
-fish ~/Templates/update_dotfiles.fish
 
 exit 0

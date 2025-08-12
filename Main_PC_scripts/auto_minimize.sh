@@ -51,7 +51,7 @@ snipe_window_state () {
     kdotool windowstate $window_id --add MINIMIZED
     sleep 0.1
     i=$((i+1))
-    if [ $i -gt 200 ]; then 
+    if [ $i -gt 1000 ]; then 
       exit 1
     fi
   done
@@ -102,7 +102,7 @@ sleep 0.1
 
 if [ "$1" = "vesktop" ]; then 
   snipe_window $1
-  sleep 10
+  sleep 1
   snipe_window_state $1
 
   exit 0
