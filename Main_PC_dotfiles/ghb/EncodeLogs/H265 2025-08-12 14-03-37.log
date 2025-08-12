@@ -1,0 +1,300 @@
+Handbrake Version: 20250220183715-e117cfe7f-makepkg (2025081101)
+[14:03:37] gtkgui: Modified Custom Preset: /My Presets/AV1-10bit CPU
+[14:03:37] Starting work at: Tue Aug 12 14:03:37 2025
+
+[14:03:37] 1 job(s) to process
+[14:03:37] json job:
+{
+    "Audio": {
+        "AudioList": [
+            {
+                "Bitrate": 320,
+                "CompressionLevel": -1.0,
+                "DRC": 0.0,
+                "DitherMethod": "auto",
+                "Encoder": "av_aac",
+                "Gain": 0.0,
+                "Mixdown": "stereo",
+                "NormalizeMixLevel": false,
+                "PresetEncoder": "av_aac",
+                "Quality": -3.0,
+                "Samplerate": 0,
+                "Track": 0
+            }
+        ],
+        "CopyMask": [
+            "copy:aac",
+            "copy:flac",
+            "copy:opus"
+        ],
+        "FallbackEncoder": "av_aac"
+    },
+    "Destination": {
+        "AlignAVStart": false,
+        "ChapterList": [
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 1,
+                    "Seconds": 32,
+                    "Ticks": 8288280
+                },
+                "Name": ""
+            }
+        ],
+        "ChapterMarkers": false,
+        "File": "/home/ray/Pictures/256kbps_showdown/H265.mkv",
+        "InlineParameterSets": false,
+        "Mux": "mkv",
+        "Options": {
+            "IpodAtom": false,
+            "Optimize": false
+        }
+    },
+    "Filters": {
+        "FilterList": [
+            {
+                "ID": 4,
+                "Settings": {
+                    "block-height": "16",
+                    "block-thresh": "40",
+                    "block-width": "16",
+                    "filter-mode": "2",
+                    "mode": "3",
+                    "motion-thresh": "1",
+                    "spatial-metric": "2",
+                    "spatial-thresh": "1"
+                }
+            },
+            {
+                "ID": 6,
+                "Settings": {
+                    "mode": "7"
+                }
+            },
+            {
+                "ID": 11,
+                "Settings": {
+                    "mode": 0
+                }
+            },
+            {
+                "ID": 20,
+                "Settings": {
+                    "crop-bottom": 0,
+                    "crop-left": 0,
+                    "crop-right": 0,
+                    "crop-top": 0,
+                    "height": 1080,
+                    "width": 1920
+                }
+            }
+        ]
+    },
+    "Metadata": {
+        "Name": "S01ED03-TTGA"
+    },
+    "PAR": {
+        "Den": 1,
+        "Num": 1
+    },
+    "SequenceID": 0,
+    "Source": {
+        "Angle": 0,
+        "HWDecode": 0,
+        "KeepDuplicateTitles": false,
+        "Path": "/mnt/HDD/Media(2)/Chainsaw Man Season 1/Songs/S01ED03-Hawatari 2-oku Centi [Maximum The Hormone].mkv",
+        "Range": {
+            "End": 1,
+            "Start": 1,
+            "Type": "chapter"
+        },
+        "Title": 1
+    },
+    "Subtitle": {
+        "Search": {
+            "Burn": true,
+            "Default": false,
+            "Enable": false,
+            "Forced": false
+        },
+        "SubtitleList": []
+    },
+    "Video": {
+        "Bitrate": 256,
+        "ChromaLocation": 1,
+        "ColorInputFormat": 0,
+        "ColorMatrix": 1,
+        "ColorOutputFormat": 0,
+        "ColorPrimaries": 1,
+        "ColorRange": 1,
+        "ColorTransfer": 1,
+        "Encoder": "nvenc_h265_10bit",
+        "HardwareDecode": 0,
+        "Level": "auto",
+        "MultiPass": true,
+        "Options": "",
+        "Preset": "slowest",
+        "Profile": "auto",
+        "QSV": {
+            "AdapterIndex": 0,
+            "AsyncDepth": 0,
+            "Decode": false
+        },
+        "Tune": "",
+        "Turbo": false
+    }
+}
+[14:03:37] CPU: AMD Ryzen 7 5800X3D 8-Core Processor
+[14:03:37]  - logical processor count: 16
+[14:03:37] Intel Quick Sync Video support: no
+[14:03:37] hb_scan: path=/mnt/HDD/Media(2)/Chainsaw Man Season 1/Songs/S01ED03-Hawatari 2-oku Centi [Maximum The Hormone].mkv, title_index=1
+Input #0, matroska,webm, from '/mnt/HDD/Media(2)/Chainsaw Man Season 1/Songs/S01ED03-Hawatari 2-oku Centi [Maximum The Hormone].mkv':
+  Metadata:
+    title           : S01ED03-TTGA
+    encoder         : libebml v1.4.2 + libmatroska v1.6.4
+    creation_time   : 2023-02-02T09:01:20.000000Z
+  Duration: 00:01:32.09, start: 0.000000, bitrate: 36735 kb/s
+  Stream #0:0: Video: h264 (High), yuv420p(progressive), 1920x1080 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+      Metadata:
+        title           : Presented By TTGA@EMBER
+        BPS             : 35278985
+        DURATION        : 00:01:32.092000000
+        NUMBER_OF_FRAMES: 2208
+        NUMBER_OF_BYTES : 406114042
+        _STATISTICS_WRITING_APP: mkvmerge v69.0.0 ('Day And Age') 64-bit
+        _STATISTICS_WRITING_DATE_UTC: 2023-02-02 09:01:20
+        _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:1(jpn): Audio: flac, 48000 Hz, stereo, s32 (24 bit) (default)
+      Metadata:
+        BPS             : 1448509
+        DURATION        : 00:01:32.090000000
+        NUMBER_OF_FRAMES: 1080
+        NUMBER_OF_BYTES : 16674158
+        _STATISTICS_WRITING_APP: mkvmerge v69.0.0 ('Day And Age') 64-bit
+        _STATISTICS_WRITING_DATE_UTC: 2023-02-02 09:01:20
+        _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:2: Video: mjpeg (Baseline), yuvj444p(pc, bt470bg/unknown/unknown), 640x360 [SAR 72:72 DAR 16:9], 90k tbr, 90k tbn (attached pic)
+      Metadata:
+        filename        : cover.jpg
+        mimetype        : image/jpeg
+[14:03:37] scan: decoding previews for title 1
+[14:03:37] scan: audio 0x1: flac, rate=48000Hz, bitrate=1 日本語 (FLAC, 2.0 ch)
+[14:03:38] using container PAR 1:1
+[14:03:38] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1, color profile: 1-1-1, chroma location: left
+[14:03:38] libhb: scan thread found 1 valid title(s)
+[14:03:38] Starting Task: Analysis Pass
+[14:03:38] work: skipping crop/scale filter
+[14:03:38] job configuration:
+[14:03:38]  * source
+[14:03:38]    + /mnt/HDD/Media(2)/Chainsaw Man Season 1/Songs/S01ED03-Hawatari 2-oku Centi [Maximum The Hormone].mkv
+[14:03:38]    + title 1, chapter(s) 1 to 1
+[14:03:38]    + container: matroska,webm
+[14:03:38]    + data rate: 36735 kbps
+[14:03:38]  * destination
+[14:03:38]    + /home/ray/Pictures/256kbps_showdown/H265.mkv
+[14:03:38]    + container: Matroska (libavformat)
+[14:03:38]  * video track
+[14:03:38]    + decoder: h264 8-bit (yuv420p)
+[14:03:38]    + filters
+[14:03:38]      + Comb Detect (mode=3:spatial-metric=2:motion-thresh=1:spatial-thresh=1:filter-mode=2:block-thresh=40:block-width=16:block-height=16)
+[14:03:38]      + Decomb (mode=39)
+[14:03:38]      + Framerate Shaper (mode=0)
+[14:03:38]        + frame rate: same as source (around 23.976 fps)
+[14:03:38]      + Format (format=p010le)
+[14:03:38]    + Output geometry
+[14:03:38]      + storage dimensions: 1920 x 1080
+[14:03:38]      + pixel aspect ratio: 1 : 1
+[14:03:38]      + display dimensions: 1920 x 1080
+[14:03:38]    + encoder: H.265 10-bit (NVEnc)
+[14:03:38]      + preset:  slowest
+[14:03:38]      + profile: auto
+[14:03:38]      + level:   auto
+[14:03:38]      + bitrate: 256 kbps, pass: 1
+[14:03:38]      + color profile: 1-1-1
+[14:03:38]      + color range: tv
+[14:03:38]      + chroma location: left
+[14:03:38]  * audio track 1
+[14:03:38]    + decoder: 日本語 (FLAC, 2.0 ch) (track 1, id 0x1)
+[14:03:38]      + samplerate: 48000 Hz
+[14:03:38]    + mixdown: Stereo
+[14:03:38]    + encoder: AAC (libavcodec)
+[14:03:38]      + bitrate: 320 kbps, samplerate: 48000 Hz
+[14:03:38] sync: expecting 2208 video frames
+[14:03:38] encavcodecInit: H.265 (Nvidia NVENC)
+[14:03:38] encavcodec: encoding at rc=vbr, Bitrate 256
+[14:03:38] encavcodec: encoding with stored aspect 1/1
+[14:03:38] sync: first pts video is 0
+[14:03:38] sync: Chapter 1 at frame 1 time 0
+[14:03:38] sync: first pts audio 0x1 is 0
+[14:03:49] reader: done. 1 scr changes
+[14:03:49] work: average encoding speed for job is 198.656342 fps
+[14:03:50] comb detect: heavy 168 | light 765 | uncombed 1275 | total 2208
+[14:03:50] decomb: deinterlaced 168 | blended 765 | unfiltered 1275 | total 2208
+[14:03:50] vfr: 2208 frames output, 0 dropped
+[14:03:50] vfr: lost time: 0 (0 frames)
+[14:03:50] vfr: gained time: 0 (0 frames) (0 not accounted for)
+[14:03:50] flac-decoder done: 1080 frames, 0 decoder errors
+[14:03:50] h264-decoder done: 2208 frames, 0 decoder errors
+[14:03:50] sync: got 2208 frames, 2208 expected
+[14:03:50] sync: framerate min 23.976 fps, max 23.976 fps, avg 23.976 fps
+[14:03:50] Starting Task: Encoding Pass
+[14:03:50] work: skipping crop/scale filter
+[14:03:50] job configuration:
+[14:03:50]  * source
+[14:03:50]    + /mnt/HDD/Media(2)/Chainsaw Man Season 1/Songs/S01ED03-Hawatari 2-oku Centi [Maximum The Hormone].mkv
+[14:03:50]    + title 1, chapter(s) 1 to 1
+[14:03:50]    + container: matroska,webm
+[14:03:50]    + data rate: 36735 kbps
+[14:03:50]  * destination
+[14:03:50]    + /home/ray/Pictures/256kbps_showdown/H265.mkv
+[14:03:50]    + container: Matroska (libavformat)
+[14:03:50]  * video track
+[14:03:50]    + decoder: h264 8-bit (yuv420p)
+[14:03:50]    + filters
+[14:03:50]      + Comb Detect (mode=3:spatial-metric=2:motion-thresh=1:spatial-thresh=1:filter-mode=2:block-thresh=40:block-width=16:block-height=16)
+[14:03:50]      + Decomb (mode=39)
+[14:03:50]      + Framerate Shaper (mode=0)
+[14:03:50]        + frame rate: same as source (around 23.976 fps)
+[14:03:50]      + Format (format=p010le)
+[14:03:50]    + Output geometry
+[14:03:50]      + storage dimensions: 1920 x 1080
+[14:03:50]      + pixel aspect ratio: 1 : 1
+[14:03:50]      + display dimensions: 1920 x 1080
+[14:03:50]    + encoder: H.265 10-bit (NVEnc)
+[14:03:50]      + preset:  slowest
+[14:03:50]      + profile: auto
+[14:03:50]      + level:   auto
+[14:03:50]      + bitrate: 256 kbps, pass: 2
+[14:03:50]      + color profile: 1-1-1
+[14:03:50]      + color range: tv
+[14:03:50]      + chroma location: left
+[14:03:50]  * audio track 1
+[14:03:50]    + decoder: 日本語 (FLAC, 2.0 ch) (track 1, id 0x1)
+[14:03:50]      + samplerate: 48000 Hz
+[14:03:50]    + mixdown: Stereo
+[14:03:50]    + encoder: AAC (libavcodec)
+[14:03:50]      + bitrate: 320 kbps, samplerate: 48000 Hz
+[14:03:50] sync: expecting 2208 video frames
+[14:03:50] encavcodecInit: H.265 (Nvidia NVENC)
+[14:03:50] encavcodec: encoding at rc=vbr, Bitrate 256
+[14:03:50] encavcodec: encoding with stored aspect 1/1
+[14:03:50] sync: first pts video is 0
+[14:03:50] sync: Chapter 1 at frame 1 time 0
+[14:03:50] sync: first pts audio 0x1 is 0
+[14:04:01] reader: done. 1 scr changes
+[14:04:01] work: average encoding speed for job is 200.213089 fps
+[14:04:01] comb detect: heavy 168 | light 765 | uncombed 1275 | total 2208
+[14:04:01] decomb: deinterlaced 168 | blended 765 | unfiltered 1275 | total 2208
+[14:04:01] vfr: 2208 frames output, 0 dropped
+[14:04:01] vfr: lost time: 0 (0 frames)
+[14:04:01] vfr: gained time: 0 (0 frames) (0 not accounted for)
+[14:04:01] flac-decoder done: 1080 frames, 0 decoder errors
+[14:04:01] h264-decoder done: 2208 frames, 0 decoder errors
+[14:04:01] sync: got 2208 frames, 2208 expected
+[14:04:01] sync: framerate min 23.976 fps, max 23.976 fps, avg 23.976 fps
+[14:04:02] mux: track 0, 2208 frames, 4329797 bytes, 375.96 kbps, fifo 4096
+[14:04:02] mux: track 1, 4317 frames, 3477374 bytes, 301.94 kbps, fifo 8192
+[14:04:02] Finished work at: Tue Aug 12 14:04:02 2025
+
+[14:04:02] libhb: work result = 0

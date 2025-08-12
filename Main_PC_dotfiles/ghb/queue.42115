@@ -1,0 +1,508 @@
+[
+    {
+        "Job": {
+            "Audio": {
+                "AudioList": [
+                    {
+                        "Bitrate": 320,
+                        "CompressionLevel": -1.0,
+                        "DRC": 0.0,
+                        "DitherMethod": "auto",
+                        "Encoder": "av_aac",
+                        "Gain": 0.0,
+                        "Mixdown": "stereo",
+                        "NormalizeMixLevel": false,
+                        "PresetEncoder": "av_aac",
+                        "Quality": -3.0,
+                        "Samplerate": 0,
+                        "Track": 0
+                    }
+                ],
+                "CopyMask": [
+                    "copy:aac",
+                    "copy:flac",
+                    "copy:opus"
+                ],
+                "FallbackEncoder": "av_aac"
+            },
+            "Destination": {
+                "AlignAVStart": false,
+                "ChapterList": [
+                    {
+                        "Duration": {
+                            "Hours": 0,
+                            "Minutes": 1,
+                            "Seconds": 32,
+                            "Ticks": 8288280
+                        },
+                        "Name": ""
+                    }
+                ],
+                "ChapterMarkers": false,
+                "File": "/home/ray/Pictures/S01ED03-Hawatari 2-oku Centi [Maximum The Hormone].mkv",
+                "InlineParameterSets": false,
+                "Mux": "mkv",
+                "Options": {
+                    "IpodAtom": false,
+                    "Optimize": false
+                }
+            },
+            "Filters": {
+                "FilterList": [
+                    {
+                        "ID": 4,
+                        "Settings": {
+                            "block-height": "16",
+                            "block-thresh": "40",
+                            "block-width": "16",
+                            "filter-mode": "2",
+                            "mode": "3",
+                            "motion-thresh": "1",
+                            "spatial-metric": "2",
+                            "spatial-thresh": "1"
+                        }
+                    },
+                    {
+                        "ID": 6,
+                        "Settings": {
+                            "mode": "7"
+                        }
+                    },
+                    {
+                        "ID": 11,
+                        "Settings": {
+                            "mode": 0
+                        }
+                    },
+                    {
+                        "ID": 20,
+                        "Settings": {
+                            "crop-bottom": 0,
+                            "crop-left": 0,
+                            "crop-right": 0,
+                            "crop-top": 0,
+                            "height": 1080,
+                            "width": 1920
+                        }
+                    }
+                ]
+            },
+            "Metadata": {
+                "Name": "S01ED03-TTGA"
+            },
+            "PAR": {
+                "Den": 1,
+                "Num": 1
+            },
+            "SequenceID": 0,
+            "Source": {
+                "Angle": 0,
+                "HWDecode": 0,
+                "KeepDuplicateTitles": false,
+                "Path": "/mnt/HDD/Media(2)/Chainsaw Man Season 1/Songs/S01ED03-Hawatari 2-oku Centi [Maximum The Hormone].mkv",
+                "Range": {
+                    "End": 1,
+                    "Start": 1,
+                    "Type": "chapter"
+                },
+                "Title": 1
+            },
+            "Subtitle": {
+                "Search": {
+                    "Burn": true,
+                    "Default": false,
+                    "Enable": false,
+                    "Forced": false
+                },
+                "SubtitleList": []
+            },
+            "Video": {
+                "Bitrate": 6000,
+                "ChromaLocation": 1,
+                "ColorInputFormat": 0,
+                "ColorMatrix": 1,
+                "ColorOutputFormat": 0,
+                "ColorPrimaries": 1,
+                "ColorRange": 1,
+                "ColorTransfer": 1,
+                "Encoder": "VP9_10bit",
+                "HardwareDecode": 0,
+                "Level": "auto",
+                "MultiPass": true,
+                "Options": "",
+                "Preset": "slower",
+                "Profile": "auto",
+                "QSV": {
+                    "AdapterIndex": 0,
+                    "AsyncDepth": 0,
+                    "Decode": false
+                },
+                "Tune": "",
+                "Turbo": true
+            }
+        },
+        "Title": {
+            "AngleCount": 1,
+            "AudioList": [
+                {
+                    "Attributes": {
+                        "AltCommentary": false,
+                        "Commentary": false,
+                        "Default": true,
+                        "Normal": false,
+                        "Secondary": false,
+                        "VisuallyImpaired": false
+                    },
+                    "BitRate": 1,
+                    "ChannelCount": 2,
+                    "ChannelLayout": 3,
+                    "ChannelLayoutName": "stereo",
+                    "Codec": 1048576,
+                    "CodecName": "flac",
+                    "CodecParam": 86028,
+                    "Description": "日本語 (FLAC, 2.0 ch)",
+                    "LFECount": 0,
+                    "Language": "日本語",
+                    "LanguageCode": "jpn",
+                    "SampleRate": 48000,
+                    "TrackNumber": 1
+                }
+            ],
+            "ChapterList": [
+                {
+                    "Duration": {
+                        "Hours": 0,
+                        "Minutes": 1,
+                        "Seconds": 32,
+                        "Ticks": 8288280
+                    },
+                    "Name": ""
+                }
+            ],
+            "Color": {
+                "BitDepth": 8,
+                "ChromaLocation": 1,
+                "ChromaSubsampling": "4:2:0",
+                "Format": 0,
+                "Matrix": 1,
+                "Primary": 1,
+                "Range": 1,
+                "Transfer": 1
+            },
+            "Container": "matroska,webm",
+            "Crop": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "Duration": {
+                "Hours": 0,
+                "Minutes": 1,
+                "Seconds": 32,
+                "Ticks": 8288280
+            },
+            "FrameRate": {
+                "Den": 1126125,
+                "Num": 27000000
+            },
+            "Geometry": {
+                "Height": 1080,
+                "PAR": {
+                    "Den": 1,
+                    "Num": 1
+                },
+                "Width": 1920
+            },
+            "Index": 1,
+            "InterlaceDetected": false,
+            "KeepDuplicateTitles": false,
+            "LooseCrop": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "Metadata": {
+                "Name": "S01ED03-TTGA"
+            },
+            "Name": "S01ED03-Hawatari 2-oku Centi [Maximum The Hormone]",
+            "Path": "/mnt/HDD/Media(2)/Chainsaw Man Season 1/Songs/S01ED03-Hawatari 2-oku Centi [Maximum The Hormone].mkv",
+            "Playlist": -1,
+            "SubtitleList": [],
+            "Type": 3,
+            "VideoCodec": "h264"
+        },
+        "uiSettings": {
+            "AlignAVStart": false,
+            "AudioAllowAACPass": true,
+            "AudioAllowAC3Pass": false,
+            "AudioAllowALACPass": false,
+            "AudioAllowDTSHDPass": false,
+            "AudioAllowDTSPass": false,
+            "AudioAllowEAC3Pass": false,
+            "AudioAllowFLACPass": true,
+            "AudioAllowMP2Pass": false,
+            "AudioAllowMP3Pass": false,
+            "AudioAllowOPUSPass": true,
+            "AudioAllowTRUEHDPass": false,
+            "AudioAllowVORBISPass": false,
+            "AudioBitrate": "192",
+            "AudioCopyMask": [
+                "copy:aac",
+                "copy:flac",
+                "copy:opus"
+            ],
+            "AudioEncoder": "copy:ac3",
+            "AudioEncoderFallback": "av_aac",
+            "AudioLanguageList": [],
+            "AudioList": [
+                {
+                    "AudioBitrate": 320,
+                    "AudioCompressionLevel": -1.0,
+                    "AudioDitherMethod": "auto",
+                    "AudioEncoder": "av_aac",
+                    "AudioMixdown": "stereo",
+                    "AudioNormalizeMixLevel": false,
+                    "AudioSamplerate": "auto",
+                    "AudioTrackDRCSlider": 0.0,
+                    "AudioTrackGainSlider": 0.0,
+                    "AudioTrackQuality": 1.0,
+                    "AudioTrackQualityEnable": false
+                }
+            ],
+            "AudioMixdown": "dpl2",
+            "AudioSamplerate": "auto",
+            "AudioSecondaryEncoderMode": true,
+            "AudioTrack": "0",
+            "AudioTrackDRCSlider": 0.9,
+            "AudioTrackDRCValue": "Off",
+            "AudioTrackGainSlider": 0.0,
+            "AudioTrackName": "",
+            "AudioTrackQuality": -1.0,
+            "AudioTrackQualityEnable": false,
+            "AudioTrackQualityValue": "-3",
+            "AudioTrackQualityX": -3.0,
+            "AudioTrackSelectionBehavior": "first",
+            "ChapterMarkers": true,
+            "ChildrenArray": [],
+            "Default": false,
+            "DisplayHeight": 1080.0,
+            "FileFormat": "av_mkv",
+            "Folder": false,
+            "FolderOpen": false,
+            "ImportFile": null,
+            "ImportLanguage": "und",
+            "ImportOffset": 0.0,
+            "InlineParameterSets": false,
+            "MainWhenComplete": "nothing",
+            "MetaAlbumArtist": "",
+            "MetaArtist": "",
+            "MetaComment": "",
+            "MetaDescription": "",
+            "MetaGenre": "",
+            "MetaLongDescription": "",
+            "MetaName": "S01ED03-TTGA",
+            "MetaReleaseDate": "",
+            "MetadataPassthru": true,
+            "Mp4iPodCompatible": false,
+            "Optimize": false,
+            "PictureAllowUpscaling": false,
+            "PictureAutoCrop": true,
+            "PictureBottomCrop": 0.0,
+            "PictureChromaSmoothCustom": "",
+            "PictureChromaSmoothPreset": "off",
+            "PictureChromaSmoothTune": "none",
+            "PictureColorspaceCustom": "",
+            "PictureColorspacePreset": "off",
+            "PictureCombDetectCustom": "",
+            "PictureCombDetectPreset": "default",
+            "PictureCropMode": 0,
+            "PictureDARWidth": 1920.0,
+            "PictureDeblockCustom": "strength=strong:thresh=20:blocksize=8",
+            "PictureDeblockPreset": "off",
+            "PictureDeblockTune": "medium",
+            "PictureDeinterlaceCustom": "",
+            "PictureDeinterlaceDecomb": false,
+            "PictureDeinterlaceFilter": "decomb",
+            "PictureDeinterlacePreset": "default",
+            "PictureDenoiseCustom": "",
+            "PictureDenoiseFilter": "off",
+            "PictureDenoisePreset": "",
+            "PictureDenoiseTune": "none",
+            "PictureDetelecine": "off",
+            "PictureDetelecineCustom": "",
+            "PictureForceHeight": 0,
+            "PictureForceWidth": 0,
+            "PictureHeight": 0.0,
+            "PictureItuPAR": false,
+            "PictureKeepRatio": true,
+            "PictureLeftCrop": 0.0,
+            "PictureModulus": 2,
+            "PicturePAR": "auto",
+            "PicturePARHeight": 1.0,
+            "PicturePARWidth": 1.0,
+            "PicturePadBottom": 0.0,
+            "PicturePadColor": "black",
+            "PicturePadLeft": 0.0,
+            "PicturePadMode": "none",
+            "PicturePadRight": 0.0,
+            "PicturePadTop": 0.0,
+            "PictureRightCrop": 0.0,
+            "PictureRotate": "angle=0:hflip=0",
+            "PictureSharpenCustom": "",
+            "PictureSharpenFilter": "off",
+            "PictureSharpenPreset": "",
+            "PictureSharpenTune": "",
+            "PictureTopCrop": 0.0,
+            "PictureUseMaximumSize": true,
+            "PictureWidth": 0.0,
+            "Preferences": {
+                "ActivityFontFamily": "monospace",
+                "ActivityFontSize": 8.0,
+                "AddCC": false,
+                "AutoScan": false,
+                "CustomNotificationMessage": "",
+                "CustomTmpDir": null,
+                "CustomTmpEnable": false,
+                "DiskFreeCheck": true,
+                "DiskFreeLimitGB": 2.0,
+                "EncodeLogLocation": false,
+                "ExcludedFileExtensions": [
+                    "jpg",
+                    "png",
+                    "srt",
+                    "ssa",
+                    "ass",
+                    "txt"
+                ],
+                "ExportDirectory": "/home/ray/Documents",
+                "LimitMaxDuration": false,
+                "LogLongevity": "immortal",
+                "LoggingLevel": "1",
+                "LowBatteryLevel": 15,
+                "MaxTitleDuration": 0.0,
+                "MinTitleDuration": 10.0,
+                "NativeFileChooser": true,
+                "NotifyOnEncodeDone": false,
+                "NotifyOnQueueDone": true,
+                "PauseEncodingOnBatteryPower": false,
+                "PauseEncodingOnLowBattery": false,
+                "PauseEncodingOnPowerSave": true,
+                "PreferredLanguage": "und",
+                "RecursiveFolderScan": false,
+                "RemoveFinishedJobs": false,
+                "ShowMiniPreview": true,
+                "SrtDir": "/home/ray",
+                "SyncTitleSettings": true,
+                "UseM4v": false,
+                "VideoQualityGranularity": "1",
+                "WhenComplete": "nothing",
+                "allow_tweaks": false,
+                "auto_name": true,
+                "auto_name_template": "{source}",
+                "default_source": "/mnt/HDD/Media(2)/Chainsaw Man Season 1/Songs/S01ED03-Hawatari 2-oku Centi [Maximum The Hormone].mkv",
+                "destination_dir": "/home/ray/Pictures",
+                "hbfd": false,
+                "hbfd_feature": false,
+                "live_duration": 15.0,
+                "presets_window_height": 683,
+                "presets_window_width": 1226,
+                "preview_count": 10.0,
+                "preview_show_crop": false,
+                "preview_x": -1,
+                "preview_y": -1,
+                "reduce_hd_preview": true,
+                "show_queue_sidebar": true,
+                "use_dvdnav": true,
+                "version": "0.1",
+                "window_height": 1341,
+                "window_width": 1124
+            },
+            "PreferredLanguage": "any",
+            "PresetCategory": "new",
+            "PresetDescription": "Ray's AV1-CPU",
+            "PresetDisabled": false,
+            "PresetFullName": "/My Presets/AV1-10bit CPU",
+            "PresetName": "AV1-10bit CPU",
+            "PtoPType": "chapter",
+            "QueueWhenComplete": "nothing",
+            "SrtCodeset": "ISO-8859-1",
+            "SubtitleAddCC": false,
+            "SubtitleAddForeignAudioSearch": true,
+            "SubtitleAddForeignAudioSubtitle": false,
+            "SubtitleBurnBDSub": true,
+            "SubtitleBurnBehavior": "foreign",
+            "SubtitleBurnDVDSub": true,
+            "SubtitleLanguageList": [
+                "any"
+            ],
+            "SubtitleTrack": "0",
+            "SubtitleTrackSelectionBehavior": "all",
+            "Type": 1,
+            "UsesPictureFilters": true,
+            "VideoAvgBitrate": 6000.0,
+            "VideoColorMatrixCodeOverride": 0,
+            "VideoEncoder": "VP9_10bit",
+            "VideoFramerate": "auto",
+            "VideoFramerateCFR": false,
+            "VideoFramerateMode": "vfr",
+            "VideoFrameratePFR": false,
+            "VideoFramerateVFR": true,
+            "VideoGrayScale": false,
+            "VideoHWDecode": 0,
+            "VideoLevel": "auto",
+            "VideoMultiPass": true,
+            "VideoOptionExtra": "",
+            "VideoPreset": "slower",
+            "VideoPresetSlider": 5.0,
+            "VideoProfile": "auto",
+            "VideoQSVDecode": false,
+            "VideoQualitySlider": 19,
+            "VideoQualityType": 1,
+            "VideoScaler": "swscale",
+            "VideoTune": "none",
+            "VideoTurboMultiPass": true,
+            "activity_location": "/home/ray/.config/ghb/Activity.log.42115",
+            "angle": 1.0,
+            "angle_count": 1,
+            "chapter_list": [],
+            "crop_mode": "auto",
+            "dest_dir": "/home/ray/Pictures",
+            "dest_file": "S01ED03-Hawatari 2-oku Centi [Maximum The Hormone].mkv",
+            "destination": "/home/ray/Pictures/S01ED03-Hawatari 2-oku Centi [Maximum The Hormone].mkv",
+            "end_point": 1.0,
+            "final_aspect_ratio": "16:9",
+            "final_storage_size": "1920 x 1080",
+            "hflip": false,
+            "job_status": 0,
+            "job_unique_id": 0,
+            "preset_modified": true,
+            "preset_reload": false,
+            "preview_frame": 2,
+            "resolution_limit": "none",
+            "rotate": "0",
+            "scale_height": 1080.0,
+            "scale_width": 1920.0,
+            "single_title": 1,
+            "source": "/mnt/HDD/Media(2)/Chainsaw Man Season 1/Songs/S01ED03-Hawatari 2-oku Centi [Maximum The Hormone].mkv",
+            "source_aspect_ratio": "16:9",
+            "source_display_size": "1920 x 1080",
+            "source_height": 1080,
+            "source_label": "S01ED03-Hawatari 2-oku Centi [Maximum The Hormone]",
+            "source_storage_size": "1920 x 1080",
+            "source_width": 1920,
+            "start_frame": -1,
+            "start_point": 1.0,
+            "title": "1",
+            "title_selected": false,
+            "volume": "S01ED03-Hawatari 2-oku Centi [Maximum The Hormone]",
+            "vquality_type_bitrate": true,
+            "vquality_type_constant": false,
+            "x264FastDecode": false,
+            "x264Option": "",
+            "x264UseAdvancedOptions": false,
+            "x264ZeroLatency": false
+        }
+    }
+]

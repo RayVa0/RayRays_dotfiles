@@ -1,0 +1,1566 @@
+Handbrake Version: 20250220183715-e117cfe7f-makepkg (2025081101)
+[13:29:01] gtkgui: Modified Custom Preset: /My Presets/AV1-10bit CPU
+[13:29:01] Starting work at: Tue Aug 12 13:29:01 2025
+
+[13:29:01] 1 job(s) to process
+[13:29:01] json job:
+{
+    "Audio": {
+        "AudioList": [
+            {
+                "Bitrate": 320,
+                "CompressionLevel": -1.0,
+                "DRC": 0.0,
+                "DitherMethod": "auto",
+                "Encoder": "av_aac",
+                "Gain": 0.0,
+                "Mixdown": "stereo",
+                "NormalizeMixLevel": false,
+                "PresetEncoder": "av_aac",
+                "Quality": -3.0,
+                "Samplerate": 0,
+                "Track": 0
+            }
+        ],
+        "CopyMask": [
+            "copy:aac",
+            "copy:flac",
+            "copy:opus"
+        ],
+        "FallbackEncoder": "av_aac"
+    },
+    "Destination": {
+        "AlignAVStart": false,
+        "ChapterList": [
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 1,
+                    "Seconds": 32,
+                    "Ticks": 8288280
+                },
+                "Name": ""
+            }
+        ],
+        "ChapterMarkers": false,
+        "File": "/home/ray/Pictures/Slower_CPU_VP9-10bit_3000kbpsmultipass_.mkv",
+        "InlineParameterSets": false,
+        "Mux": "mkv",
+        "Options": {
+            "IpodAtom": false,
+            "Optimize": false
+        }
+    },
+    "Filters": {
+        "FilterList": [
+            {
+                "ID": 4,
+                "Settings": {
+                    "block-height": "16",
+                    "block-thresh": "40",
+                    "block-width": "16",
+                    "filter-mode": "2",
+                    "mode": "3",
+                    "motion-thresh": "1",
+                    "spatial-metric": "2",
+                    "spatial-thresh": "1"
+                }
+            },
+            {
+                "ID": 6,
+                "Settings": {
+                    "mode": "7"
+                }
+            },
+            {
+                "ID": 11,
+                "Settings": {
+                    "mode": 0
+                }
+            },
+            {
+                "ID": 20,
+                "Settings": {
+                    "crop-bottom": 0,
+                    "crop-left": 0,
+                    "crop-right": 0,
+                    "crop-top": 0,
+                    "height": 1080,
+                    "width": 1920
+                }
+            }
+        ]
+    },
+    "Metadata": {
+        "Name": "S01ED03-TTGA"
+    },
+    "PAR": {
+        "Den": 1,
+        "Num": 1
+    },
+    "SequenceID": 0,
+    "Source": {
+        "Angle": 0,
+        "HWDecode": 0,
+        "KeepDuplicateTitles": false,
+        "Path": "/mnt/HDD/Media(2)/Chainsaw Man Season 1/Songs/S01ED03-Hawatari 2-oku Centi [Maximum The Hormone].mkv",
+        "Range": {
+            "End": 1,
+            "Start": 1,
+            "Type": "chapter"
+        },
+        "Title": 1
+    },
+    "Subtitle": {
+        "Search": {
+            "Burn": true,
+            "Default": false,
+            "Enable": false,
+            "Forced": false
+        },
+        "SubtitleList": []
+    },
+    "Video": {
+        "Bitrate": 1000,
+        "ChromaLocation": 1,
+        "ColorInputFormat": 0,
+        "ColorMatrix": 1,
+        "ColorOutputFormat": 0,
+        "ColorPrimaries": 1,
+        "ColorRange": 1,
+        "ColorTransfer": 1,
+        "Encoder": "VP9_10bit",
+        "HardwareDecode": 0,
+        "Level": "auto",
+        "MultiPass": true,
+        "Options": "",
+        "Preset": "slower",
+        "Profile": "auto",
+        "QSV": {
+            "AdapterIndex": 0,
+            "AsyncDepth": 0,
+            "Decode": false
+        },
+        "Tune": "",
+        "Turbo": false
+    }
+}
+[13:29:01] CPU: AMD Ryzen 7 5800X3D 8-Core Processor
+[13:29:01]  - logical processor count: 16
+[13:29:01] Intel Quick Sync Video support: no
+[13:29:01] hb_scan: path=/mnt/HDD/Media(2)/Chainsaw Man Season 1/Songs/S01ED03-Hawatari 2-oku Centi [Maximum The Hormone].mkv, title_index=1
+Input #0, matroska,webm, from '/mnt/HDD/Media(2)/Chainsaw Man Season 1/Songs/S01ED03-Hawatari 2-oku Centi [Maximum The Hormone].mkv':
+  Metadata:
+    title           : S01ED03-TTGA
+    encoder         : libebml v1.4.2 + libmatroska v1.6.4
+    creation_time   : 2023-02-02T09:01:20.000000Z
+  Duration: 00:01:32.09, start: 0.000000, bitrate: 36735 kb/s
+  Stream #0:0: Video: h264 (High), yuv420p(progressive), 1920x1080 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+      Metadata:
+        title           : Presented By TTGA@EMBER
+        BPS             : 35278985
+        DURATION        : 00:01:32.092000000
+        NUMBER_OF_FRAMES: 2208
+        NUMBER_OF_BYTES : 406114042
+        _STATISTICS_WRITING_APP: mkvmerge v69.0.0 ('Day And Age') 64-bit
+        _STATISTICS_WRITING_DATE_UTC: 2023-02-02 09:01:20
+        _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:1(jpn): Audio: flac, 48000 Hz, stereo, s32 (24 bit) (default)
+      Metadata:
+        BPS             : 1448509
+        DURATION        : 00:01:32.090000000
+        NUMBER_OF_FRAMES: 1080
+        NUMBER_OF_BYTES : 16674158
+        _STATISTICS_WRITING_APP: mkvmerge v69.0.0 ('Day And Age') 64-bit
+        _STATISTICS_WRITING_DATE_UTC: 2023-02-02 09:01:20
+        _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:2: Video: mjpeg (Baseline), yuvj444p(pc, bt470bg/unknown/unknown), 640x360 [SAR 72:72 DAR 16:9], 90k tbr, 90k tbn (attached pic)
+      Metadata:
+        filename        : cover.jpg
+        mimetype        : image/jpeg
+[13:29:01] scan: decoding previews for title 1
+[13:29:01] scan: audio 0x1: flac, rate=48000Hz, bitrate=1 日本語 (FLAC, 2.0 ch)
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:01.404: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:01.404: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:01.404: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:01.404: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:01.405: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:01.405: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:01.405: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:01.405: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:01.406: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:01.406: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:01.406: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:01.406: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:01.406: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:01.406: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:01.406: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:01.406: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:01.406: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:01.406: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:01.406: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:01.406: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:01.406: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:01.406: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:01.406: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:01.406: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:01.407: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:01.407: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:01.407: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:01.407: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+[13:29:02] using container PAR 1:1
+[13:29:02] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1, color profile: 1-1-1, chroma location: left
+[13:29:02] libhb: scan thread found 1 valid title(s)
+[13:29:02] Starting Task: Analysis Pass
+[13:29:02] work: skipping crop/scale filter
+[13:29:02] job configuration:
+[13:29:02]  * source
+[13:29:02]    + /mnt/HDD/Media(2)/Chainsaw Man Season 1/Songs/S01ED03-Hawatari 2-oku Centi [Maximum The Hormone].mkv
+[13:29:02]    + title 1, chapter(s) 1 to 1
+[13:29:02]    + container: matroska,webm
+[13:29:02]    + data rate: 36735 kbps
+[13:29:02]  * destination
+[13:29:02]    + /home/ray/Pictures/Slower_CPU_VP9-10bit_3000kbpsmultipass_.mkv
+[13:29:02]    + container: Matroska (libavformat)
+[13:29:02]  * video track
+[13:29:02]    + decoder: h264 8-bit (yuv420p)
+[13:29:02]    + filters
+[13:29:02]      + Comb Detect (mode=3:spatial-metric=2:motion-thresh=1:spatial-thresh=1:filter-mode=2:block-thresh=40:block-width=16:block-height=16)
+[13:29:02]      + Decomb (mode=39)
+[13:29:02]      + Framerate Shaper (mode=0)
+[13:29:02]        + frame rate: same as source (around 23.976 fps)
+[13:29:02]      + Format (format=yuv420p10le)
+[13:29:02]    + Output geometry
+[13:29:02]      + storage dimensions: 1920 x 1080
+[13:29:02]      + pixel aspect ratio: 1 : 1
+[13:29:02]      + display dimensions: 1920 x 1080
+[13:29:02]    + encoder: VP9 10-bit (libvpx)
+[13:29:02]      + preset:  slower
+[13:29:02]      + bitrate: 1000 kbps, pass: 1
+[13:29:02]      + color profile: 1-1-1
+[13:29:02]      + color range: tv
+[13:29:02]      + chroma location: left
+[13:29:02]  * audio track 1
+[13:29:02]    + decoder: 日本語 (FLAC, 2.0 ch) (track 1, id 0x1)
+[13:29:02]      + samplerate: 48000 Hz
+[13:29:02]    + mixdown: Stereo
+[13:29:02]    + encoder: AAC (libavcodec)
+[13:29:02]      + bitrate: 320 kbps, samplerate: 48000 Hz
+[13:29:02] sync: expecting 2208 video frames
+[13:29:02] encavcodecInit: VP9 encoder
+[13:29:02] encavcodec: encoding with stored aspect 1/1
+[13:29:02] sync: first pts video is 0
+[13:29:02] sync: Chapter 1 at frame 1 time 0
+[13:29:02] sync: first pts audio 0x1 is 0
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:03.881: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:03.881: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:03.882: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:03.882: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:03.883: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:03.883: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:03.883: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:03.883: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:03.884: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:03.884: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:03.884: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:03.884: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:03.885: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:03.885: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:03.885: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:03.885: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:03.885: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:03.885: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:03.885: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:03.885: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:03.885: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:03.885: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:03.885: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:03.885: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:03.887: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:03.887: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:03.887: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:03.887: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:04.713: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:04.713: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:04.713: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:04.713: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:04.714: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:04.714: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:04.714: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:04.714: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:04.715: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:04.715: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:04.715: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:04.715: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:04.716: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:04.716: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:04.716: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:04.716: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:04.716: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:04.716: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:04.716: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:04.716: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:04.716: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:04.716: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:04.716: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:04.716: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:04.717: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:04.717: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:04.717: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:04.717: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:06.246: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:06.246: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:06.246: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:06.246: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:06.247: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:06.247: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:06.247: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:06.247: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:06.248: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:06.248: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:06.248: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:06.248: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:06.249: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:06.250: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:06.250: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:06.250: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:06.250: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:06.250: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:06.250: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:06.250: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:06.250: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:06.250: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:06.250: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:06.250: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:06.251: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:06.251: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:06.251: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:29:06.251: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+[13:29:32] reader: done. 1 scr changes
+[13:29:33] work: average encoding speed for job is 72.320908 fps
+[13:29:33] comb detect: heavy 168 | light 765 | uncombed 1275 | total 2208
+[13:29:33] decomb: deinterlaced 168 | blended 765 | unfiltered 1275 | total 2208
+[13:29:33] vfr: 2208 frames output, 0 dropped
+[13:29:33] vfr: lost time: 0 (0 frames)
+[13:29:33] vfr: gained time: 0 (0 frames) (0 not accounted for)
+[13:29:33] flac-decoder done: 1080 frames, 0 decoder errors
+[13:29:33] h264-decoder done: 2208 frames, 0 decoder errors
+[13:29:33] sync: got 2208 frames, 2208 expected
+[13:29:33] sync: framerate min 23.976 fps, max 23.976 fps, avg 23.976 fps
+[13:29:33] Starting Task: Encoding Pass
+[13:29:33] work: skipping crop/scale filter
+[13:29:33] job configuration:
+[13:29:33]  * source
+[13:29:33]    + /mnt/HDD/Media(2)/Chainsaw Man Season 1/Songs/S01ED03-Hawatari 2-oku Centi [Maximum The Hormone].mkv
+[13:29:33]    + title 1, chapter(s) 1 to 1
+[13:29:33]    + container: matroska,webm
+[13:29:33]    + data rate: 36735 kbps
+[13:29:33]  * destination
+[13:29:33]    + /home/ray/Pictures/Slower_CPU_VP9-10bit_3000kbpsmultipass_.mkv
+[13:29:33]    + container: Matroska (libavformat)
+[13:29:33]  * video track
+[13:29:33]    + decoder: h264 8-bit (yuv420p)
+[13:29:33]    + filters
+[13:29:33]      + Comb Detect (mode=3:spatial-metric=2:motion-thresh=1:spatial-thresh=1:filter-mode=2:block-thresh=40:block-width=16:block-height=16)
+[13:29:33]      + Decomb (mode=39)
+[13:29:33]      + Framerate Shaper (mode=0)
+[13:29:33]        + frame rate: same as source (around 23.976 fps)
+[13:29:33]      + Format (format=yuv420p10le)
+[13:29:33]    + Output geometry
+[13:29:33]      + storage dimensions: 1920 x 1080
+[13:29:33]      + pixel aspect ratio: 1 : 1
+[13:29:33]      + display dimensions: 1920 x 1080
+[13:29:33]    + encoder: VP9 10-bit (libvpx)
+[13:29:33]      + preset:  slower
+[13:29:33]      + bitrate: 1000 kbps, pass: 2
+[13:29:33]      + color profile: 1-1-1
+[13:29:33]      + color range: tv
+[13:29:33]      + chroma location: left
+[13:29:33]  * audio track 1
+[13:29:33]    + decoder: 日本語 (FLAC, 2.0 ch) (track 1, id 0x1)
+[13:29:33]      + samplerate: 48000 Hz
+[13:29:33]    + mixdown: Stereo
+[13:29:33]    + encoder: AAC (libavcodec)
+[13:29:33]      + bitrate: 320 kbps, samplerate: 48000 Hz
+[13:29:33] sync: expecting 2208 video frames
+[13:29:33] encavcodecInit: VP9 encoder
+[13:29:33] encavcodec: encoding with stored aspect 1/1
+[13:29:34] sync: first pts video is 0
+[13:29:34] sync: Chapter 1 at frame 1 time 0
+[13:29:34] sync: first pts audio 0x1 is 0
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:05.829: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:05.829: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:05.829: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:05.829: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:05.830: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:05.830: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:05.830: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:05.830: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:05.830: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:05.830: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:05.830: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:05.830: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:05.831: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:05.831: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:05.831: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:05.831: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:05.831: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:05.831: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:05.831: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:05.831: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:05.831: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:05.831: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:05.831: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:05.831: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:05.832: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:05.832: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:05.832: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:05.832: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.137: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.137: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.137: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.137: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.138: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.138: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.138: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.138: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.139: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.139: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.139: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.139: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.140: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.140: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.140: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.140: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.140: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.140: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.140: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.140: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.140: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.140: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.140: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.140: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.141: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.141: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.141: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.141: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.464: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.464: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.464: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.464: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.466: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.466: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.466: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.466: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.467: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.467: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.467: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.467: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.468: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.468: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.468: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.468: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.468: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.468: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.468: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.468: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.468: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.468: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.468: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.468: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.469: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.469: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.469: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:06.469: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:19.354: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:19.354: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:19.354: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:19.354: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:19.372: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:19.372: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:19.372: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:19.372: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:26.639: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:26.639: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:26.639: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:26.639: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:26.665: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:26.665: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:26.665: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:26.665: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:26.671: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:26.671: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:26.671: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:34:26.671: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:29.052: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:29.052: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:29.052: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:29.052: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:29.053: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:29.053: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:29.053: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:29.053: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:29.054: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:29.054: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:29.054: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:29.054: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:29.055: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:29.055: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:29.055: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:29.055: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:29.055: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:29.055: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:29.055: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:29.055: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:29.056: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:29.056: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:29.056: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:29.056: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:29.056: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:29.056: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:29.056: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:29.056: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.538: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.538: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.538: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.538: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.539: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.539: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.539: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.539: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.540: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.540: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.540: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.540: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.541: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.541: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.541: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.541: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.541: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.541: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.541: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.541: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.541: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.541: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.541: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.541: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.542: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.542: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.542: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.542: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.618: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.618: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.618: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.618: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.619: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.619: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.619: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.619: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.620: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.620: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.620: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.620: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.621: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.621: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.621: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.621: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.621: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.621: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.621: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.621: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.621: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.621: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.621: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.621: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.622: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.622: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.622: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:36.622: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:37.282: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:37.282: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:37.282: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:37.282: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:37.283: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:37.283: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:37.283: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:37.283: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:37.284: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:37.284: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:37.284: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:37.284: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:37.284: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:37.284: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:37.284: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:37.284: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:37.284: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:37.284: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:37.284: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:37.284: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:37.285: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:37.285: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:37.285: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:37.285: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:37.285: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:37.285: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:37.285: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:37.285: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:39.940: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:39.940: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:39.940: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:39.940: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:39.941: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:39.941: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:39.941: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:39.941: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:39.942: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:39.942: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:39.942: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:39.942: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:39.943: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:39.943: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:39.943: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:39.943: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:39.943: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:39.943: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:39.943: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:39.943: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:39.943: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:39.943: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:39.943: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:39.943: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:39.944: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:39.944: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:39.944: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:39.944: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.683: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.683: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.683: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.683: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.684: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.684: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.684: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.684: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.685: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.685: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.685: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.685: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.686: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.686: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.686: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.686: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.687: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.687: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.687: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.687: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.687: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.687: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.687: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.687: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.688: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.688: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.688: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.688: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.721: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.721: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.721: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.721: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.723: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.723: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.723: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.723: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.724: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.724: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.724: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.724: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.725: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.725: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.725: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.725: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.725: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.725: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.725: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.725: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.725: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.725: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.725: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.725: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.726: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.726: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.726: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:41.726: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.112: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.112: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.112: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.112: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.113: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.113: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.113: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.113: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.114: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.114: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.114: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.114: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.115: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.115: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.115: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.115: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.115: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.115: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.115: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.115: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.115: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.115: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.115: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.115: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.116: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.116: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.116: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.116: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.259: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.259: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.259: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.259: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.260: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.260: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.260: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.260: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.261: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.261: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.261: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.261: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.262: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.262: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.262: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.262: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.262: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.262: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.262: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.262: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.262: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.262: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.262: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.262: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.263: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.263: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.263: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:42.263: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.125: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.125: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.125: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.125: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.126: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.126: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.126: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.126: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.126: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.126: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.126: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.126: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.127: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.127: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.127: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.127: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.127: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.127: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.127: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.127: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.127: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.127: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.127: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.127: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.128: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.128: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.128: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.128: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.916: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.916: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.916: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.916: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.920: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.920: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.920: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.920: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.921: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.921: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.921: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.921: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.923: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.923: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.923: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.923: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.923: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.923: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.923: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.923: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.923: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.923: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.923: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.923: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.925: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.925: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.925: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:37:44.925: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:38:19.610: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:38:19.610: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:38:19.610: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:38:19.610: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:38:19.611: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:38:19.611: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:38:19.611: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:38:19.611: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:38:19.612: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:38:19.612: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:38:19.612: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:38:19.612: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:38:19.613: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:38:19.613: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:38:19.613: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:38:19.613: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:38:19.613: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:38:19.613: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:38:19.613: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:38:19.613: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:38:19.614: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:38:19.614: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:38:19.614: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:38:19.614: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:38:19.615: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:38:19.615: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:38:19.615: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:38:19.615: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+[13:43:06] reader: done. 1 scr changes
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:43:58.001: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:43:58.001: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:43:58.001: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:43:58.001: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:43:58.003: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:43:58.003: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:43:58.003: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:43:58.003: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:43:58.004: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:43:58.004: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:43:58.004: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:43:58.004: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:43:58.005: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:43:58.005: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:43:58.005: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:43:58.005: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:43:58.005: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:43:58.005: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:43:58.005: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:43:58.005: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:43:58.005: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:43:58.005: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:43:58.005: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:43:58.005: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:43:58.007: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:43:58.007: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:43:58.007: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:43:58.007: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:04.702: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:04.702: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:04.702: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:04.702: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:04.704: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:04.704: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:04.704: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:04.704: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:04.705: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:04.705: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:04.705: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:04.705: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:04.706: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:04.706: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:04.706: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:04.706: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:04.706: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:04.706: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:04.706: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:04.706: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:04.706: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:04.706: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:04.706: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:04.706: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:04.707: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:04.707: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:04.707: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:04.707: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:08.764: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:08.764: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:08.764: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:08.764: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:08.766: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:08.766: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:08.766: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:08.766: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:08.767: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:08.767: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:08.767: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:08.767: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:08.768: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:08.768: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:08.768: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:08.768: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:08.768: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:08.768: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:08.768: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:08.768: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:08.768: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:08.768: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:08.769: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:08.769: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:08.770: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:08.770: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:08.770: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 13:44:08.770: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+[13:44:17] work: average encoding speed for job is 2.606369 fps
+[13:44:17] comb detect: heavy 168 | light 765 | uncombed 1275 | total 2208
+[13:44:17] decomb: deinterlaced 168 | blended 765 | unfiltered 1275 | total 2208
+[13:44:17] vfr: 2208 frames output, 0 dropped
+[13:44:17] vfr: lost time: 0 (0 frames)
+[13:44:17] vfr: gained time: 0 (0 frames) (0 not accounted for)
+[13:44:17] flac-decoder done: 1080 frames, 0 decoder errors
+[13:44:17] h264-decoder done: 2208 frames, 0 decoder errors
+[13:44:17] sync: got 2208 frames, 2208 expected
+[13:44:17] sync: framerate min 23.976 fps, max 23.976 fps, avg 23.976 fps
+[13:44:17] mux: track 0, 2208 frames, 11474989 bytes, 996.38 kbps, fifo 2048
+[13:44:17] mux: track 1, 4317 frames, 3477374 bytes, 301.94 kbps, fifo 4096
+[13:44:17] Finished work at: Tue Aug 12 13:44:17 2025
+
+[13:44:17] libhb: work result = 0

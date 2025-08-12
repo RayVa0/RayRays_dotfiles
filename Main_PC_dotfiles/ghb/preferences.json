@@ -43,8 +43,8 @@
         "allow_tweaks": false,
         "auto_name": true,
         "auto_name_template": "{source}",
-        "default_source": "/mnt/HDD/Media(2)/Chainsaw Man Season 1/Songs/S01ED05-In The Backroom [syudou].mkv",
-        "destination_dir": "/home/ray/Pictures",
+        "default_source": "/mnt/HDD/Media(2)/Chainsaw Man Season 1/Songs/S01ED03-Hawatari 2-oku Centi [Maximum The Hormone].mkv",
+        "destination_dir": "/mnt/SATA_SSD/Photos/Encoding",
         "hbfd": false,
         "hbfd_feature": false,
         "live_duration": 15,
@@ -58,7 +58,7 @@
         "show_queue_sidebar": true,
         "use_dvdnav": true,
         "version": "0.1",
-        "window_height": 699,
-        "window_width": 1266
+        "window_height": 1341,
+        "window_width": 1296
     }
 }

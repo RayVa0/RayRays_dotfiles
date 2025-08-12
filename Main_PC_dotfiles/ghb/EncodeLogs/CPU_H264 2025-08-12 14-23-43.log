@@ -1,0 +1,555 @@
+Handbrake Version: 20250220183715-e117cfe7f-makepkg (2025081101)
+[14:23:43] gtkgui: Modified Custom Preset: /My Presets/AV1-10bit CPU
+[14:23:43] Starting work at: Tue Aug 12 14:23:43 2025
+
+[14:23:43] 1 job(s) to process
+[14:23:43] json job:
+{
+    "Audio": {
+        "AudioList": [
+            {
+                "Bitrate": 320,
+                "CompressionLevel": -1.0,
+                "DRC": 0.0,
+                "DitherMethod": "auto",
+                "Encoder": "av_aac",
+                "Gain": 0.0,
+                "Mixdown": "stereo",
+                "NormalizeMixLevel": false,
+                "PresetEncoder": "av_aac",
+                "Quality": -3.0,
+                "Samplerate": 0,
+                "Track": 0
+            }
+        ],
+        "CopyMask": [
+            "copy:aac",
+            "copy:flac",
+            "copy:opus"
+        ],
+        "FallbackEncoder": "av_aac"
+    },
+    "Destination": {
+        "AlignAVStart": false,
+        "ChapterList": [
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 1,
+                    "Seconds": 32,
+                    "Ticks": 8288280
+                },
+                "Name": ""
+            }
+        ],
+        "ChapterMarkers": false,
+        "File": "/mnt/SATA_SSD/Photos/Encoding/CPU_H264.mkv",
+        "InlineParameterSets": false,
+        "Mux": "mkv",
+        "Options": {
+            "IpodAtom": false,
+            "Optimize": false
+        }
+    },
+    "Filters": {
+        "FilterList": [
+            {
+                "ID": 4,
+                "Settings": {
+                    "block-height": "16",
+                    "block-thresh": "40",
+                    "block-width": "16",
+                    "filter-mode": "2",
+                    "mode": "3",
+                    "motion-thresh": "1",
+                    "spatial-metric": "2",
+                    "spatial-thresh": "1"
+                }
+            },
+            {
+                "ID": 6,
+                "Settings": {
+                    "mode": "7"
+                }
+            },
+            {
+                "ID": 11,
+                "Settings": {
+                    "mode": 0
+                }
+            },
+            {
+                "ID": 20,
+                "Settings": {
+                    "crop-bottom": 0,
+                    "crop-left": 0,
+                    "crop-right": 0,
+                    "crop-top": 0,
+                    "height": 1080,
+                    "width": 1920
+                }
+            }
+        ]
+    },
+    "Metadata": {
+        "Name": "S01ED03-TTGA"
+    },
+    "PAR": {
+        "Den": 1,
+        "Num": 1
+    },
+    "SequenceID": 0,
+    "Source": {
+        "Angle": 0,
+        "HWDecode": 0,
+        "KeepDuplicateTitles": false,
+        "Path": "/mnt/HDD/Media(2)/Chainsaw Man Season 1/Songs/S01ED03-Hawatari 2-oku Centi [Maximum The Hormone].mkv",
+        "Range": {
+            "End": 1,
+            "Start": 1,
+            "Type": "chapter"
+        },
+        "Title": 1
+    },
+    "Subtitle": {
+        "Search": {
+            "Burn": true,
+            "Default": false,
+            "Enable": false,
+            "Forced": false
+        },
+        "SubtitleList": []
+    },
+    "Video": {
+        "Bitrate": 256,
+        "ChromaLocation": 1,
+        "ColorInputFormat": 0,
+        "ColorMatrix": 1,
+        "ColorOutputFormat": 0,
+        "ColorPrimaries": 1,
+        "ColorRange": 1,
+        "ColorTransfer": 1,
+        "Encoder": "x264",
+        "HardwareDecode": 0,
+        "Level": "auto",
+        "MultiPass": false,
+        "Options": "",
+        "Preset": "veryslow",
+        "Profile": "auto",
+        "QSV": {
+            "AdapterIndex": 0,
+            "AsyncDepth": 0,
+            "Decode": false
+        },
+        "Tune": "",
+        "Turbo": false
+    }
+}
+[14:23:43] CPU: AMD Ryzen 7 5800X3D 8-Core Processor
+[14:23:43]  - logical processor count: 16
+[14:23:43] Intel Quick Sync Video support: no
+[14:23:43] hb_scan: path=/mnt/HDD/Media(2)/Chainsaw Man Season 1/Songs/S01ED03-Hawatari 2-oku Centi [Maximum The Hormone].mkv, title_index=1
+Input #0, matroska,webm, from '/mnt/HDD/Media(2)/Chainsaw Man Season 1/Songs/S01ED03-Hawatari 2-oku Centi [Maximum The Hormone].mkv':
+  Metadata:
+    title           : S01ED03-TTGA
+    encoder         : libebml v1.4.2 + libmatroska v1.6.4
+    creation_time   : 2023-02-02T09:01:20.000000Z
+  Duration: 00:01:32.09, start: 0.000000, bitrate: 36735 kb/s
+  Stream #0:0: Video: h264 (High), yuv420p(progressive), 1920x1080 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+      Metadata:
+        title           : Presented By TTGA@EMBER
+        BPS             : 35278985
+        DURATION        : 00:01:32.092000000
+        NUMBER_OF_FRAMES: 2208
+        NUMBER_OF_BYTES : 406114042
+        _STATISTICS_WRITING_APP: mkvmerge v69.0.0 ('Day And Age') 64-bit
+        _STATISTICS_WRITING_DATE_UTC: 2023-02-02 09:01:20
+        _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:1(jpn): Audio: flac, 48000 Hz, stereo, s32 (24 bit) (default)
+      Metadata:
+        BPS             : 1448509
+        DURATION        : 00:01:32.090000000
+        NUMBER_OF_FRAMES: 1080
+        NUMBER_OF_BYTES : 16674158
+        _STATISTICS_WRITING_APP: mkvmerge v69.0.0 ('Day And Age') 64-bit
+        _STATISTICS_WRITING_DATE_UTC: 2023-02-02 09:01:20
+        _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:2: Video: mjpeg (Baseline), yuvj444p(pc, bt470bg/unknown/unknown), 640x360 [SAR 72:72 DAR 16:9], 90k tbr, 90k tbn (attached pic)
+      Metadata:
+        filename        : cover.jpg
+        mimetype        : image/jpeg
+[14:23:43] scan: decoding previews for title 1
+[14:23:43] scan: audio 0x1: flac, rate=48000Hz, bitrate=1 日本語 (FLAC, 2.0 ch)
+[14:23:44] using container PAR 1:1
+[14:23:44] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1, color profile: 1-1-1, chroma location: left
+[14:23:44] libhb: scan thread found 1 valid title(s)
+[14:23:44] Starting Task: Encoding Pass
+[14:23:44] work: skipping crop/scale filter
+[14:23:44] job configuration:
+[14:23:44]  * source
+[14:23:44]    + /mnt/HDD/Media(2)/Chainsaw Man Season 1/Songs/S01ED03-Hawatari 2-oku Centi [Maximum The Hormone].mkv
+[14:23:44]    + title 1, chapter(s) 1 to 1
+[14:23:44]    + container: matroska,webm
+[14:23:44]    + data rate: 36735 kbps
+[14:23:44]  * destination
+[14:23:44]    + /mnt/SATA_SSD/Photos/Encoding/CPU_H264.mkv
+[14:23:44]    + container: Matroska (libavformat)
+[14:23:44]  * video track
+[14:23:44]    + decoder: h264 8-bit (yuv420p)
+[14:23:44]    + filters
+[14:23:44]      + Comb Detect (mode=3:spatial-metric=2:motion-thresh=1:spatial-thresh=1:filter-mode=2:block-thresh=40:block-width=16:block-height=16)
+[14:23:44]      + Decomb (mode=39)
+[14:23:44]      + Framerate Shaper (mode=0)
+[14:23:44]        + frame rate: same as source (around 23.976 fps)
+[14:23:44]    + Output geometry
+[14:23:44]      + storage dimensions: 1920 x 1080
+[14:23:44]      + pixel aspect ratio: 1 : 1
+[14:23:44]      + display dimensions: 1920 x 1080
+[14:23:44]    + encoder: H.264 (libx264)
+[14:23:44]      + preset:  veryslow
+[14:23:44]      + profile: auto
+[14:23:44]      + level:   auto
+[14:23:44]      + bitrate: 256 kbps, pass: 0
+[14:23:44]      + color profile: 1-1-1
+[14:23:44]      + color range: tv
+[14:23:44]      + chroma location: left
+[14:23:44]  * audio track 1
+[14:23:44]    + decoder: 日本語 (FLAC, 2.0 ch) (track 1, id 0x1)
+[14:23:44]      + samplerate: 48000 Hz
+[14:23:44]    + mixdown: Stereo
+[14:23:44]    + encoder: AAC (libavcodec)
+[14:23:44]      + bitrate: 320 kbps, samplerate: 48000 Hz
+[14:23:44] sync: expecting 2208 video frames
+[14:23:44] encx264: min-keyint: 24, keyint: 240
+[14:23:44] encx264: encoding at average bitrate 256
+[14:23:44] encx264: unparsed options: ref=16:bframes=8:b-adapt=2:direct=auto:analyse=all:me=umh:merange=24:subme=10:trellis=2:rc-lookahead=60
+x264 [info]: using SAR=1/1
+x264 [info]: using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+x264 [info]: profile High, level 5.1, 4:2:0, 8-bit
+[14:23:44] sync: first pts video is 0
+[14:23:44] sync: Chapter 1 at frame 1 time 0
+[14:23:44] sync: first pts audio 0x1 is 0
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:02.260: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:02.260: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:02.260: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:02.260: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:02.261: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:02.261: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:02.261: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:02.261: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:02.262: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:02.262: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:02.262: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:02.262: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:02.263: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:02.263: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:02.263: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:02.263: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:02.263: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:02.263: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:02.263: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:02.263: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:02.265: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:02.265: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:02.265: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:02.265: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:07.730: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:07.730: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:07.730: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:07.730: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:07.733: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:07.733: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:07.733: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:07.733: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:07.735: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:07.735: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:07.735: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:07.735: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:07.736: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:07.736: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:07.736: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:07.736: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:07.736: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:07.736: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:07.736: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:07.736: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:07.738: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:07.738: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:07.738: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:07.738: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:08.951: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:08.951: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:08.951: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:08.951: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:08.957: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:08.957: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:08.957: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:08.957: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:08.964: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:08.964: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:08.964: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:08.964: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:08.970: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:08.970: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:08.970: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:08.970: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:08.970: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:08.970: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:08.970: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:08.970: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:08.983: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:08.983: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:08.983: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:08.983: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.768: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.768: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.768: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.768: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.771: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.771: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.771: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.771: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.772: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.772: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.772: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.772: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.773: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.773: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.773: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.773: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.773: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.773: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.773: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.773: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.775: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.775: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.775: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.775: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.831: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.831: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.831: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.831: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.832: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.832: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.832: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.832: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.833: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.833: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.833: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.833: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.834: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.834: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.834: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.834: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.834: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.834: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.834: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.834: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.835: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.835: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.835: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:42.835: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:47.240: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:47.240: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:47.240: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:47.240: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:47.241: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:47.241: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:47.242: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:47.242: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:47.242: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:47.243: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:47.243: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:47.243: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:47.243: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:47.243: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:47.243: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:47.243: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:47.244: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:47.244: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:47.244: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:47.244: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:47.245: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:47.245: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:47.245: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:16004): Gtk-CRITICAL **: 14:24:47.245: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+[14:24:48] reader: done. 1 scr changes
+[14:24:51] work: average encoding speed for job is 33.849556 fps
+[14:24:51] comb detect: heavy 168 | light 765 | uncombed 1275 | total 2208
+[14:24:52] decomb: deinterlaced 168 | blended 765 | unfiltered 1275 | total 2208
+[14:24:52] vfr: 2208 frames output, 0 dropped
+[14:24:52] vfr: lost time: 0 (0 frames)
+[14:24:52] vfr: gained time: 0 (0 frames) (0 not accounted for)
+[14:24:52] flac-decoder done: 1080 frames, 0 decoder errors
+[14:24:52] h264-decoder done: 2208 frames, 0 decoder errors
+[14:24:52] sync: got 2208 frames, 2208 expected
+[14:24:52] sync: framerate min 23.976 fps, max 23.976 fps, avg 23.976 fps
+x264 [info]: frame I:13    Avg QP:47.08  size:  4235
+x264 [info]: frame P:639   Avg QP:48.50  size:  3109
+x264 [info]: frame B:1556  Avg QP:46.27  size:   665
+x264 [info]: consecutive B-frames:  6.8%  9.3% 13.3% 22.3% 18.6% 12.5%  7.3%  5.8%  4.1%
+x264 [info]: mb I  I16..4: 16.3% 83.7%  0.0%
+x264 [info]: mb P  I16..4: 13.8% 22.3%  0.0%  P16..4:  6.8%  0.1%  0.2%  0.0%  0.0%    skip:56.8%
+x264 [info]: mb B  I16..4:  0.1%  0.1%  0.0%  B16..8:  6.4%  0.0%  0.0%  direct: 0.5%  skip:92.9%  L0:46.8% L1:52.9% BI: 0.4%
+x264 [info]: final ratefactor: 53.27
+x264 [info]: 8x8 transform intra:62.8% inter:97.8%
+x264 [info]: direct mvs  spatial:98.7% temporal:1.3%
+x264 [info]: coded y,uvDC,uvAC intra: 1.2% 17.8% 0.8% inter: 0.0% 1.4% 0.0%
+x264 [info]: i16 v,h,dc,p: 87%  9%  1%  3%
+x264 [info]: i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 13%  3% 82%  0%  0%  0%  0%  0%  0%
+x264 [info]: i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 19%  7% 22%  9% 18%  9%  7%  3%  4%
+x264 [info]: i8c dc,h,v,p: 89%  5%  5%  1%
+x264 [info]: Weighted P-Frames: Y:5.2% UV:4.1%
+x264 [info]: ref P L0: 37.2%  2.4% 21.0%  7.7%  6.1%  5.5%  5.2%  2.0%  2.0%  1.9%  1.6%  1.7%  1.4%  1.6%  1.8%  0.9%
+x264 [info]: ref B L0: 73.5% 10.1%  5.7%  1.9%  1.8%  1.4%  1.5%  0.6%  0.7%  0.5%  0.6%  0.4%  0.5%  0.4%  0.2%
+x264 [info]: ref B L1: 94.3%  5.7%
+x264 [info]: kb/s:267.23
+[14:24:52] mux: track 0, 2208 frames, 3075719 bytes, 267.07 kbps, fifo 4096
+[14:24:52] mux: track 1, 4317 frames, 3477374 bytes, 301.94 kbps, fifo 8192
+[14:24:52] Finished work at: Tue Aug 12 14:24:52 2025
+
+[14:24:52] libhb: work result = 0
