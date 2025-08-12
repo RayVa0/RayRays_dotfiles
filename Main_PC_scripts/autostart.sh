@@ -1,15 +1,22 @@
 #!/usr/bin/env bash 
 
+
+
 loginctl lock-session
 
 sh ~/Templates/auto_minimize.sh steam-native&
+sleep 0.1
 sh ~/Templates/auto_minimize.sh spotify&
+sleep 0.1
 sh ~/Templates/run.sh qbittorrent&
+sleep 0.1
 sh ~/Templates/auto_minimize.sh viber&
-sleep 1
+sleep 0.1
 sh ~/Templates/auto_minimize.sh element-desktop&
-sh ~/Templates/auto_minimize.sh vesktop&
+sleep 0.1
 sh ~/Templates/auto_minimize.sh waterfox&
+sleep 0.1
+sh ~/Templates/auto_minimize.sh vesktop&
 
 
 exit 0
