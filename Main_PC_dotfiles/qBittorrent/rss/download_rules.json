@@ -169,6 +169,46 @@
         },
         "useRegex": false
     },
+    "MuriMuri": {
+        "addPaused": null,
+        "affectedFeeds": [
+            "https://nyaa.si/?page=rss&q=ToonsHub+There%27s+No+Freaking+Way+I%27ll+Be+Your+Lover%21+Unless...+&c=1_2&f=0"
+        ],
+        "assignedCategory": "",
+        "enabled": true,
+        "episodeFilter": "",
+        "ignoreDays": 0,
+        "lastMatch": "07 Jul 2025 16:46:54 +0000",
+        "mustContain": "",
+        "mustNotContain": "",
+        "previouslyMatchedEpisodes": [
+        ],
+        "priority": 0,
+        "savePath": "/mnt/HDD/Media(2)/Watanare",
+        "smartFilter": false,
+        "torrentContentLayout": null,
+        "torrentParams": {
+            "category": "",
+            "download_limit": -1,
+            "download_path": "",
+            "inactive_seeding_time_limit": -2,
+            "operating_mode": "AutoManaged",
+            "ratio_limit": -2,
+            "save_path": "/mnt/HDD/Media(2)/Watanare",
+            "seeding_time_limit": -2,
+            "share_limit_action": "Default",
+            "skip_checking": false,
+            "ssl_certificate": "",
+            "ssl_dh_params": "",
+            "ssl_private_key": "",
+            "tags": [
+            ],
+            "upload_limit": -1,
+            "use_auto_tmm": false,
+            "use_download_path": true
+        },
+        "useRegex": false
+    },
     "flower": {
         "addPaused": null,
         "affectedFeeds": [
