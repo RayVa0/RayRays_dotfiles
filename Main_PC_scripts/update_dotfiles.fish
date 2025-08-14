@@ -22,7 +22,7 @@ set_color normal
 rm -rf ~/Downloads/RayRays_dotfiles/Main_PC_scripts/*
 cp ~/Templates/* -t ~/Downloads/RayRays_dotfiles/Main_PC_scripts/
 
-cp -r ~/Documents/useful_stuff/
+cp -r ~/Documents/useful_stuff/ -t ~/Downloads/RayRays_dotfiles/Misc/
 
 cd ~/Downloads/RayRays_dotfiles/
 

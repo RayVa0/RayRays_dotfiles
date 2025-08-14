@@ -1,0 +1,16 @@
+//png
+magick <input> -resize 100% -define png:compression-level=9 output.png
+
+//jpegxl
+jpegxl -d 3 -e 8 --faster_decoding=4 <input> output.jxl
+
+//avif
+avifenc -q 100 -s 0 <input> output.avif
+avifenc --target-size 500000 -s 0 psycho\ RT\ 4K.png avif_test_target.avif
+
+//webp
+img2webp -v -mixed -min_size -lossy -q 15 -m 6 2016\ P3M\ Box\ Art.png -o P3_lossy.webp
+magick AV1_64kb_best_effort.mp4 straight_to.webp
+
+//gif
+magick for_gif.mp4 -loop 0 +remap test_gif.gif
