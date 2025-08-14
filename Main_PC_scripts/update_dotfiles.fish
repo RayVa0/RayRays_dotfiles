@@ -57,7 +57,7 @@ set_color normal
 git add *
 git diff --cached --quiet 
 if test $status -ne 0
-    git commit -m "$date from Ada"
+    git commit -m "$date from Ada(script)"
     git push
 end
 
