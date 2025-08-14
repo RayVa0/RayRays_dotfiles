@@ -15,7 +15,7 @@ end
 set_color yellow; echo -dotfiles being copied-
 set_color normal  
 rm -rf ~/Downloads/RayRays_dotfiles/Main_PC_dotfiles/*
-cp -r ~/.config/nvim/ ~/.config/qBittorrent/ ~/.config/ghb/ ~/.config/dolphinrc ~/.config/kitty/ ~/.config/unifetch/ ~/.config/fish ~/.config/hypr ~/.config/mpv -t ~/Downloads/RayRays_dotfiles/Main_PC_dotfiles/
+cp -r ~/.config/nvim/ ~/.config/qBittorrent/ ~/.config/dolphinrc ~/.config/kitty/ ~/.config/unifetch/ ~/.config/fish ~/.config/hypr ~/.config/mpv -t ~/Downloads/RayRays_dotfiles/Main_PC_dotfiles/
 
 set_color yellow; echo -scripts being copied-
 set_color normal  
