@@ -5,9 +5,8 @@ function windowsNT
     set_color normal;
 
     switch $ans
-      case Y y 
+      case Y y '' 
         sudo grub-reboot 2
-        kdereboot
         qdbus6 org.kde.Shutdown /Shutdown logoutAndReboot
         if test $status -ne 0
             echo Ooops you are not on kde rebooting traditionally
