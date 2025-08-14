@@ -50,14 +50,14 @@ yay -Qe > ~/Downloads/RayRays_dotfiles/Main_PC_dotfiles/explicitly_installed_pac
 yay -Qe > ~/Downloads/RayRays_dotfiles/Main_PC_dotfiles/installed_packages.txt
 
 
-set date (date "+%s")
+set date (date)
 
 set_color yellow; echo -finally pushing to git-
 set_color normal  
 git add *
 git diff --cached --quiet 
 if test $status -ne 0
-    git commit -m "scripted push at UNIX epoch time: $date from Ada"
+    git commit -m "scripted push at $date from Ada"
     git push
 end
 
