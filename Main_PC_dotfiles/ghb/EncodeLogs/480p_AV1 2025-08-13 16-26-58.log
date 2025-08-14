@@ -1,0 +1,342 @@
+Handbrake Version: 20250809164749-0e6deaa61-makepkg (2025081301)
+[16:26:58] gtkgui: Modified Custom Preset: /My Presets/AV1-10bit CPU
+[16:26:58] Starting work at: Wed Aug 13 16:26:58 2025
+
+[16:26:58] 1 job(s) to process
+[16:26:58] json job:
+{
+    "Audio": {
+        "AudioList": [
+            {
+                "Bitrate": 320,
+                "CompressionLevel": -1.0,
+                "DRC": 0.0,
+                "DitherMethod": "auto",
+                "Encoder": "av_aac",
+                "Gain": 0.0,
+                "Mixdown": "stereo",
+                "Name": "Stereo",
+                "NormalizeMixLevel": false,
+                "PresetEncoder": "av_aac",
+                "Quality": -3.0,
+                "Samplerate": 0,
+                "Track": 0
+            }
+        ],
+        "CopyMask": [
+            "copy:aac",
+            "copy:flac",
+            "copy:opus"
+        ],
+        "FallbackEncoder": "av_aac"
+    },
+    "Destination": {
+        "AlignAVStart": false,
+        "ChapterList": [
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 1,
+                    "Seconds": 30,
+                    "Ticks": 8109720
+                },
+                "Name": ""
+            }
+        ],
+        "ChapterMarkers": false,
+        "File": "/mnt/SATA_SSD/Photos/Encoding/480p_AV1.mkv",
+        "InlineParameterSets": false,
+        "Mux": "mkv",
+        "Options": {
+            "IpodAtom": false,
+            "Optimize": false
+        }
+    },
+    "Filters": {
+        "FilterList": [
+            {
+                "ID": 4,
+                "Settings": {
+                    "block-height": "16",
+                    "block-thresh": "40",
+                    "block-width": "16",
+                    "filter-mode": "2",
+                    "mode": "3",
+                    "motion-thresh": "1",
+                    "spatial-metric": "2",
+                    "spatial-thresh": "1"
+                }
+            },
+            {
+                "ID": 6,
+                "Settings": {
+                    "mode": "7"
+                }
+            },
+            {
+                "ID": 11,
+                "Settings": {
+                    "mode": 0
+                }
+            },
+            {
+                "ID": 20,
+                "Settings": {
+                    "crop-bottom": 0,
+                    "crop-left": 0,
+                    "crop-right": 0,
+                    "crop-top": 0,
+                    "height": 360,
+                    "width": 640
+                }
+            }
+        ]
+    },
+    "Metadata": {},
+    "PAR": {
+        "Den": 1,
+        "Num": 1
+    },
+    "SequenceID": 0,
+    "Source": {
+        "Angle": 0,
+        "HWDecode": 0,
+        "KeepDuplicateTitles": false,
+        "Path": "/mnt/HDD/Media(2)/Extras/TVアニメ「その着せ替え人形は恋をする」Season 2│PiKi「Kawaii Kaiwai」ノンクレジットエンディング映像 [75WraMAZ0Lo].mkv",
+        "Range": {
+            "End": 1,
+            "Start": 1,
+            "Type": "chapter"
+        },
+        "Title": 1
+    },
+    "Subtitle": {
+        "Search": {
+            "Burn": true,
+            "Default": false,
+            "Enable": false,
+            "Forced": false
+        },
+        "SubtitleList": []
+    },
+    "Video": {
+        "AdapterIndex": -1,
+        "AsyncDepth": 0,
+        "ChromaLocation": 0,
+        "ColorInputFormat": 0,
+        "ColorMatrix": 1,
+        "ColorOutputFormat": 0,
+        "ColorPrimaries": 1,
+        "ColorRange": 1,
+        "ColorTransfer": 1,
+        "Encoder": "nvenc_av1_10bit",
+        "HardwareDecode": 0,
+        "Level": "auto",
+        "MultiPass": true,
+        "Options": "",
+        "PasshtruHDRDynamicMetadata": 6,
+        "Preset": "slowest",
+        "Profile": "auto",
+        "Quality": 50.0,
+        "Tune": "",
+        "Turbo": true
+    }
+}
+[16:26:58] CPU: AMD Ryzen 7 5800X3D 8-Core Processor
+[16:26:58]  - logical processor count: 16
+[16:26:58] Intel Quick Sync Video support: no
+[16:26:58] hb_scan: path=/mnt/HDD/Media(2)/Extras/TVアニメ「その着せ替え人形は恋をする」Season 2│PiKi「Kawaii Kaiwai」ノンクレジットエンディング映像 [75WraMAZ0Lo].mkv, title_index=1
+Input #0, matroska,webm, from '/mnt/HDD/Media(2)/Extras/TVアニメ「その着せ替え人形は恋をする」Season 2│PiKi「Kawaii Kaiwai」ノンクレジットエンディング映像 [75WraMAZ0Lo].mkv':
+  Metadata:
+    COMPATIBLE_BRANDS: iso6mp41
+    MAJOR_BRAND     : dash
+    MINOR_VERSION   : 0
+    ENCODER         : Lavf61.7.100
+  Duration: 00:01:30.11, start: 0.000000, bitrate: 1839 kb/s
+  Stream #0:0: Video: vp9 (Profile 0), yuv420p(tv, bt709), 1920x1080, 23.98 fps, 23.98 tbr, 1k tbn (default)
+      Metadata:
+        HANDLER_NAME    : ISO Media file produced by Google Inc. Created on: 07/29/2025.
+        VENDOR_ID       : [0][0][0][0]
+        DURATION        : 00:01:30.089000000
+  Stream #0:1(eng): Audio: opus, 48000 Hz, stereo, fltp (default)
+      Metadata:
+        DURATION        : 00:01:30.108000000
+[16:26:58] scan: decoding previews for title 1
+[16:26:58] scan: audio 0x1: opus, rate=48000Hz, bitrate=1 English (Opus, 2.0 ch)
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:26:58.640: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:26:58.640: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:26:58.640: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:26:58.640: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:26:58.641: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:26:58.641: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:26:58.641: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:26:58.641: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:26:58.642: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:26:58.642: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:26:58.642: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:26:58.642: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:26:58.642: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:26:58.642: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:26:58.642: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:26:58.642: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:26:58.642: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:26:58.642: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:26:58.642: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:26:58.642: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:26:58.642: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:26:58.642: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:26:58.642: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:26:58.642: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:26:58.643: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:26:58.643: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:26:58.643: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:26:58.643: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+[16:26:58] scan: 10 previews, 1920x1080, 23.979 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1, color profile: 1-1-1, chroma location: unspecified
+[16:26:58] libhb: scan thread found 1 valid title(s)
+[16:26:58] Starting Task: Encoding Pass
+[16:26:58] job configuration:
+[16:26:58]  * source
+[16:26:58]    + /mnt/HDD/Media(2)/Extras/TVアニメ「その着せ替え人形は恋をする」Season 2│PiKi「Kawaii Kaiwai」ノンクレジットエンディング映像 [75WraMAZ0Lo].mkv
+[16:26:58]    + title 1, chapter(s) 1 to 1
+[16:26:58]    + container: matroska,webm
+[16:26:58]    + data rate: 1839 kbps
+[16:26:58]  * destination
+[16:26:58]    + /mnt/SATA_SSD/Photos/Encoding/480p_AV1.mkv
+[16:26:58]    + container: Matroska (libavformat)
+[16:26:58]  * video track
+[16:26:58]    + decoder: vp9 8-bit (yuv420p)
+[16:26:58]    + filters
+[16:26:58]      + Comb Detect (mode=3:spatial-metric=2:motion-thresh=1:spatial-thresh=1:filter-mode=2:block-thresh=40:block-width=16:block-height=16)
+[16:26:58]      + Decomb (mode=39)
+[16:26:58]      + Framerate Shaper (mode=0)
+[16:26:58]        + frame rate: same as source (around 23.979 fps)
+[16:26:58]      + Crop and Scale (width=640:height=360:crop-top=0:crop-bottom=0:crop-left=0:crop-right=0)
+[16:26:58]        + source: 1920 * 1080, crop (0/0/0/0): 1920 * 1080, scale: 640 * 360
+[16:26:58]      + Format (format=p010le)
+[16:26:58]    + Output geometry
+[16:26:58]      + storage dimensions: 640 x 360
+[16:26:58]      + pixel aspect ratio: 1 : 1
+[16:26:58]      + display dimensions: 640 x 360
+[16:26:58]    + encoder: AV1 10-bit (NVEnc)
+[16:26:58]      + preset:  slowest
+[16:26:58]      + profile: auto
+[16:26:58]      + level:   auto
+[16:26:58]      + quality: 50.00 (CQ)
+[16:26:58]      + color profile: 1-1-1
+[16:26:58]      + color range: tv
+[16:26:58]      + chroma location: unspecified
+[16:26:58]  * audio track 1
+[16:26:58]    + name: Stereo
+[16:26:58]    + decoder: English (Opus, 2.0 ch) (track 1, id 0x1)
+[16:26:58]      + samplerate: 48000 Hz
+[16:26:58]    + mixdown: Stereo
+[16:26:58]    + encoder: AAC (libavcodec)
+[16:26:58]      + bitrate: 320 kbps, samplerate: 48000 Hz
+[16:26:58] sync: expecting 2160 video frames
+[16:26:58] encavcodecInit: AV1 (Nvidia NVENC)
+[16:26:58] encavcodec: truncating framerate 13500000 / 562981
+[16:26:58] encavcodec: encoding at rc=vbr, 50.00
+[16:26:58] encavcodec: encoding with stored aspect 1/1
+[16:26:59] sync: first pts video is 0
+[16:26:59] sync: Chapter 1 at frame 1 time 0
+[16:26:59] sync: first pts audio 0x1 is 1170
+[16:27:03] reader: done. 1 scr changes
+[16:27:04] work: average encoding speed for job is 438.795654 fps
+[16:27:04] comb detect: heavy 5 | light 17 | uncombed 2138 | total 2160
+[16:27:04] decomb: deinterlaced 5 | blended 17 | unfiltered 2138 | total 2160
+[16:27:04] vfr: 2160 frames output, 0 dropped
+[16:27:04] vfr: lost time: 0 (0 frames)
+[16:27:04] vfr: gained time: 0 (0 frames) (0 not accounted for)
+[16:27:04] opus-decoder done: 4505 frames, 0 decoder errors
+[16:27:04] vp9-decoder done: 2160 frames, 0 decoder errors
+[16:27:04] sync: got 2160 frames, 2160 expected
+[16:27:04] sync: framerate min 23.979 fps, max 23.979 fps, avg 23.979 fps
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:27:04.578: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:27:04.578: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:27:04.578: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:27:04.578: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:27:04.579: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:27:04.579: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:27:04.579: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:27:04.579: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:27:04.580: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:27:04.580: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:27:04.580: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:27:04.580: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:27:04.581: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:27:04.581: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:27:04.581: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:27:04.581: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:27:04.581: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:27:04.581: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:27:04.581: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:27:04.581: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:27:04.581: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:27:04.581: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:27:04.581: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:27:04.581: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:27:04.582: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:27:04.582: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:27:04.582: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:119969): Gtk-CRITICAL **: 16:27:04.582: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+[16:27:04] mux: track 0, 2160 frames, 1171508 bytes, 104.00 kbps, fifo 4096
+[16:27:04] mux: track 1, 4223 frames, 3653227 bytes, 324.30 kbps, fifo 8192
+[16:27:04] Finished work at: Wed Aug 13 16:27:04 2025
+
+[16:27:04] libhb: work result = 0

@@ -2,7 +2,7 @@
 #The slop, only I know how it works haha
 
 dir="$1"
-pic=$(find "$dir" -type f \( -iname "*.jpg" -o -iname "*.png" -o -iname "*.tiff" -o -iname "*.bmp" -o -iname "*.jpeg" -o -iname "*.webp" \) | shuf -n 1)
+pic=$(find "$dir" -type f \( -iname "*.jpg" -o -iname "*.jxl" -o -iname "*.avif" -o -iname "*.png" -o -iname "*.tiff" -o -iname "*.bmp" -o -iname "*.jpeg" -o -iname "*.webp" \) | shuf -n 1)
 
 lines=$(tput 'lines')
 lines4=$(expr $lines / 2)

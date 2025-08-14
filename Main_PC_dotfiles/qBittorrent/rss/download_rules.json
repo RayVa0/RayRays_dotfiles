@@ -8,7 +8,7 @@
         "enabled": true,
         "episodeFilter": "",
         "ignoreDays": 0,
-        "lastMatch": "29 Jul 2025 18:55:56 +0000",
+        "lastMatch": "13 Aug 2025 11:12:06 +0000",
         "mustContain": "",
         "mustNotContain": "",
         "previouslyMatchedEpisodes": [
@@ -45,20 +45,27 @@
     "Dress-up S2": {
         "addPaused": null,
         "affectedFeeds": [
-            "https://nyaa.si/?page=rss&q=%5BJudas%5D+Sono+Bisque+Doll+wa+Koi+o+Suru+%28My+Dress-Up+Darling%29&c=1_2&f=0"
+            "https://nyaa.si/?page=rss&q=%5BJudas%5D+Sono+Bisque+Doll+wa+Koi+o+Suru+%28My+Dress-Up+Darling%29&c=1_2&f=0",
+            "https://nyaa.si/?page=rss&q=ToonsHub+my+dress+up+darling+S02+1080+H.264&c=1_2&f=0"
         ],
         "assignedCategory": "",
         "enabled": true,
         "episodeFilter": "",
         "ignoreDays": 0,
-        "lastMatch": "05 Jul 2025 17:44:15 +0000",
+        "lastMatch": "09 Aug 2025 16:31:49 +0000",
         "mustContain": "",
         "mustNotContain": "",
         "previouslyMatchedEpisodes": [
+            "2x1",
+            "2x2",
+            "2x3",
+            "2x4",
+            "2x5",
+            "2x6"
         ],
         "priority": 0,
         "savePath": "/mnt/HDD/Media(2)/My Dress-up Darling Season 2",
-        "smartFilter": false,
+        "smartFilter": true,
         "torrentContentLayout": null,
         "torrentParams": {
             "category": "",

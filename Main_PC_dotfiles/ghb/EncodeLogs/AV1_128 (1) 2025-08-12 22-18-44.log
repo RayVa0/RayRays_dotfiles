@@ -1,0 +1,286 @@
+Handbrake Version: 20250220183715-e117cfe7f-makepkg (2025081101)
+[22:18:44] gtkgui: Modified Custom Preset: /My Presets/AV1-10bit NVENC
+[22:18:44] Starting work at: Tue Aug 12 22:18:44 2025
+
+[22:18:44] 1 job(s) to process
+[22:18:44] json job:
+{
+    "Audio": {
+        "AudioList": [
+            {
+                "Bitrate": 320,
+                "CompressionLevel": -1.0,
+                "DRC": 0.0,
+                "DitherMethod": "auto",
+                "Encoder": "av_aac",
+                "Gain": 0.0,
+                "Mixdown": "stereo",
+                "Name": "Stereo",
+                "NormalizeMixLevel": false,
+                "PresetEncoder": "av_aac",
+                "Quality": -3.0,
+                "Samplerate": 0,
+                "Track": 0
+            }
+        ],
+        "CopyMask": [
+            "copy:aac",
+            "copy:flac",
+            "copy:opus"
+        ],
+        "FallbackEncoder": "av_aac"
+    },
+    "Destination": {
+        "AlignAVStart": false,
+        "ChapterList": [
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 1,
+                    "Seconds": 32,
+                    "Ticks": 8288550
+                },
+                "Name": ""
+            }
+        ],
+        "ChapterMarkers": false,
+        "File": "/mnt/SATA_SSD/Photos/Encoding/256kbps_showdown/AV1_128 (1).mkv",
+        "InlineParameterSets": false,
+        "Mux": "mkv",
+        "Options": {
+            "IpodAtom": false,
+            "Optimize": false
+        }
+    },
+    "Filters": {
+        "FilterList": [
+            {
+                "ID": 4,
+                "Settings": {
+                    "block-height": "16",
+                    "block-thresh": "40",
+                    "block-width": "16",
+                    "filter-mode": "2",
+                    "mode": "3",
+                    "motion-thresh": "1",
+                    "spatial-metric": "2",
+                    "spatial-thresh": "1"
+                }
+            },
+            {
+                "ID": 6,
+                "Settings": {
+                    "mode": "7"
+                }
+            },
+            {
+                "ID": 11,
+                "Settings": {
+                    "mode": 0
+                }
+            },
+            {
+                "ID": 20,
+                "Settings": {
+                    "crop-bottom": 0,
+                    "crop-left": 0,
+                    "crop-right": 0,
+                    "crop-top": 0,
+                    "height": 1080,
+                    "width": 1920
+                }
+            }
+        ]
+    },
+    "Metadata": {
+        "Name": "S01ED03-TTGA"
+    },
+    "PAR": {
+        "Den": 1,
+        "Num": 1
+    },
+    "SequenceID": 0,
+    "Source": {
+        "Angle": 0,
+        "HWDecode": 0,
+        "KeepDuplicateTitles": false,
+        "Path": "/mnt/SATA_SSD/Photos/Encoding/256kbps_showdown/AV1_128.mkv",
+        "Range": {
+            "End": 1,
+            "Start": 1,
+            "Type": "chapter"
+        },
+        "Title": 1
+    },
+    "Subtitle": {
+        "Search": {
+            "Burn": true,
+            "Default": false,
+            "Enable": false,
+            "Forced": false
+        },
+        "SubtitleList": []
+    },
+    "Video": {
+        "Bitrate": 10,
+        "ChromaLocation": 1,
+        "ColorInputFormat": 0,
+        "ColorMatrix": 1,
+        "ColorOutputFormat": 0,
+        "ColorPrimaries": 1,
+        "ColorRange": 1,
+        "ColorTransfer": 1,
+        "Encoder": "nvenc_av1",
+        "HardwareDecode": 0,
+        "Level": "auto",
+        "MultiPass": false,
+        "Options": "",
+        "Preset": "slowest",
+        "Profile": "auto",
+        "QSV": {
+            "AdapterIndex": 0,
+            "AsyncDepth": 0,
+            "Decode": false
+        },
+        "Tune": "",
+        "Turbo": false
+    }
+}
+[22:18:44] CPU: AMD Ryzen 7 5800X3D 8-Core Processor
+[22:18:44]  - logical processor count: 16
+[22:18:44] Intel Quick Sync Video support: no
+[22:18:44] hb_scan: path=/mnt/SATA_SSD/Photos/Encoding/256kbps_showdown/AV1_128.mkv, title_index=1
+Input #0, matroska,webm, from '/mnt/SATA_SSD/Photos/Encoding/256kbps_showdown/AV1_128.mkv':
+  Metadata:
+    title           : S01ED03-TTGA
+    creation_time   : 2025-08-12T19:18:14.000000Z
+    ENCODER         : Lavf61.7.100
+  Duration: 00:01:32.10, start: -0.021000, bitrate: 568 kb/s
+  Stream #0:0: Video: av1 (libdav1d) (Main), yuv420p(tv, bt709), 1920x1080, SAR 1:1 DAR 16:9, 23.98 fps, 23.98 tbr, 1k tbn (default)
+      Metadata:
+        DURATION        : 00:01:32.092000000
+  Stream #0:1(jpn): Audio: aac (LC), 48000 Hz, stereo, fltp (default)
+      Metadata:
+        title           : Stereo
+        DURATION        : 00:01:32.095000000
+[22:18:44] scan: decoding previews for title 1
+[22:18:44] scan: audio 0x1: aac, rate=48000Hz, bitrate=1 日本語 (AAC LC, 2.0 ch)
+[22:18:45] using container PAR 1:1
+[22:18:45] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1, color profile: 1-1-1, chroma location: left
+[22:18:45] libhb: scan thread found 1 valid title(s)
+[22:18:45] Starting Task: Encoding Pass
+[22:18:45] work: skipping crop/scale filter
+[22:18:45] job configuration:
+[22:18:45]  * source
+[22:18:45]    + /mnt/SATA_SSD/Photos/Encoding/256kbps_showdown/AV1_128.mkv
+[22:18:45]    + title 1, chapter(s) 1 to 1
+[22:18:45]    + container: matroska,webm
+[22:18:45]    + data rate: 568 kbps
+[22:18:45]  * destination
+[22:18:45]    + /mnt/SATA_SSD/Photos/Encoding/256kbps_showdown/AV1_128 (1).mkv
+[22:18:45]    + container: Matroska (libavformat)
+[22:18:45]  * video track
+[22:18:45]    + decoder: libdav1d 8-bit (yuv420p)
+[22:18:45]    + filters
+[22:18:45]      + Comb Detect (mode=3:spatial-metric=2:motion-thresh=1:spatial-thresh=1:filter-mode=2:block-thresh=40:block-width=16:block-height=16)
+[22:18:45]      + Decomb (mode=39)
+[22:18:45]      + Framerate Shaper (mode=0)
+[22:18:45]        + frame rate: same as source (around 23.976 fps)
+[22:18:45]    + Output geometry
+[22:18:45]      + storage dimensions: 1920 x 1080
+[22:18:45]      + pixel aspect ratio: 1 : 1
+[22:18:45]      + display dimensions: 1920 x 1080
+[22:18:45]    + encoder: AV1 (NVEnc)
+[22:18:45]      + preset:  slowest
+[22:18:45]      + profile: auto
+[22:18:45]      + level:   auto
+[22:18:45]      + bitrate: 10 kbps, pass: 0
+[22:18:45]      + color profile: 1-1-1
+[22:18:45]      + color range: tv
+[22:18:45]      + chroma location: left
+[22:18:45]  * audio track 1
+[22:18:45]    + name: Stereo
+[22:18:45]    + decoder: 日本語 (AAC LC, 2.0 ch) (track 1, id 0x1)
+[22:18:45]      + samplerate: 48000 Hz
+[22:18:45]    + mixdown: Stereo
+[22:18:45]    + encoder: AAC (libavcodec)
+[22:18:45]      + bitrate: 320 kbps, samplerate: 48000 Hz
+[22:18:45] sync: expecting 2208 video frames
+[22:18:45] encavcodecInit: AV1 (Nvidia NVENC)
+[22:18:45] encavcodec: encoding at rc=vbr, Bitrate 10
+[22:18:45] encavcodec: encoding with stored aspect 1/1
+[22:18:45] sync: first pts video is 0
+[22:18:45] sync: Chapter 1 at frame 1 time 0
+[22:18:45] sync: first pts audio 0x1 is 0
+
+(fr.handbrake.ghb:18680): Gtk-CRITICAL **: 22:18:51.251: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:18680): Gtk-CRITICAL **: 22:18:51.251: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:18680): Gtk-CRITICAL **: 22:18:51.251: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:18680): Gtk-CRITICAL **: 22:18:51.251: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:18680): Gtk-CRITICAL **: 22:18:51.253: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:18680): Gtk-CRITICAL **: 22:18:51.253: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:18680): Gtk-CRITICAL **: 22:18:51.253: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:18680): Gtk-CRITICAL **: 22:18:51.253: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:18680): Gtk-CRITICAL **: 22:18:51.254: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:18680): Gtk-CRITICAL **: 22:18:51.254: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:18680): Gtk-CRITICAL **: 22:18:51.254: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:18680): Gtk-CRITICAL **: 22:18:51.254: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:18680): Gtk-CRITICAL **: 22:18:51.255: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:18680): Gtk-CRITICAL **: 22:18:51.255: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:18680): Gtk-CRITICAL **: 22:18:51.255: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:18680): Gtk-CRITICAL **: 22:18:51.255: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:18680): Gtk-CRITICAL **: 22:18:51.255: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:18680): Gtk-CRITICAL **: 22:18:51.255: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:18680): Gtk-CRITICAL **: 22:18:51.255: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:18680): Gtk-CRITICAL **: 22:18:51.256: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:18680): Gtk-CRITICAL **: 22:18:51.256: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:18680): Gtk-CRITICAL **: 22:18:51.256: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:18680): Gtk-CRITICAL **: 22:18:51.256: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:18680): Gtk-CRITICAL **: 22:18:51.256: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:18680): Gtk-CRITICAL **: 22:18:51.257: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:18680): Gtk-CRITICAL **: 22:18:51.257: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:18680): Gtk-CRITICAL **: 22:18:51.257: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+
+(fr.handbrake.ghb:18680): Gtk-CRITICAL **: 22:18:51.257: gtk_css_section_get_bytes: assertion 'section != NULL' failed
+[22:18:52] reader: done. 1 scr changes
+[22:18:52] work: average encoding speed for job is 317.647064 fps
+[22:18:52] comb detect: heavy 7 | light 61 | uncombed 2140 | total 2208
+[22:18:52] decomb: deinterlaced 7 | blended 61 | unfiltered 2140 | total 2208
+[22:18:52] vfr: 2208 frames output, 0 dropped
+[22:18:52] vfr: lost time: 0 (0 frames)
+[22:18:52] vfr: gained time: 0 (0 frames) (0 not accounted for)
+[22:18:52] aac-decoder done: 4317 frames, 0 decoder errors
+[22:18:52] libdav1d-decoder done: 2208 frames, 0 decoder errors
+[22:18:52] sync: got 2208 frames, 2208 expected
+[22:18:52] sync: framerate min 23.976 fps, max 23.976 fps, avg 23.976 fps
+[22:18:52] mux: track 0, 2208 frames, 2912429 bytes, 252.89 kbps, fifo 4096
+[22:18:52] mux: track 1, 4317 frames, 3474344 bytes, 301.68 kbps, fifo 8192
+[22:18:52] Finished work at: Tue Aug 12 22:18:52 2025
+
+[22:18:52] libhb: work result = 0

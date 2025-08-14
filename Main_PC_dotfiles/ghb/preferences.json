@@ -43,7 +43,7 @@
         "allow_tweaks": false,
         "auto_name": true,
         "auto_name_template": "{source}",
-        "default_source": "/mnt/HDD/Media(2)/Chainsaw Man Season 1/Songs/S01ED03-Hawatari 2-oku Centi [Maximum The Hormone].mkv",
+        "default_source": "/mnt/HDD/Media(2)/Extras/TVアニメ「その着せ替え人形は恋をする」Season 2│PiKi「Kawaii Kaiwai」ノンクレジットエンディング映像 [75WraMAZ0Lo].mkv",
         "destination_dir": "/mnt/SATA_SSD/Photos/Encoding",
         "hbfd": false,
         "hbfd_feature": false,
@@ -58,7 +58,7 @@
         "show_queue_sidebar": true,
         "use_dvdnav": true,
         "version": "0.1",
-        "window_height": 1341,
-        "window_width": 1296
+        "window_height": 715,
+        "window_width": 1266
     }
 }
