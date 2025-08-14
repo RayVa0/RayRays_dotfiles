@@ -3,6 +3,7 @@
 
 
 loginctl lock-session
+kdotool set_desktop 1
 
 sh ~/Templates/auto_minimize.sh steam-native&
 sleep 0.1
