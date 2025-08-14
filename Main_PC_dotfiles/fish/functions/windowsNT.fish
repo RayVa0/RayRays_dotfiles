@@ -5,14 +5,13 @@ function windowsNT
     set_color normal;
 
     switch $ans
-      case Y y '' 
+      case Y y '*' 
         sudo grub-reboot 2
         qdbus6 org.kde.Shutdown /Shutdown logoutAndReboot
         if test $status -ne 0
-            echo Ooops you are not on kde rebooting traditionally
-            command reboot
+            echo Ooops you are not on kde, reboot normally 
         end
-      case N n '*'
+      case N n
         echo Aborting, we live to dance in the GNU light another day
     end
 end
