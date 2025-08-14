@@ -1,3 +1,5 @@
 Hello these are my le epic dotfiles I use across my Arch linux devices
 
-Clone this repo into ~/Downloads/ for optimal compatibility with the konsave stuff
+if you want to use them as is
+Clone this repo into ~/Downloads/ or else your leg will explode 
+and copy the scripts to ~/Templates/
