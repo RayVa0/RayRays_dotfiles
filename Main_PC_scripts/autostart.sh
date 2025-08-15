@@ -15,7 +15,5 @@ sh ~/Templates/auto_minimize.sh element-desktop&
 sleep 0.1
 sh ~/Templates/auto_minimize.sh waterfox&
 sleep 0.1
-sh ~/Templates/auto_minimize.sh vesktop&
-
 
 exit 0
