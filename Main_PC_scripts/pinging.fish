@@ -6,5 +6,6 @@ while true
   if test $status -eq 0
     break
   end
+  sleep 0.5
 end
 
