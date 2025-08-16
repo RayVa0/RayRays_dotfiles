@@ -48,6 +48,7 @@ mangohud 0.8.1-1
 mangoverlay 0.4.0-1
 mpv-git 0.40.0_271_g01b7edcc71-1
 neovim 0.11.3-1
+networkmanager 1.54.0-1
 noto-fonts-cjk 20240730-1
 ntfs-3g 2022.10.3-2
 nvidia-open 575.64.05-4
