@@ -52,7 +52,7 @@
         "enabled": true,
         "episodeFilter": "",
         "ignoreDays": 0,
-        "lastMatch": "09 Aug 2025 16:31:49 +0000",
+        "lastMatch": "16 Aug 2025 17:11:16 +0000",
         "mustContain": "",
         "mustNotContain": "",
         "previouslyMatchedEpisodes": [
@@ -61,7 +61,8 @@
             "2x3",
             "2x4",
             "2x5",
-            "2x6"
+            "2x6",
+            "2x7"
         ],
         "priority": 0,
         "savePath": "/mnt/HDD/Media(2)/My Dress-up Darling Season 2",
@@ -138,7 +139,7 @@
         "enabled": true,
         "episodeFilter": "",
         "ignoreDays": 0,
-        "lastMatch": "09 Aug 2025 16:58:03 +0000",
+        "lastMatch": "16 Aug 2025 16:58:21 +0000",
         "mustContain": "",
         "mustNotContain": "",
         "previouslyMatchedEpisodes": [
