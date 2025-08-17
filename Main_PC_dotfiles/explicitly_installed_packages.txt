@@ -80,6 +80,7 @@ sshfs 3.7.3-3
 steam-native-runtime 1.0.0.75-4
 swayosd-git 0.2.1.r1.g73aed75-1
 tgpt 2.10.1-1
+traceroute 2.1.6-1
 tree 2.2.1-1
 ttf-dejavu-nerd 3.4.0-1
 turbostat 6.16-1
