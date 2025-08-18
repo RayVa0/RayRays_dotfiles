@@ -11,6 +11,7 @@ cmake 4.0.3-1
 cmatrix-git 1.2.r119.g5c082c6-1
 cpio 2.15-3
 cpufetch-git 1.06.r39.ga0c08cc-1
+dnslookup 1.11.1-2
 dolphin-git 25.07.90.r46.ge018eca-1
 easyeffects 7.2.5-1
 efibootmgr 18-3
@@ -26,7 +27,7 @@ gst-plugin-pipewire 1:1.4.7-1
 handbrake-llvm-optimized 1.10.0.r1.g0e6deaa61-1
 htop-solarized 3.3.0-1
 imagemagick 7.1.2.1-1
-iwd 3.9-1
+iputils 20250605-1
 kclock 25.08.0-1
 kdeconnect 25.08.0-2
 kdesu5 5.116.0-1

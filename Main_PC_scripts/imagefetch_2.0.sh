@@ -63,14 +63,30 @@ pic_check() {
     fi
 }
 
+dir_check() {
+    if [ -n "$1" ]; then
+        echo 1
+    else 
+        echo -1
+    fi
+
+}
+
 if [ "$1" = "-h" ] || [ "$1" = "--help" ]; then
     echo_help
     exit 0
 fi
 
 if [ $# -eq 0 ]; then 
-    dir=$(cat ~/.config/imagefetch.conf | shuf -n 1)
+    dir=$(cat ~/.config/imagefetch.conf | shuf -n 1 > /dev/null)
     dir="${dir/#\~/$HOME}"
+
+    if [ $(dir_check "$dir") -eq -1 ]; then
+        echo No directory found, check your configuration file
+        echo do -h for more
+
+        exit 1
+    fi
 
     pic=$(find "$dir" -type f \( -iname "*.jpg" -o -iname "*.jxl" -o -iname "*.avif" -o -iname "*.png" -o -iname "*.tiff" -o -iname "*.bmp" -o -iname "*.jpeg" -o -iname "*.webp" \) | shuf -n 1)
 else
@@ -108,6 +124,13 @@ fi
 
 if [ $(args_where "--no-depth" "$@") -ne -1 ]; then
     no_depth="-maxdepth 1"
+fi
+
+if [ $(dir_check "$dir") -eq -1 ]; then
+    echo No directory found, check your configuration file
+    echo do -h for more
+
+    exit 1
 fi
 
 pic=$(find "$dir" $no_depth -type f \( -iname "*.jpg" -o -iname "*.jxl" -o -iname "*.avif" -o -iname "*.png" -o -iname "*.tiff" -o -iname "*.bmp" -o -iname "*.jpeg" -o -iname "*.webp" \) | shuf -n 1)   
