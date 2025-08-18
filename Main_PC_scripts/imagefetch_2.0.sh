@@ -3,6 +3,18 @@
 #args=("$@")
 #echo ${args[@]}
 
+dependency_check() {
+    if [ $1 -eq 0 ]; then
+        :
+    else
+        which chafa > /dev/null 2>&1 
+        if [ $? -ne 0 ]; then 
+            echo Chafa is not installed, please install it through your package manager.
+            exit 1
+        fi
+    fi
+}
+
 args_where() {
     #pass the argument you are trying to match and then the external argumets 
     args=("$@")
@@ -43,7 +55,6 @@ echo_help() {
     echo -e "\tlet's you pass any extra arguments you want into chafa"
     echo --no-depth
     echo -e "\tDont traverse into other directories within the specified directory"
-
 }
 
 pic_check() {
@@ -118,6 +129,7 @@ if [ $# -gt 0 ]; then
 else
     pic_check
     chafa --optimize 5 --label off --colors $color $format "$pic"
+    dependency_check $?
     exit 0
 fi
 #why exit here? well to avoid a few cpu cycles parsing arguments
@@ -188,8 +200,10 @@ for arg in "$@"; do
     prev_arg="$arg"
 done
 
+
 pic_check "$@"
 chafa --optimize 5 --label off --colors $color $format $view_size $extra_args_chafa "$pic"
+dependency_check $?
 
 if [ -n "$filename" ] && [ -z "$from_dir" ]; then 
     echo You are viewing $filename
