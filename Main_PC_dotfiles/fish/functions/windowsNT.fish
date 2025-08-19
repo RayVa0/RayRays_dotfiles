@@ -5,7 +5,7 @@ function windowsNT
     set_color normal;
 
     switch $ans
-      case Y y '*' 
+      case Y y  
         sudo grub-reboot 2
         qdbus6 org.kde.Shutdown /Shutdown logoutAndReboot
         if test $status -ne 0
@@ -13,5 +13,7 @@ function windowsNT
         end
       case N n
         echo Aborting, we live to dance in the GNU light another day
+      case *
+          echo wut
     end
 end
