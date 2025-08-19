@@ -16,6 +16,7 @@ dolphin-git 25.07.90.r46.ge018eca-1
 easyeffects 7.2.5-1
 efibootmgr 18-3
 element-desktop 1.11.103-1
+fastfetch 2.50.2-1
 figlet 2.2.5-6
 fish 4.0.2-1
 gamemode 1.8.2-1
@@ -47,6 +48,7 @@ man-db 2.13.1-1
 man-pages 6.15-1
 mangohud 0.8.1-1
 mangoverlay 0.4.0-1
+mcomix-git 3.1.0.r13.ga4092eb-1
 mpv-git 0.40.0_271_g01b7edcc71-1
 neovim 0.11.3-1
 noto-fonts-cjk 20240730-1
@@ -64,6 +66,7 @@ pipewire-pulse 1:1.4.7-1
 pix 3.4.6-1
 plasma-desktop 6.4.4-1
 plasma-pa 6.4.4-1
+plasma-vault 6.4.4-1
 plocate 1.1.23-1
 powertop-git 2.15.r19.g49045c0-1
 prismlauncher 9.4-1

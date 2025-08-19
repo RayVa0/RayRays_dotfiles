@@ -14,3 +14,9 @@ magick AV1_64kb_best_effort.mp4 straight_to.webp
 
 //gif
 magick for_gif.mp4 -loop 0 +remap test_gif.gif
+
+//av1_cpu
+ffmpeg -i AoT_S03OP1.mkv -c:a aac -b:a 320K -c:v libsvtav1 -pix_fmt yuv420p10le -preset 1 -b:v 1024K ffmpeg_av1_cpu.mkv
+
+//av1_gpu
+ffmpeg -i AoT_S03OP1.mkv -c:a aac -b:a 320K -c:v av1_nvenc -multipass fullres -pix_fmt p010 -tune hq -preset p7 -cq 30 ffmpeg_av1_hw.mkv
