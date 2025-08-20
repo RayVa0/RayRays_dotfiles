@@ -111,7 +111,7 @@ if [ "$1" = "vesktop" ]; then
 elif [ "$1" = "steam-native" ]; then 
   sleep 1
   snipe_window_state steam
-  sleep 10
+  sleep 3
   move_to_desktop_2_persistent steam
 
   exit 0
