@@ -10,4 +10,7 @@
 
 #echo -e "\e[1;32mWelcome $USER\e[0m"
 
-/usr/lib/plasma-dbus-run-session-if-needed /usr/bin/startplasma-wayland
+if [ $innit -ne 1 ]; then 
+  /usr/lib/plasma-dbus-run-session-if-needed /usr/bin/startplasma-wayland
+  export innit=1
+fi
