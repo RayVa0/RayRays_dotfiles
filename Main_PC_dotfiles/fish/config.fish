@@ -12,7 +12,7 @@ function fish_greeting
         if test $y -lt 50 #50% chance for a message
             textfetch
         else #50% it is an image
-            mediafetch
+            mediafetch_terminal
         end 
     else
         textfetch
@@ -20,10 +20,10 @@ function fish_greeting
 end
 
 if status is-login
-      sh ~/Templates/init.sh
+    /usr/lib/plasma-dbus-run-session-if-needed /usr/bin/startplasma-wayland
 end 
 
-function mediafetch
+function mediafetch_terminal
     set allow_xxx 1
     set z (random 0 1 100)
     if test $allow_xxx -eq 0

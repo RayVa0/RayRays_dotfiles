@@ -10,6 +10,7 @@ cachyos-keyring 20240331-1
 cachyos-mirrorlist 22-1
 cachyos-v3-mirrorlist 22-1
 cachyos-v4-mirrorlist 22-1
+cbonsai 1.4.2-1
 chafa 1.16.2-1.1
 cmake 4.0.3-1.1
 cmatrix-git 1.2.r119.g5c082c6-1
@@ -46,6 +47,7 @@ kwalletmanager 25.08.0-1.1
 libpulse 17.0+r43+g3e2bb8a1e-1.1
 linux-cachyos 6.16.1-2
 linux-cachyos-headers 6.16.2-1
+linux-cachyos-nvidia-open 6.16.1-2
 linux-firmware 1:20250808-1
 lolcat 100.0.1-5
 mako 1.10.0-1.1
@@ -58,7 +60,6 @@ mpv-git 0.40.0_283_g12a78257a8-1
 neovim 0.11.3-1.1
 noto-fonts-cjk 20240730-1
 ntfs-3g 2022.10.3-2.1
-nvidia-open 580.76.05-5.1
 nvidia-utils 580.76.05-4
 os-prober 1.83-1.1
 parsec-bin 150_97c-1
