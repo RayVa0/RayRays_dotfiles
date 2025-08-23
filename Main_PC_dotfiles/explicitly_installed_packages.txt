@@ -21,7 +21,6 @@ dolphin-git 25.07.90.r46.ge018eca-1
 easyeffects 7.2.5-1.1
 efibootmgr 18-3.1
 element-desktop 1.11.103-1
-fastfetch 2.50.2-1.1
 figlet 2.2.5-6.1
 fish 4.0.2-1.1
 gamemode 1.8.2-1.1
@@ -75,6 +74,7 @@ plasma-vault 6.4.4-1.1
 plocate 1.1.23-1.1
 powertop-git 2.15.r19.g49045c0-1
 prismlauncher 9.4-1.1
+proton-cachyos 1:10.0.20250807-1
 proton-ge-custom-bin 1:GE_Proton10_12-2
 pulseview 0.4.2-16.1
 qbittorrent 5.1.2-1
