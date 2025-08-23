@@ -124,9 +124,9 @@ for ext in "${extensions[@]}"; do
         # Check if conversion was successful
         if [ $? -eq 0 ]; then
             converted_files=$((converted_files + 1))
-            echo "  ✓ Converted to: $(basename "$output_file")"
+            echo "  âœ“ Converted to: $(basename "$output_file")"
         else
-            echo "  ✗ Failed to convert: $filename"
+            echo "  âœ— Failed to convert: $filename"
         fi
     done
 done
