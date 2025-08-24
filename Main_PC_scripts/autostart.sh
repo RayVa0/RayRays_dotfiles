@@ -14,8 +14,7 @@ sleep 0.1
 sh ~/Templates/auto_minimize.sh waterfox&
 sleep 0.1
 sh ~/Templates/auto_minimize.sh spotify&
-sleep 0.1
-sh ~/Templates/auto_minimize.sh easyeffects
+
 
 
 
