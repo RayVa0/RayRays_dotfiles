@@ -1,4 +1,4 @@
-#/usr/bin/env fish
+#!/usr/bin/env fish
 
 rm ~/.config/ray.knsv
 konsave -s ray --force
