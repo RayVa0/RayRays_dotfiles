@@ -42,7 +42,7 @@ fi
 # Parse arguments
 INPUT_DIR="$1"
 OUTPUT_DIR="${2:-${INPUT_DIR}/bw_output}"
-METHOD="${3:-gray}"
+METHOD="${3:-desaturate}"
 
 # Validate input directory
 if [ ! -d "$INPUT_DIR" ]; then
@@ -124,9 +124,9 @@ for ext in "${extensions[@]}"; do
         # Check if conversion was successful
         if [ $? -eq 0 ]; then
             converted_files=$((converted_files + 1))
-            echo "  âœ“ Converted to: $(basename "$output_file")"
+            echo "- Converted to: $(basename "$output_file")"
         else
-            echo "  âœ— Failed to convert: $filename"
+            echo "— Failed to convert: $filename"
         fi
     done
 done

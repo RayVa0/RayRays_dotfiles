@@ -23,6 +23,7 @@ dolphin-git 25.07.90.r46.ge018eca-1
 easyeffects 7.2.5-1.1
 efibootmgr 18-3.1
 element-desktop 1.11.109-1
+fastfetch 2.50.2-1.1
 figlet 2.2.5-6.1
 fish 4.0.2-1.1
 gamemode 1.8.2-1.1
@@ -57,7 +58,7 @@ man-pages 6.15-1
 mangohud 0.8.1-1.1
 mangoverlay 0.4.0-1
 mcomix-git 3.1.0.r13.ga4092eb-1
-mpv-git 0.40.0_283_g12a78257a8-1
+mpv 1:0.40.0-5.1
 neovim 0.11.3-1.1
 noto-fonts-cjk 20240730-1
 ntfs-3g 2022.10.3-2.1

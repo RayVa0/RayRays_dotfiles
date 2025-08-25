@@ -4,19 +4,22 @@ magick <input> -resize 100% -define png:compression-level=9 output.png
 //jpegxl
 jpegxl -d 3 -e 8 --faster_decoding=4 <input> output.jxl
 
+//jpeg
+ffmpeg -i in.png -q:v 1 -compression_level 100 out.jpg
+
 //avif
 avifenc -q 100 -s 0 <input> output.avif
-avifenc --target-size 500000 -s 0 psycho\ RT\ 4K.png avif_test_target.avif
+avifenc --target-size 500000 -s 0 in.png avif_out.avif
 
 //webp
-img2webp -v -mixed -min_size -lossy -q 15 -m 6 2016\ P3M\ Box\ Art.png -o P3_lossy.webp
-magick AV1_64kb_best_effort.mp4 straight_to.webp
+img2webp -v -mixed -min_size -lossy -q 15 -m 6 in.png -o out.webp
+magick in.mp4 straight_to.webp
 
 //gif
-magick for_gif.mp4 -loop 0 +remap test_gif.gif
+magick in.mp4 -loop 0 +remap out.gif
 
 //av1_cpu
-ffmpeg -i AoT_S03OP1.mkv -c:a aac -b:a 320K -c:v libsvtav1 -pix_fmt yuv420p10le -preset 1 -b:v 1024K ffmpeg_av1_cpu.mkv
+ffmpeg -i in.mkv -c:a aac -b:a 320K -c:v libsvtav1 -pix_fmt yuv420p10le -preset 1 -b:v 1024K out.mkv
 
 //av1_gpu
-ffmpeg -i AoT_S03OP1.mkv -c:a aac -b:a 320K -c:v av1_nvenc -multipass fullres -pix_fmt p010 -tune hq -preset p7 -cq 30 ffmpeg_av1_hw.mkv
+ffmpeg -i in.mkv -c:a aac -b:a 320K -c:v av1_nvenc -multipass fullres -pix_fmt p010 -tune hq -preset p7 -cq 30 out.mkv
