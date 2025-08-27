@@ -34,6 +34,7 @@ gst-plugin-pipewire 1:1.4.7-1.1
 handbrake 1.10.1-1.1
 heroic-games-launcher-bin 2.18.1-1
 htop-solarized 3.3.0-1
+hyprland 0.50.1-1
 imagemagick 7.1.2.2-1.1
 iputils 20250605-1.1
 kclock 25.08.0-1.1
