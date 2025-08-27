@@ -1,4 +1,4 @@
-function kdekill --wraps='qdbus6 org.kde.Shutdown /Shutdown logout' --description 'alias kdekill qdbus6 org.kde.Shutdown /Shutdown logout'
-  qdbus6 org.kde.Shutdown /Shutdown logout $argv
+function kdekill --wraps='qdbus6 org.kde.Shutdown /Shutdown logout' --wraps='loginctl terminate-user (whoami)' --description 'alias kdekill loginctl terminate-user (whoami)'
+  loginctl terminate-user (whoami) $argv
         
 end
