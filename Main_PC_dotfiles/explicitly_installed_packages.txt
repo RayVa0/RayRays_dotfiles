@@ -5,6 +5,7 @@ base-devel 1-2
 bdf-unifont 16.0.04-1
 bluez 5.83-1.1
 bluez-utils 5.83-1.1
+bpftune-git r676.04c7d79-1
 btop-git 1.4.4.r1278.a05192f-1
 cachyos-hello 0.18.3-1
 cachyos-keyring 20240331-1

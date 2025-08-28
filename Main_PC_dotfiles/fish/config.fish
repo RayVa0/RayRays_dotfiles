@@ -20,7 +20,7 @@ function fish_greeting
 end
 
 if status is-login
-    if test (cat /proc/uptime | gawk '{printf "%.0f", $1}') -lt 75
+    if test (cat /proc/uptime | gawk '{printf "%.0f", $2}') -lt 75
         /usr/lib/plasma-dbus-run-session-if-needed /usr/bin/startplasma-wayland
     end
 end 
