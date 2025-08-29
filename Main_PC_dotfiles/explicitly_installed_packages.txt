@@ -14,7 +14,7 @@ cachyos-v3-mirrorlist 22-1
 cachyos-v4-mirrorlist 22-1
 cbonsai 1.4.2-1
 chafa 1.16.2-1.1
-cmake 4.1.0-1.1
+cmake 4.1.1-1.1
 cmatrix-git 1.2.r119.g5c082c6-1
 cpio 2.15-3.1
 cpufetch-git 1.06.r39.ga0c08cc-1
@@ -83,8 +83,8 @@ power-profiles-daemon 0.30-1
 powertop-git 2.15.r19.g49045c0-1
 prismlauncher 9.4-1.1
 profile-sync-daemon 1:6.50-2
-proton-cachyos 1:10.0.20250819-1
-proton-ge-custom-bin 1:GE_Proton10_13-1
+proton-cachyos 1:10.0.20250820-1
+proton-ge-custom-bin 1:GE_Proton10_15-1
 pulseview 0.4.2-16.1
 qbittorrent 5.1.2-1
 qdirstat 1.9-2
@@ -115,7 +115,7 @@ vi 1:070224-6.1
 viber 24.9.0.3-1
 vim 9.1.1623-1.1
 vulkan-headers 1:1.4.321.0-1
-waterfox-bin 6.6.1-1
+waterfox-bin 6.6.2-1
 wine-mono 10.1.0-1
 wireplumber 0.5.10-1.1
 wl-clipboard 1:2.2.1-3.1
