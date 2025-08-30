@@ -159,8 +159,7 @@ elif [ "$1" = "element-desktop" ]; then
   snipe_window_state "element"
 
   exit 0
-elif [ "$1" = "vivaldi" ]; then
-  snipe_window_state_fullscreen $1
+elif [ "$1" = "waterfox" ]; then
   move_to_desktop_2_persistent $1
   
   exit 0
