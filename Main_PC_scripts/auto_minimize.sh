@@ -152,16 +152,12 @@ elif [ "$1" = "steam-native" ]; then
   sleep 1
   snipe_window_state steam
   sleep 3
-  move_to_desktop_3_persistent steam
+  move_to_desktop_2_persistent steam
 
   exit 0
 elif [ "$1" = "element-desktop" ]; then 
   snipe_window_state "element"
 
-  exit 0
-elif [ "$1" = "waterfox" ]; then
-  move_to_desktop_2_persistent $1
-  
   exit 0
 else 
   snipe_window $1
