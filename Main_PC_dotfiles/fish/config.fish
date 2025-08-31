@@ -4,31 +4,28 @@ alias yay-clean 'yay --answerdiff None --answerclean All'
 
 
 function fish_greeting
-    sleep 0.1
-    set y (random 0 1 100) 
-    set allow_media 1
-    
-    if test $allow_media -eq 1
-        if test $y -lt 50 #50% chance for a message
-            textfetch
-        else #50% it is an image
-            mediafetch_terminal
-        end 
-    else
-        textfetch
+    if test -z $COLORTERM 
+        fastfetch 
+        return 0
     end
+    set y (random 0 1 100) 
+    
+    if test $y -lt 50 #50% chance for a message
+        textfetch
+    else #50% it is an imag
+        
+        mediafetch_terminal
+    end  
 end
 
 if status is-login
     if test (cat /proc/uptime | gawk '{printf "%.0f", $1}') -lt 75
         /usr/lib/plasma-dbus-run-session-if-needed /usr/bin/startplasma-wayland
-    else 
-        command clear 
-          fastfetch
     end
 end 
 
 function mediafetch_terminal
+    sleep 0.1
     set allow_xxx 1
     set z (random 0 1 100)
     if test $allow_xxx -eq 0
