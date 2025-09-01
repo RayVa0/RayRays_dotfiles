@@ -1,6 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
-SETUVAR --export __GL_SHADER_DISK_CACHE_SIZE:12884901888
+SETUVAR --export __GL_SHADER_DISK_CACHE_SIZE:16884901888
 SETUVAR __fish_initialized:3800
 SETUVAR fish_color_autosuggestion:707A8C
 SETUVAR fish_color_cancel:\x2d\x2dreverse
