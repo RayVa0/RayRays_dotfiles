@@ -7,6 +7,7 @@ bluez 5.83-1.1
 bluez-utils 5.83-1.1
 btop-git 1.4.4.r1278.a05192f-1
 cachyos-hello 0.18.3-1
+cachyos-hooks 2025.05.14-1
 cachyos-keyring 20240331-1
 cachyos-mirrorlist 22-1
 cachyos-settings 1:1.2.10-1
