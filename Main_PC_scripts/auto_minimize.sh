@@ -89,7 +89,7 @@ move_to_desktop_2_persistent () {
     kdotool set_desktop_for_window $window_id 2
     sleep 0.1
     i=$((i+1))
-    if [ $i -gt 20 ]; then 
+    if [ $i -gt 100 ]; then 
       exit 0
     fi
   done
