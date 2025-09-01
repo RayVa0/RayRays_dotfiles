@@ -63,7 +63,7 @@ mangohud 0.8.1-1.1
 mangoverlay 0.4.0-1
 mcomix-git 3.1.0.r13.ga4092eb-1
 mpv 1:0.40.0-5.1
-neovim 0.11.3-1.1
+neovim 0.11.4-1.1
 noto-fonts-cjk 20240730-1
 ntfs-3g 2022.10.3-2.1
 nvidia-settings 580.76.05-2
@@ -119,8 +119,8 @@ viber 24.9.0.3-1
 vim 9.1.1623-1.1
 vivaldi 7.5.3735.66-1.1
 vulkan-headers 1:1.4.321.0-1
-waterfox-bin 6.6.2-2
-wine-mono 10.1.0-1
+waterfox-bin 6.6.2-3
+wine-mono 10.2.0-1
 wireplumber 0.5.10-1.1
 wl-clipboard 1:2.2.1-3.1
 woeusb 5.2.4-1
