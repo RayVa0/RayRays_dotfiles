@@ -31,6 +31,7 @@ fastfetch 2.51.1-1.1
 figlet 2.2.5-6.1
 fish 4.0.2-1.1
 gamemode 1.8.2-1.1
+gamescope 3.16.15-2
 git 2.51.0-1.1
 github-cli 2.78.0-1.1
 grub 2:2.12.r292.g73d1c959-1.1
@@ -105,7 +106,7 @@ speedtest-cli 2.1.3-9
 spotify 1:1.2.63.394-1
 sshfs 3.7.3-3.1
 steam-native-runtime 1.0.0.75-4
-sway 1:1.11-1.1
+sway-git 1.12.r7595.73c244f-1
 tgpt 2.11.0-1.1
 traceroute 2.1.6-1.1
 tree 2.2.1-1
