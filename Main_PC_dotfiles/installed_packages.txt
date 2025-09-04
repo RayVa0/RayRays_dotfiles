@@ -54,9 +54,9 @@ kwalletmanager 25.08.0-1.1
 libbpf 1.5.1-1.1
 libpfm 4.13.0+r83+g91970fe-1.1
 libpulse 17.0+r43+g3e2bb8a1e-1.1
-linux-cachyos 6.16.3-1
+linux-cachyos 6.16.4-4
 linux-cachyos-headers 6.16.4-4
-linux-cachyos-nvidia-open 6.16.3-1
+linux-cachyos-nvidia-open 6.16.4-4
 linux-firmware 1:20250808-1
 lolcat 100.0.1-5
 mako 1.10.0-1.1
@@ -70,7 +70,7 @@ neovim 0.11.4-1.1
 noto-fonts-cjk 20240730-1
 ntfs-3g 2022.10.3-2.1
 nvidia-settings 580.82.07-2
-nvidia-utils 580.76.05-4
+nvidia-utils 580.82.07-2
 os-prober 1.83-1.1
 parsec-bin 150_97c-1
 pastel 0.10.0-1.1
