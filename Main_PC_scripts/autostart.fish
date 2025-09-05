@@ -12,4 +12,6 @@ sh ~/Templates/auto_minimize.sh element-desktop&
 sh ~/Templates/auto_minimize.sh waterfox&
 sh ~/Templates/auto_minimize.sh spotify&
 
+pinging && update_dotfiles
+
 exit 0
