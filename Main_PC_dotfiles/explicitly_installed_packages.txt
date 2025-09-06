@@ -68,6 +68,7 @@ mangoverlay 0.4.0-1
 mcomix-git 3.1.0.r13.ga4092eb-1
 mpv 1:0.40.0-5.1
 neovim 0.11.4-1.1
+nnn 5.1-1.1
 noto-fonts-cjk 20240730-1
 ntfs-3g 2022.10.3-2.1
 nvidia-settings 580.82.07-2
