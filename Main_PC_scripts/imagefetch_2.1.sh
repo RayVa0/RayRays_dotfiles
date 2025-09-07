@@ -55,6 +55,8 @@ echo_help() {
     echo -e "\tlet's you pass any extra arguments you want into chafa"
     echo --no-depth
     echo -e "\tDont traverse into other directories within the specified directory"
+    echo -t --terminal
+    echo -e "\tHalf terminal size format"
 }
 
 pic_check() {
@@ -89,7 +91,7 @@ if [ "$1" = "-h" ] || [ "$1" = "--help" ]; then
 fi
 
 if [ $# -eq 0 ]; then 
-    dir=$(cat ~/.config/imagefetch.conf | shuf -n 1 > /dev/null)
+    dir=$(cat ~/.config/imagefetch.conf | shuf -n 1)
     dir="${dir/#\~/$HOME}"
 
     if [ $(dir_check "$dir") -eq -1 ]; then

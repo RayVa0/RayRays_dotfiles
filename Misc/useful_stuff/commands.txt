@@ -3,6 +3,7 @@ magick <input> -resize 100% -define png:compression-level=9 output.png
 
 //zip
 zip -r repo.zip The_Repo/
+7z a -tzip -mx=9 -mmt=0 target.zip input/
 
 //jpegxl
 jpegxl -d 3 -e 8 --faster_decoding=4 <input> output.jxl

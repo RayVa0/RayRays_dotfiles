@@ -10,7 +10,7 @@ function fish_greeting
     end
     set y (random 0 1 100) 
     
-    if test $y -lt 50 #50% chance for a message
+    if test $y -lt 45 #45% chance for a message
         textfetch
     else #50% it is an imag
         
@@ -32,9 +32,9 @@ function mediafetch_terminal
         set z (random 0 1 66)
     end 
 
-    if test $z -gt 75 #25% it is from the repo 
+    if test $z -gt 60 #25% it is from the repo 
         set g (random 0 1 125000) #g for gooning
-        set 4chan (random 0 2)
+        set 4chan (random 0 3)
 
         if test $g -eq 1 #1 in a million agpfetch
             set_color brred; echo -n 'Warning ' 
@@ -45,7 +45,7 @@ function mediafetch_terminal
             command sleep 1
             sh ~/Templates/imagefetch.sh /mnt/SATA_SSD/Photos/Homework/Vanilla 3
             set_color brmagenta; echo There is a one in a million chance of the shell initiating with a pornographic image such as this one!
-        else if test $4chan -lt 2
+        else if test $4chan -eq 0 #1 in 4
             sh ~/Templates/imagefetch.sh /mnt/SATA_SSD/Photos/The_Repo/ 3
             set_color brmagenta; echo --- Todays peculiar Repo delight: --- 
         else 
@@ -53,13 +53,13 @@ function mediafetch_terminal
             sh ~/Templates/imagefetch.sh /mnt/SATA_SSD/Photos/TTTT_Repo/ 3
             echo --- An oddity from 4chan: ---
         end
-    else if test $z -gt 50 #25% media
+    else if test $z -gt 20 #25% media
         set_color 00ffff;
         sh ~/Templates/imagefetch.sh /mnt/SATA_SSD/Screen\ Captures/Media\ Captures 1 
-    else if test $z -gt 25 #25% games 
+    else if test $z -gt 15 #25% games 
         set_color 228b22;
         sh ~/Templates/imagefetch.sh /mnt/SATA_SSD/Screen\ Captures/Game\ Captures 1
-    else 
+    else #25% from art 
         set_color 7057ff;
         sh ~/Templates/imagefetch.sh /mnt/SATA_SSD/Photos/Art/ 3
         echo --- A nice piece of art: ---
