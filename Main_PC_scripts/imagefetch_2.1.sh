@@ -153,7 +153,7 @@ for arg in "$@"; do
     case "$arg" in 
     --terminal|-t)
         #necessary if the terminal emulator just started due to window animations etc
-        sleep 0.1
+        sleep 0.05
         view_Y=$(tput 'lines')
         view_X=$(tput 'cols')
         view_Y=$(expr $view_Y / 2)

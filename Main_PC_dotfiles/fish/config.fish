@@ -119,4 +119,12 @@ function update_dotfiles
         fish ~/Templates/update_dotfiles.fish 
     end
 
-end 
+end
+
+function sysu
+    if test (command yay -Qu | wc -l) -gt 64
+        command yay
+    else 
+        set_color dc143c; echo Not yet fag
+    end
+end
