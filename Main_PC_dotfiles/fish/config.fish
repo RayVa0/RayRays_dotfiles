@@ -128,3 +128,15 @@ function sysu
         set_color dc143c; echo Not yet fag
     end
 end
+
+function dirsize_helper 
+    for i in (ls -a)
+        du -sh $i
+    end
+end
+
+function dirsize
+    dirsize_helper | sort -hr
+end
+
+
