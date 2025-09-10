@@ -12,16 +12,14 @@ function fish_greeting
     
     if test $y -lt 45 #45% chance for a message
         textfetch
-    else #50% it is an image
-        
+    else #55% it is an image 
         mediafetch_terminal
     end  
 end
 
 if status is-login
+    sysu
     if test (cat /proc/uptime | gawk '{printf "%.0f", $1}') -lt 45
-        sysu
-        sleep 3
         /usr/lib/plasma-dbus-run-session-if-needed /usr/bin/startplasma-wayland
     end
 end 
