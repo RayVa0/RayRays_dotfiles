@@ -124,14 +124,21 @@ function update_dotfiles
 end
 
 function sysu
-    set out_of_date (command yay -Qu | wc -l)
+    set out_of_date (yay -Qu | wc -l)
 
-    if test $out_of_date -ge 100
-        command yay
+    if test $out_of_date -ge 100 
+        yay
+        return 0
     else 
-        set_color dc143c; echo System doesnt need an update yet, $out_of_date/100 packages are out of date
-        return 2
+        set_color ff0000; echo System doesnt need an update yet, $out_of_date/100 packages are out of date
     end
+
+    if yay -Qu | grep nvidia-utils > /dev/null
+        set_color 00ff00; echo New Nvidia driver!
+        yay
+    end
+
+    return 2
 end
 
 function dirsize_helper 
