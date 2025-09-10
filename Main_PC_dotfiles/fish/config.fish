@@ -18,7 +18,7 @@ function fish_greeting
 end
 
 if status is-login
-    sysu
+    mediafetch_terminal
     if test (cat /proc/uptime | gawk '{printf "%.0f", $1}') -lt 45
         /usr/lib/plasma-dbus-run-session-if-needed /usr/bin/startplasma-wayland
     end
