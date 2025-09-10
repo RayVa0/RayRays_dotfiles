@@ -12,7 +12,7 @@ function fish_greeting
     
     if test $y -lt 45 #45% chance for a message
         textfetch
-    else #50% it is an imag
+    else #50% it is an image
         
         mediafetch_terminal
     end  
@@ -126,7 +126,7 @@ end
 function sysu
     set out_of_date (command yay -Qu | wc -l)
 
-    if test $out_of_date -gt 100
+    if test $out_of_date -ge 100
         command yay
     else 
         set_color dc143c; echo System doesnt need an update yet, $out_of_date/100 packages are out of date
