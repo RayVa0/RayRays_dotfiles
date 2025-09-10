@@ -20,6 +20,7 @@ end
 
 if status is-login
     if test (cat /proc/uptime | gawk '{printf "%.0f", $1}') -lt 45
+        sysu
         /usr/lib/plasma-dbus-run-session-if-needed /usr/bin/startplasma-wayland
     end
 end 
@@ -122,10 +123,13 @@ function update_dotfiles
 end
 
 function sysu
-    if test (command yay -Qu | wc -l) -gt 64
+    set out_of_date (command yay -Qu | wc -l)
+
+    if test $out_of_date -gt 100
         command yay
     else 
-        set_color dc143c; echo Not yet fag
+        set_color dc143c; echo System doesnt need an update yet, $out_of_date/100 packages are out of date
+        return 2
     end
 end
 
