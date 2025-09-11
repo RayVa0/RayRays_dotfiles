@@ -18,7 +18,6 @@ function fish_greeting
 end
 
 if status is-login
-    mediafetch_terminal
     if test (cat /proc/uptime | gawk '{printf "%.0f", $1}') -lt 45
         /usr/lib/plasma-dbus-run-session-if-needed /usr/bin/startplasma-wayland
     end
@@ -122,6 +121,14 @@ function update_dotfiles
 end
 
 function sysu
+    ping furaffinity.net -c 1 > /dev/null 2&>1
+    if test $status -ne 0
+        echo No net
+        return 1
+    end
+
+    sudo pacman -Sy > /dev/null
+
     set out_of_date (yay -Qu | wc -l)
 
     if test $out_of_date -ge 100 
@@ -132,8 +139,7 @@ function sysu
     end
 
     if yay -Qu | grep nvidia-utils > /dev/null
-        set_color 00ff00; echo New Nvidia driver!
-        yay
+        set_color 00ff00; echo Wait, new Nvidia driver maybe check it out?
     end
 
     return 2
