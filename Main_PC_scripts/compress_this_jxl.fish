@@ -17,6 +17,6 @@ for i in (find ./ -type f -size +1024k | grep -iE "(jpg|jpeg|png|webp)")
 end
 
 for i in (find ./ -type f -size -1024k | grep -iE "(jpg|jpeg|png|webp|jxl|avif)")
-  cp -v $i output/
+  cp $i output/
 end
 
