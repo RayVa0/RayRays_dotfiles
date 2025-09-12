@@ -5,7 +5,7 @@ set count 1
 
 for i in (find ./ -type f -size +1024k | grep -iE "(jpg|jpeg|png|webp)")
   set name (echo $i | sed 's/\.[^.]*$//' | cut -c 3-)
-  cjxl --quiet -d 1 -e 8 --lossless_jpeg=0 --faster_decoding=4 $i output/$name.jxl
+  cjxl --quiet -d 1 -e 7 --lossless_jpeg=0 --faster_decoding=4 $i output/$name.jxl
   if test $status -ne 0
     set_color red; echo an encode failed copying file as was
     cp -v $i output/

@@ -155,4 +155,11 @@ function dirsize
     dirsize_helper | sort -hr
 end
 
+function yay 
+    if test (count $argv) -eq 0
+        sysu
+    else
+        command yay $argv
+    end
+end 
 
