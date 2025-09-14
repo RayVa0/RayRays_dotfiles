@@ -52,7 +52,7 @@
         "enabled": true,
         "episodeFilter": "",
         "ignoreDays": 0,
-        "lastMatch": "06 Sep 2025 16:33:02 +0000",
+        "lastMatch": "13 Sep 2025 16:44:46 +0000",
         "mustContain": "",
         "mustNotContain": "",
         "previouslyMatchedEpisodes": [
@@ -65,7 +65,8 @@
             "2x7",
             "2x8",
             "2x9",
-            "2x10"
+            "2x10",
+            "2x11"
         ],
         "priority": 0,
         "savePath": "/mnt/HDD/Media(2)/My Dress-up Darling Season 2",
@@ -142,7 +143,7 @@
         "enabled": true,
         "episodeFilter": "",
         "ignoreDays": 0,
-        "lastMatch": "06 Sep 2025 17:05:18 +0000",
+        "lastMatch": "13 Sep 2025 16:58:26 +0000",
         "mustContain": "",
         "mustNotContain": "",
         "previouslyMatchedEpisodes": [
@@ -229,7 +230,7 @@
         "enabled": true,
         "episodeFilter": "",
         "ignoreDays": 0,
-        "lastMatch": "07 Sep 2025 01:23:41 +0000",
+        "lastMatch": "13 Sep 2025 23:18:37 +0000",
         "mustContain": "",
         "mustNotContain": "",
         "previouslyMatchedEpisodes": [
@@ -242,7 +243,8 @@
             "1x7",
             "1x8",
             "1x9",
-            "1x10"
+            "1x10",
+            "1x11"
         ],
         "priority": 0,
         "savePath": "/mnt/HDD/Media(2)/The Fragrant Flower Blooms with dignity",
@@ -319,7 +321,7 @@
         "enabled": true,
         "episodeFilter": "",
         "ignoreDays": 0,
-        "lastMatch": "07 Sep 2025 14:43:50 +0000",
+        "lastMatch": "14 Sep 2025 15:05:59 +0000",
         "mustContain": "",
         "mustNotContain": "",
         "previouslyMatchedEpisodes": [

@@ -121,7 +121,7 @@ function update_dotfiles
 end
 
 function sysu
-    ping furaffinity.net -c 1 > /dev/null 2&>1
+    ping furaffinity.net -c 1 > /dev/null 2>&1
     if test $status -ne 0
         echo No net
         return 1
