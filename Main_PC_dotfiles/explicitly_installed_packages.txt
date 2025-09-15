@@ -3,6 +3,8 @@ amd-ucode 1:20250808-1
 base 3-2
 base-devel 1-2
 bdf-unifont 17.0.01-1
+bluedevil 1:6.4.5-1.1
+bluetui 0.6-1.1
 bluez 5.83-1.1
 bluez-utils 5.83-1.1
 btop-git 1.4.4.r1292.bdddfc4-1
