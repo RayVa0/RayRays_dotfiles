@@ -14,7 +14,7 @@ sh ~/Templates/auto_minimize.sh element-desktop&
 sh ~/Templates/auto_minimize.sh waterfox&
 sh ~/Templates/auto_minimize.sh spotify&
 auto_minimize.sh viber&
-auto_minimize.sh vesktop&
+auto_minimize.sh vesktop
 
 pinging && update_dotfiles
 
