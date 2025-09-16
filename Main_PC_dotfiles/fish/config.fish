@@ -127,15 +127,18 @@ function sysu
         return 1
     end
 
+    set packages (yay -Q | wc -l)
+    set threshold (math "floor($packages / 10)")
+
     sudo pacman -Sy > /dev/null
 
     set out_of_date (yay -Qu | wc -l)
 
-    if test $out_of_date -ge 100 
+    if test $out_of_date -ge $threshold
         yay
         return 0
     else 
-        set_color ff0000; echo System doesnt need an update yet, $out_of_date/100 packages are out of date
+        set_color ff0000; echo System doesnt need an update yet, $out_of_date/$threshold packages are out of date
     end
 
     if yay -Qu | grep nvidia-utils > /dev/null
