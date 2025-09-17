@@ -10,6 +10,7 @@ jpegxl -d 3 -e 8 --faster_decoding=4 <input> output.jxl
 
 //jpeg
 ffmpeg -i in.png -q:v 1 -compression_level 100 out.jpg
+ffmpeg -i in.png -b:v 1B -maxrate 1B -bufsize 1B -vf scale='iw*0.1':'ih*0.1' out.jpg
 
 //avif
 avifenc -q 100 -s 0 <input> output.avif
