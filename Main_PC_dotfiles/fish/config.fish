@@ -33,7 +33,7 @@ function mediafetch_terminal
 
     if test $z -gt 60 #25% it is from the repo 
         set g (random 0 1 125000) #g for gooning
-        set 4chan (random 0 3)
+        set 4chan (random 0 1 9)
 
         if test $g -eq 1 #1 in a million agpfetch
             set_color brred; echo -n 'Warning ' 
@@ -44,7 +44,7 @@ function mediafetch_terminal
             command sleep 1
             sh ~/Templates/imagefetch.sh /mnt/SATA_SSD/Photos/Homework/Vanilla 3
             set_color brmagenta; echo There is a one in a million chance of the shell initiating with a pornographic image such as this one!
-        else if test $4chan -eq 0 #1 in 4
+        else if test $4chan -ne 0 #1 in 10
             sh ~/Templates/imagefetch.sh /mnt/SATA_SSD/Photos/The_Repo/ 3
             set_color brmagenta; echo --- Todays peculiar Repo delight: --- 
         else 
