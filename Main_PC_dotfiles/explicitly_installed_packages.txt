@@ -48,6 +48,7 @@ kclock 25.08.1-1.1
 kdeconnect 25.08.1-1.1
 kdesu5 5.116.0-1.1
 kdotool-git 0.2.1.1ad61ac-1
+kgamma 6.4.5-1.1
 kitty 0.42.2-1.1
 kmix 25.08.1-1.1
 konsave 2.2.0-5
@@ -75,6 +76,7 @@ noto-fonts-cjk 20240730-1
 ntfs-3g 2022.10.3-2.1
 nvidia-settings 580.82.09-2
 nvidia-utils 580.82.09-2
+obs-studio 31.1.2-1
 os-prober 1.83-1.1
 parallel 20250822-1
 parsec-bin 150_97c-1
