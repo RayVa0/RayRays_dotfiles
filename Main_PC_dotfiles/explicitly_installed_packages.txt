@@ -1,5 +1,6 @@
 acpi 1.8-2.1
 amd-ucode 1:20250808-1
+argyllcms 3.3.0-1.1
 base 3-2
 base-devel 1-2
 bdf-unifont 17.0.01-1
