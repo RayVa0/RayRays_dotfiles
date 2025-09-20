@@ -30,6 +30,7 @@ easyeffects 7.2.5-1.1
 efibootmgr 18-3.1
 element-desktop 1.11.112-1
 ethtool 1:6.15-1.1
+extra-cmake-modules 6.18.0-1
 fastfetch 2.52.0-1.1
 figlet 2.2.5-6.1
 fish 4.0.6-1.1
