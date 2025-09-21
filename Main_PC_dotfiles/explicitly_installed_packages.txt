@@ -1,6 +1,5 @@
 acpi 1.8-2.1
 amd-ucode 1:20250808-1
-argyllcms 3.3.0-1.1
 base 3-2
 base-devel 1-2
 bdf-unifont 17.0.01-1
@@ -79,7 +78,6 @@ noto-fonts-cjk 20240730-1
 ntfs-3g 2022.10.3-2.1
 nvidia-settings 580.82.09-2
 nvidia-utils 580.82.09-2
-obs-studio 31.1.2-1
 os-prober 1.83-1.1
 parallel 20250822-1
 parsec-bin 150_97c-1
@@ -93,7 +91,6 @@ pix 3.4.7-1
 plasma-desktop 6.4.5-1.1
 plasma-pa 6.4.5-1.1
 plasma-vault 6.4.5-1.1
-plasma-x11-session 6.4.5-1
 plocate 1.1.23-1.1
 power-profiles-daemon 0.30-1
 powertop-git 2.15.r19.g49045c0-1
@@ -118,7 +115,6 @@ sshfs 3.7.3-3.1
 steam-native-runtime 1.0.0.75-4
 sway-git 1.12.r7595.73c244f-1
 tgpt 2.11.0-1.1
-traceroute 2.1.6-1.1
 tree 2.2.1-1
 ttf-dejavu-nerd 3.4.0-1
 upscayl-bin 2.15.0-6
