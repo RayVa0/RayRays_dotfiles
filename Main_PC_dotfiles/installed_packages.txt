@@ -5,8 +5,8 @@ base-devel 1-2
 bdf-unifont 17.0.01-1
 bluedevil 1:6.4.5-1.1
 bluetui 0.6-1.1
-bluez 5.83-1.1
-bluez-utils 5.83-1.1
+bluez 5.84-1
+bluez-utils 5.84-1
 btop-git 1.4.4.r1292.bdddfc4-1
 cachyos-hello 0.18.3-1
 cachyos-hooks 2025.05.14-1
@@ -33,7 +33,7 @@ ethtool 1:6.15-1.1
 extra-cmake-modules 6.18.0-1
 fastfetch 2.52.0-1.1
 figlet 2.2.5-6.1
-fish 4.0.6-1.1
+fish 4.0.8-1.1
 gamemode 1.8.2-1.1
 gamescope 3.16.17-2
 git 2.51.0-1.1
@@ -101,7 +101,7 @@ proton-ge-custom-bin 1:GE_Proton10_15-2
 pulseview 0.4.2-16.1
 qbittorrent 5.1.2-1
 qdirstat 1.9-2
-rust 1:1.89.0-1.1
+rust 1:1.90.0-2
 sddm 0.21.0-8
 sddm-kcm 6.4.5-1.1
 sex 1.0-4
