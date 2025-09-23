@@ -1,4 +1,4 @@
-function wallpaper_swap --wraps="plasma-apply-wallpaperimage (plocate ~/Pictures/Wallpapers/ | grep -iE '(jpeg|jpg|png)')" --wraps="plasma-apply-wallpaperimage (plocate ~/Pictures/Wallpapers/ | grep -iE '(jpeg|jpg|png)' | shuf -n 1)" --description "alias wallpaper_swap plasma-apply-wallpaperimage (plocate ~/Pictures/Wallpapers/ | grep -iE '(jpeg|jpg|png)' | shuf -n 1)"
-  plasma-apply-wallpaperimage (plocate ~/Pictures/Wallpapers/ | grep -iE '(jpeg|jpg|png)' | shuf -n 1) $argv
+function wallpaper_swap --wraps="wallp.py 0 (plocate ~/Pictures/Wallpapers/ | grep -iE '(jpeg|jpg|png)' | shuf -n 1)" --description "alias wallpaper_swap wallp.py 0 (plocate ~/Pictures/Wallpapers/ | grep -iE '(jpeg|jpg|png)' | shuf -n 1)"
+  wallp.py 0 (plocate ~/Pictures/Wallpapers/ | grep -iE '(jpeg|jpg|png)' | shuf -n 1) $argv
         
 end
