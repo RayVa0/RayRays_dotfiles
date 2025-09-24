@@ -2,7 +2,7 @@
 #The slop, only I know how it works haha
 
 dir="$1"
-pic=$(plocate "$dir" | grep -iE '\.(jpg|jpeg|png|bmp|tiff|webp|svg|ico|jxl|jpegxl|avif)$' | shuf -n 1) 
+pic=$(find "$dir" | grep -iE '\.(jpg|jpeg|png|bmp|tiff|webp|svg|ico|jxl|jpegxl|avif)$' | shuf -n 1) 
 
 lines=$(tput 'lines')
 lines4=$(expr $lines / 2)
