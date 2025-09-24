@@ -18,7 +18,7 @@ cachyos-v3-mirrorlist 22-1
 cachyos-v4-mirrorlist 22-1
 cbonsai 1.4.2-1
 chafa 1.16.2-1.1
-chromium 140.0.7339.127-1
+chromium 140.0.7339.207-1.1
 cmake 4.1.1-1.1
 cmatrix-git 1.2.r119.g5c082c6-1
 colord-kde 25.08.1-1.1
@@ -37,7 +37,7 @@ fish 4.0.8-1.1
 gamemode 1.8.2-1.1
 gamescope 3.16.17-2
 git 2.51.0-1.1
-github-cli 2.79.0-1.1
+github-cli 2.80.0-1.1
 grub 2:2.12.r359.g19c698d12-1
 gst-plugin-pipewire 1:1.4.8-2.1
 handbrake 1.10.2-2.1
@@ -60,9 +60,9 @@ kwalletmanager 25.08.1-1.1
 libbpf 1.5.1-1.1
 libpfm 4.13.0+r83+g91970fe-1.1
 libpulse 17.0+r43+g3e2bb8a1e-1.1
-linux-cachyos 6.16.7-2
-linux-cachyos-headers 6.16.7-2
-linux-cachyos-nvidia-open 6.16.7-2
+linux-cachyos 6.16.8-2
+linux-cachyos-headers 6.16.8-2
+linux-cachyos-nvidia-open 6.16.8-2
 linux-firmware 1:20250808-1
 lolcat 100.0.1-5
 mako 1.10.0-1.1
@@ -79,7 +79,7 @@ ntfs-3g 2022.10.3-2.1
 nvidia-settings 580.82.09-2
 nvidia-utils 580.82.09-2
 os-prober 1.83-1.1
-parallel 20250822-1
+parallel 20250922-1
 parsec-bin 150_97c-1
 pastel 0.10.0-1.1
 pavucontrol-qt 2.2.0-1.1
