@@ -28,3 +28,6 @@ ffmpeg -i in.mkv -c:a aac -b:a 320K -c:v libsvtav1 -pix_fmt yuv420p10le -preset 
 
 //av1_gpu
 ffmpeg -i in.mkv -c:a aac -b:a 320K -c:v av1_nvenc -multipass fullres -pix_fmt p010 -tune hq -preset p7 -cq 30 out.mkv
+
+//mangohud
+MANGOHUD_CONFIG=MESA_VK_WSI_PRESENT_MODE=mailbox 
