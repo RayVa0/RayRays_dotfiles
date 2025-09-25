@@ -31,3 +31,4 @@ ffmpeg -i in.mkv -c:a aac -b:a 320K -c:v av1_nvenc -multipass fullres -pix_fmt p
 
 //mangohud
 MANGOHUD_CONFIG=MESA_VK_WSI_PRESENT_MODE=mailbox 
+MANGOHUD_CONFIG=fps_limit=<value>

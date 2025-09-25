@@ -32,6 +32,7 @@ element-desktop 1.11.112-1
 ethtool 1:6.15-1.1
 extra-cmake-modules 6.18.0-1
 fastfetch 2.52.0-1.1
+ffmpegthumbs 25.08.1-1.1
 figlet 2.2.5-6.1
 fish 4.0.8-1.1
 gamemode 1.8.2-1.1
@@ -48,6 +49,7 @@ imagemagick 7.1.2.3-2.1
 iputils 20250605-1.1
 kclock 25.08.1-1.1
 kdeconnect 25.08.1-1.1
+kdegraphics-thumbnailers 25.08.1-1.1
 kdesu5 5.116.0-1.1
 kdotool-git 0.2.1.1ad61ac-1
 kgamma 6.4.5-1.1
@@ -90,6 +92,7 @@ pipewire-jack 1:1.4.8-2.1
 pipewire-pulse 1:1.4.8-2.1
 pix 3.4.7-1
 plasma-desktop 6.4.5-1.1
+plasma-meta 6.4-4
 plasma-pa 6.4.5-1.1
 plasma-vault 6.4.5-1.1
 plocate 1.1.23-1.1
