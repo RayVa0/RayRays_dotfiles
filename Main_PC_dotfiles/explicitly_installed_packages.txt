@@ -25,7 +25,7 @@ colord-kde 25.08.1-1.1
 cpio 2.15-3.1
 cpufetch-git 1.06.r39.ga0c08cc-1
 dnslookup 1.11.1-2
-dolphin-git 25.07.90.r46.ge018eca-1
+dolphin 25.08.1-1.1
 easyeffects 7.2.5-1.1
 efibootmgr 18-3.1
 element-desktop 1.11.112-1
