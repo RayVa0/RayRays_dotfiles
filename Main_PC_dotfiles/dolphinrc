@@ -4,14 +4,12 @@ MenuBar=Disabled
 PreviewSize=144
 
 [General]
-ShowFullPathInTitlebar=true
-ShowStatusBar=FullWidth
 Version=202
 ViewPropsTimestamp=2025,4,28,18,23,43.011
 
 [IconsMode]
-PreviewSize=128
-UseSystemFont=false
+IconSize=144
+PreviewSize=144
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
