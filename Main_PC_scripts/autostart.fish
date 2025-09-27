@@ -13,7 +13,8 @@ sh ~/Templates/run.sh qbittorrent&
 sh ~/Templates/auto_minimize.sh element-desktop&
 sh ~/Templates/auto_minimize.sh waterfox&
 sh ~/Templates/auto_minimize.sh spotify&
-auto_minimize.sh vesktop
+sleep 3
+auto_minimize.sh vesktop&
 
 update_dotfiles
 
