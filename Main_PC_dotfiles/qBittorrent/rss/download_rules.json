@@ -231,7 +231,7 @@
         "enabled": true,
         "episodeFilter": "",
         "ignoreDays": 0,
-        "lastMatch": "20 Sep 2025 23:11:38 +0000",
+        "lastMatch": "27 Sep 2025 22:02:54 +0000",
         "mustContain": "",
         "mustNotContain": "",
         "previouslyMatchedEpisodes": [
@@ -246,7 +246,8 @@
             "1x9",
             "1x10",
             "1x11",
-            "1x12"
+            "1x12",
+            "1x13"
         ],
         "priority": 0,
         "savePath": "/mnt/HDD/Media(2)/The Fragrant Flower Blooms with dignity",
