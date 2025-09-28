@@ -130,7 +130,7 @@ function sysu
     set packages (yay -Q | wc -l)
     set threshold (math "floor($packages / 10)")
 
-    sudo pacman -Sy > /dev/null
+    yay -Sy > /dev/null
 
     set out_of_date (yay -Qu | wc -l)
 
