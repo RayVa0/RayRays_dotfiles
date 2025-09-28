@@ -62,6 +62,7 @@ kwalletmanager 25.08.1-1.1
 libbpf 1.5.1-1.1
 libpfm 4.13.0+r83+g91970fe-1.1
 libpulse 17.0+r43+g3e2bb8a1e-1.1
+libstrangle-git 0.1.1.r139.038b434-2
 linux-cachyos 6.16.8-2
 linux-cachyos-headers 6.16.8-2
 linux-cachyos-nvidia-open 6.16.8-2
