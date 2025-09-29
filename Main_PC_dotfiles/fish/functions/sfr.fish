@@ -1,4 +1,4 @@
-function sfr --wraps='kscreen-doctor output.2.mode.2560x1440@240 2&>/dev/null ' --description 'alias sfr kscreen-doctor output.2.mode.2560x1440@240 2&>/dev/null '
-  kscreen-doctor output.2.mode.2560x1440@240 2&>/dev/null  $argv
+function sfr --wraps='kscreen-doctor output.DP-2.mode.2560x1440@240' --description 'alias sfr kscreen-doctor output.DP-2.mode.2560x1440@240'
+  kscreen-doctor output.DP-2.mode.2560x1440@240 $argv
         
 end
