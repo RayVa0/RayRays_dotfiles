@@ -121,6 +121,7 @@ sshfs 3.7.3-3.1
 steam-native-runtime 1.0.0.75-4
 sway-git 1.12.r7595.73c244f-1
 tgpt 2.11.0-1.1
+tk 8.6.16-1.1
 tree 2.2.1-1
 ttf-dejavu-nerd 3.4.0-1
 upscayl-bin 2.15.0-6
