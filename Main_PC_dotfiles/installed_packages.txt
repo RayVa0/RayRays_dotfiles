@@ -19,6 +19,7 @@ cachyos-v4-mirrorlist 22-1
 cbonsai 1.4.2-1
 chafa 1.16.2-1.1
 chromium 140.0.7339.207-1.1
+chrpath 0.17-1.1
 cmake 4.1.1-1.1
 cmatrix-git 1.2.r119.g5c082c6-1
 colord-kde 25.08.1-1.1
@@ -97,6 +98,7 @@ plasma-desktop 6.4.5-1.1
 plasma-meta 6.4-4
 plasma-pa 6.4.5-1.1
 plasma-vault 6.4.5-1.1
+plex-desktop 1.110.0.351-1
 plocate 1.1.23-1.1
 power-profiles-daemon 0.30-1
 powertop-git 2.15.r19.g49045c0-1
