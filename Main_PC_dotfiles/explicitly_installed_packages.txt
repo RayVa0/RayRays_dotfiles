@@ -98,7 +98,6 @@ plasma-desktop 6.4.5-1.1
 plasma-meta 6.4-4
 plasma-pa 6.4.5-1.1
 plasma-vault 6.4.5-1.1
-plex-desktop 1.110.0.351-1
 plocate 1.1.23-1.1
 power-profiles-daemon 0.30-1
 powertop-git 2.15.r19.g49045c0-1
