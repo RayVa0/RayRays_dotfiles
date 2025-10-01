@@ -238,11 +238,6 @@
       "showAllIps": false,
       "namePrefix": ""
     },
-    "media",
-    {
-          "type": "weather",
-          "timeout": 1000
-    },
     "users",
     {
       "type": "battery",

@@ -31,7 +31,7 @@ function mediafetch_terminal
         set z (random 0 1 66)
     end 
 
-    if test $z -gt 75 #25% it is from the repos
+    if test $z -gt 100 #deprecated 
         set g (random 0 1 125000) #g for gooning
         set 4chan (random 0 1 9)
 
@@ -52,13 +52,13 @@ function mediafetch_terminal
             sh ~/Templates/imagefetch.sh /mnt/SATA_SSD/Photos/TTTT_Repo/ 3
             echo --- An oddity from 4chan: ---
         end
-    else if test $z -gt 50 #25% media
+    else if test $z -gt 66 #33% media
         set_color 00ffff;
         sh ~/Templates/imagefetch.sh /mnt/SATA_SSD/Screen\ Captures/Media\ Captures 1 
-    else if test $z -gt 25 #25% games 
+    else if test $z -gt 33 #33% games 
         set_color 228b22;
         sh ~/Templates/imagefetch.sh /mnt/SATA_SSD/Screen\ Captures/Game\ Captures 1
-    else #25% from art 
+    else #33% from art 
         set_color 7057ff;
         sh ~/Templates/imagefetch.sh /mnt/SATA_SSD/Photos/Art/ 3
         echo --- A nice piece of art: ---
