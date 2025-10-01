@@ -1,6 +1,6 @@
 #!/usr/bin/env fish
 
-
+konsave_save.fish
 
 set_color yellow; echo -Git pull-
 set_color normal  
