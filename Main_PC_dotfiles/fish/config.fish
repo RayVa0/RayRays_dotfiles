@@ -10,9 +10,9 @@ function fish_greeting
     end
     set y (random 0 1 100) 
     
-    if test $y -lt 45 #45% chance for a message
+    if test $y -lt 90 #90% chance for a message
         textfetch
-    else #55% it is an image 
+    else #10% it is an image 
         mediafetch_terminal
     end  
 end
