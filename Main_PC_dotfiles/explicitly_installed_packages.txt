@@ -7,6 +7,7 @@ bluedevil 1:6.4.5-1.1
 bluetui 0.6-1.1
 bluez 5.84-1.1
 bluez-utils 5.84-1.1
+brightness 24.11.0-2
 btop-git 1.4.4.r1292.bdddfc4-1
 cachyos-hello 0.18.3-1
 cachyos-hooks 2025.09.22-1
@@ -76,7 +77,7 @@ man-db 2.13.1-1.1
 man-pages 6.15-1
 mangohud 0.8.1-1.1
 mangoverlay 0.4.0-1
-mcomix-git 3.1.0.r13.ga4092eb-1
+mcomix 3.1.1-1
 mpv 1:0.40.0-6.1
 neovim 0.11.4-1.1
 nnn 5.1-1.1
