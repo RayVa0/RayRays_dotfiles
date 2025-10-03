@@ -3,3 +3,5 @@
 hfr
 vrr-on
 
+exit
+
