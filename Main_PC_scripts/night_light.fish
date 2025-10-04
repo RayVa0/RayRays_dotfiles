@@ -1,3 +1,3 @@
 #!/usr/bin/env fish
 
-brightness 1 28
+brightness 10 28
