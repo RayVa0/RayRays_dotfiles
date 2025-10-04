@@ -135,7 +135,7 @@ function sysu
     set out_of_date (yay -Qu | wc -l)
 
     if test $out_of_date -ge $threshold
-        yay
+        command yay
         return 0
     else 
         set_color ff0000; echo System doesnt need an update yet, $out_of_date/$threshold packages are out of date
