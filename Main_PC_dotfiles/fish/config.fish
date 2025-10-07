@@ -128,17 +128,22 @@ function sysu
     end
 
     set packages (yay -Q | wc -l)
-    set threshold 32
+    set threshold 50
 
-    yay -Sy > /dev/null
+    yay -Sy > /dev/null 2>&1
+
+    if test $status -ne 0
+        echo "yay failed(prob aur agian)"
+        return 3
+    end
 
     set out_of_date (yay -Qu | wc -l)
 
     if test $out_of_date -ge $threshold
-        command yay
+        yay
         return 0
     else 
-        set_color ff0000; echo System doesnt need an update yet, $out_of_date/$threshold packages are out of date
+        set_color ff0000; echo System doesnt need an update yet
     end
 
     if yay -Qu | grep nvidia-utils > /dev/null
