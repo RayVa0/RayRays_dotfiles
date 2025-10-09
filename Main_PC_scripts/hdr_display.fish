@@ -1,8 +1,5 @@
 #!/usr/bin/env fish
 
-hfr
+hdr-on
 vrr-off
-hdr-off
-
-exit
-
+sfr

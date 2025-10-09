@@ -36,3 +36,6 @@ MANGOHUD_CONFIG=fps_limit=<value>,fps_limit_method=early
 //color quantization
 ffmpeg -i in.mkv -vf "palettegen=max_colors=256" palette.png
 ffmpeg -i in.mkv -i palette.png -filter_complex "[0:v][1:v]paletteuse=dither=none[v]" -map "[v]" -map 0:a? out.mkv
+
+//gamescope 
+gamescope --hdr-enabled --adaptive-sync -f  -W 2560 -H 1440 -r 60  -- %command%

@@ -2,6 +2,7 @@
 
 hfr
 vrr-on
+hdr-off
 
 exit
 

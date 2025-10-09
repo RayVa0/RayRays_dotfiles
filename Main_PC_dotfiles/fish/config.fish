@@ -128,7 +128,7 @@ function sysu
     end
 
     set packages (yay -Q | wc -l)
-    set threshold 50
+    set threshold 32
 
     yay -Sy > /dev/null 2>&1
 
