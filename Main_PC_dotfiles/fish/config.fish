@@ -130,7 +130,7 @@ function sysu
     set packages (yay -Q | wc -l)
     set threshold 32
 
-    yay -Sy > /dev/null 2>&1
+    yay -Sy 
 
     if test $status -ne 0
         echo "yay failed(prob aur agian)"
@@ -140,7 +140,7 @@ function sysu
     set out_of_date (yay -Qu | wc -l)
 
     if test $out_of_date -ge $threshold
-        yay
+        command yay
         return 0
     else 
         set_color ff0000; echo System doesnt need an update yet
