@@ -112,6 +112,7 @@ proton-ge-custom-bin 1:GE_Proton10_17-1
 pulseview 0.4.2-16.1
 qbittorrent 5.1.2-1
 qdirstat 1.9-2
+r2modman-bin 3.2.8-1
 rust 1:1.90.0-3.1
 sddm 0.21.0-8
 sddm-kcm 6.4.5-1.1
