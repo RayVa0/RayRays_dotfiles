@@ -85,6 +85,7 @@ noto-fonts-cjk 20240730-1
 ntfs-3g 2022.10.3-2.1
 nvidia-settings 580.95.05-2
 nvidia-utils 580.95.05-2
+nvidia_oc 0.1.21-1
 os-prober 1.83-1.1
 parallel 20250922-1
 parsec-bin 150_97c-1
