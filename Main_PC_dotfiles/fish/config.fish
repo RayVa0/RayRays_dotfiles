@@ -148,6 +148,7 @@ function sysu
 
     if yay -Qu | grep nvidia-utils > /dev/null
         set_color 00ff00; echo Wait, new Nvidia driver maybe check it out?
+        command yay
     end
 
     return 2
