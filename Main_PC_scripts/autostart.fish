@@ -4,7 +4,6 @@
 
 loginctl lock-session 
 casual_display.fish
-hdr-off
 CRT-off
 kdotool set_desktop 1 
 #plasma-apply-wallpaperimage (plocate /home/ray/Pictures/Wallpapers/ | grep -iE '(jpeg|jpg|png)' | shuf -n 1)
@@ -26,6 +25,6 @@ else
 end
 
 
-update_dotfiles -q
+#update_dotfiles -q
 
 exit 0
