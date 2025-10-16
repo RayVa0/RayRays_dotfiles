@@ -43,7 +43,7 @@ fwupd 2.0.16-1.1
 gamemode 1.8.2-1.1
 gamescope 3.16.17-2
 git 2.51.0-1.1
-github-cli 2.81.0-1.1
+github-cli 2.82.0-1.1
 grub 2:2.12.r418.g6b5c671d-1.1
 gst-plugin-pipewire 1:1.4.9-1.1
 handbrake 1.10.2-4.1
