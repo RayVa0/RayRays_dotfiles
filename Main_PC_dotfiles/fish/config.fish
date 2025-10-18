@@ -101,8 +101,8 @@ function fish_user_key_bindings
     bind '$' bind_dollar
 end
 
-function find_edit --wraps nvim --description 'Searches for a file and opens it in nvim'
-    sudo nvim $(whereis $argv | gawk '{ print $2 };' )
+function find_edit --wraps nvim --description 'Searches for a file and opens it in nvim' 
+    sudo nvim $(whereis / "$argv[1]" | head -n 1)
 end
 
 function update_dotfiles 
@@ -130,7 +130,7 @@ function sysu
     set packages (yay -Q | wc -l)
     set threshold 32
 
-    yay -Sy 
+    yay -Sy > /dev/null 2>&1
 
     if test $status -ne 0
         echo "yay failed(prob aur agian)"

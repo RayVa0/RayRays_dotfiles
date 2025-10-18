@@ -19,9 +19,9 @@ auto_minimize.sh vesktop&
 
 set hour (date "+%H")
 if test $hour -le 5;  or test $hour -ge 22
-  night_light.fish&
+  night_light.fish
 else
-  day_light.fish&
+  day_light.fish
 end
 
 
